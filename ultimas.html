@@ -15,16 +15,12 @@
 </style>
 </head>
 <body>
-<h1>Últimas Filtradas</h1><p><small>02/07 16:51</small></p>
+<h1>Últimas Filtradas</h1><p><small>02/07 16:53</small></p>
 <div class="tabs">
   <button class="tab active" data-source="all">Todos</button>
-  <button class="tab" data-source="CNN Brasil">CNN Brasil</button>
   <button class="tab" data-source="Estadão">Estadão</button>
-  <button class="tab" data-source="Folha de S. Paulo">Folha de S. Paulo</button>
-  <button class="tab" data-source="G1">G1</button>
+  <button class="tab" data-source="CNN Brasil">CNN Brasil</button>
   <button class="tab" data-source="Metrópoles">Metrópoles</button>
-  <button class="tab" data-source="O Globo">O Globo</button>
-  <button class="tab" data-source="Valor Econômico">Valor Econômico</button>
 </div>
 <ul>
 
@@ -2645,13 +2641,13 @@
 
 </ul>
 <script>
- const tabs=document.querySelectorAll('.tab');
- const items=document.querySelectorAll('li[data-source]');
- tabs.forEach(tab=>tab.addEventListener('click',()=>{
-   tabs.forEach(t=>t.classList.remove('active'));
+ const tabs = document.querySelectorAll('.tab');
+ const items = document.querySelectorAll('li[data-source]');
+ tabs.forEach(tab => tab.addEventListener('click', () => {
+   tabs.forEach(t => t.classList.remove('active'));
    tab.classList.add('active');
-   const sel=tab.getAttribute('data-source');
-   items.forEach(li=>li.classList.toggle('hidden',sel!=='all'&&li.getAttribute('data-source')!==sel));
+   const sel = tab.getAttribute('data-source');
+   items.forEach(li => li.classList.toggle('hidden', sel !== 'all' && li.getAttribute('data-source') !== sel));
  }));
 </script>
 </body>
