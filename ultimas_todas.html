@@ -15,17 +15,16 @@
 </style>
 </head>
 <body>
-<h1>Últimas Atualizações</h1><p><small>02/07 16:46</small></p>
+<h1>Últimas Atualizações</h1><p><small>02/07 16:49</small></p>
 <div class="tabs">
   <button class="tab active" data-source="all">Todos</button>
-  <button class="tab" data-source="Valor">Valor</button>
-  <button class="tab" data-source="Folha">Folha</button>
-  <button class="tab" data-source="Globo">Globo</button>
-  <button class="tab" data-source="Estadão">Estadão</button>
   <button class="tab" data-source="CNN Brasil">CNN Brasil</button>
+  <button class="tab" data-source="Estadão">Estadão</button>
+  <button class="tab" data-source="Folha de S. Paulo">Folha de S. Paulo</button>
+  <button class="tab" data-source="G1">G1</button>
   <button class="tab" data-source="Metrópoles">Metrópoles</button>
-  <button class="tab" data-source="G1 Blogs">G1 Blogs</button>
-  <button class="tab" data-source="Veja Radar">Veja Radar</button>
+  <button class="tab" data-source="O Globo">O Globo</button>
+  <button class="tab" data-source="Valor Econômico">Valor Econômico</button>
 </div>
 <ul>
 
@@ -6974,45 +6973,15 @@
   <small>01/07 16:50</small>
 </li>
 
-<li data-source="Folha de S. Paulo">
-  <strong>[Folha de S. Paulo]</strong> <a href="https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2025/07/justica-suspende-conferencia-municipal-da-rede-em-porto-alegre.shtml" target=_blank>Painel: Justiça suspende conferência municipal da Rede em Porto Alegre</a><br>
-  <small>01/07 16:49</small>
-</li>
-
-<li data-source="Valor Econômico">
-  <strong>[Valor Econômico]</strong> <a href="https://valor.globo.com/financas/noticia/2025/07/01/portabilidade-de-divida-de-cartao-completa-um-ano-com-baixa-adesao.ghtml" target=_blank>Portabilidade de dívida de cartão completa um ano com baixa adesão</a><br>
-  <small>01/07 16:48</small>
-</li>
-
-<li data-source="CNN Brasil">
-  <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/deputado-do-pt-propoe-tributo-sobre-alcool-para-apoiar-escolas-de-samba/" target=_blank>Deputado do PT propõe tributo sobre álcool para apoiar escolas de samba</a><br>
-  <small>01/07 16:48</small>
-</li>
-
-<li data-source="O Globo">
-  <strong>[O Globo]</strong> <a href="https://oglobo.globo.com/economia/noticia/2025/07/01/cnu-2025-governo-sorteia-cargos-que-serao-preenchidos-apenas-com-candidatos-cotistas-saiba-quais.ghtml" target=_blank>CNU 2025: governo sorteia cargos que serão preenchidos apenas com candidatos cotistas; saiba quais</a><br>
-  <small>01/07 16:48</small>
-</li>
-
-<li data-source="Metrópoles">
-  <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/alckmin-defende-dialogo-apos-governo-acionar-o-stf-por-iof" target=_blank>Alckmin defende “diálogo” após governo acionar o STF por IOF</a><br>
-  <small>01/07 16:48</small>
-</li>
-
-<li data-source="Valor Econômico">
-  <strong>[Valor Econômico]</strong> <a href="https://valor.globo.com/brasil/noticia/2025/07/01/limite-para-contratacao-de-credito-com-garantia-da-uniao-por-entes-federativos-sobe-para-r-7-bi.ghtml" target=_blank>Limite para contratação de crédito com garantia da União por entes federativos sobe para R$ 7 bi</a><br>
-  <small>01/07 16:47</small>
-</li>
-
 </ul>
 <script>
- const tabs = document.querySelectorAll('.tab');
- const items = document.querySelectorAll('li[data-source]');
- tabs.forEach(tab => tab.addEventListener('click', ()=>{
-   tabs.forEach(t => t.classList.remove('active'));
+ const tabs=document.querySelectorAll('.tab');
+ const items=document.querySelectorAll('li[data-source]');
+ tabs.forEach(tab=>tab.addEventListener('click',()=>{
+   tabs.forEach(t=>t.classList.remove('active'));
    tab.classList.add('active');
-   const src = tab.getAttribute('data-source');
-   items.forEach(li => li.classList.toggle('hidden', src !== 'all' && li.getAttribute('data-source') !== src));
+   const sel=tab.getAttribute('data-source');
+   items.forEach(li=>li.classList.toggle('hidden',sel!=='all'&&li.getAttribute('data-source')!==sel));
  }));
 </script>
 </body>
