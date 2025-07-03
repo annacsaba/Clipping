@@ -1,7 +1,7 @@
 
 <!doctype html>
 <html lang=pt-br>
-<head><meta charset=utf-8><title>Clipping – Últimas</title>
+<head><meta charset=utf-8><meta name="viewport" content="width=device-width, initial-scale=1"><title>Clipping – Últimas</title>
 <style>
   body{font-family:Arial,sans-serif;margin:2rem;line-height:1.5}
   .tabs{margin-bottom:1rem}
@@ -12,16 +12,26 @@
   small{color:#666}
   a{color:#064;text-decoration:none}
   a:hover{text-decoration:underline}
+
+  /* Fonte maior em dispositivos móveis */
+  @media screen and (max-width: 768px) {
+    html { font-size: 18px; }
+  }
 </style>
 </head>
 <body>
 <h1>Últimas Notícias Brasil - Filtradas</h1>
-<p><small>03/07 11:05</small></p>
+<p><small>03/07 11:13</small></p>
 <div class="tabs">
   <button class="tab active" data-source="all">Todos</button>
   <button class="tab" data-source="Valor">Valor</button><button class="tab" data-source="Folha">Folha</button><button class="tab" data-source="Globo">Globo</button><button class="tab" data-source="Estadão">Estadão</button><button class="tab" data-source="CNN Brasil">CNN Brasil</button><button class="tab" data-source="G1 Blogs">G1 Blogs</button><button class="tab" data-source="Metrópoles">Metrópoles</button>
 </div>
 <ul>
+
+<li data-source="Metrópoles">
+  <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/mundo/mercosul-lula-pede-cooperacao-para-coibir-multinacionais-do-crime" target=_blank>Mercosul: Lula pede cooperação para coibir “multinacionais do crime”</a><br>
+  <small>03/07 11:05</small>
+</li>
 
 <li data-source="Metrópoles">
   <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/mundo/em-cupula-milei-critica-o-mercosul-e-lula-diz-que-bloco-e-refugio" target=_blank>Em cúpula, Milei critica o Mercosul e Lula diz que bloco é “refúgio”</a><br>
@@ -46,6 +56,11 @@
 <li data-source="Estadão">
   <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/dino-compara-julgamento-sobre-emendas-parlamentares-a-apocalipse-ainda-marquei-a-data/" target=_blank>Dino compara julgamento sobre emendas parlamentares a apocalipse: ‘Ainda marquei a data’</a><br>
   <small>03/07 10:48</small>
+</li>
+
+<li data-source="CNN Brasil">
+  <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/moraes-nega-pedido-de-braga-netto-por-prazo-extra-para-alegacoes-finais/" target=_blank>Moraes nega pedido de Braga Netto por prazo extra para alegações finais</a><br>
+  <small>03/07 10:47</small>
 </li>
 
 <li data-source="Metrópoles">
@@ -1736,26 +1751,6 @@
 <li data-source="Globo">
   <strong>[Globo]</strong> <a href="https://oglobo.globo.com/blogs/lauro-jardim/post/2025/07/o-novo-capitulo-da-disputa-entre-arthur-lira-e-renan-calheiros-no-stf.ghtml" target=_blank>Lauro Jardim: O novo capítulo da disputa entre Arthur Lira e Renan Calheiros no STF</a><br>
   <small>02/07 11:17</small>
-</li>
-
-<li data-source="Valor">
-  <strong>[Valor]</strong> <a href="https://valor.globo.com/politica/noticia/2025/07/02/alcolumbre-faz-gestos-ao-governo-e-espera-lula-em-meio-a-crise-do-iof.ghtml" target=_blank>Alcolumbre faz gestos ao governo e espera Lula em meio à crise do IOF</a><br>
-  <small>02/07 11:13</small>
-</li>
-
-<li data-source="Folha">
-  <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/opiniao/rss091/*https://www1.folha.uol.com.br/colunas/latinoamerica21/2025/07/o-paradoxo-da-impopularidade-quando-combater-a-corrupcao-desgasta-mais-do-que-esconde-la.shtml" target=_blank>Latinoamerica21: O paradoxo da impopularidade: quando combater a corrupção desgasta mais do que escondê-la</a><br>
-  <small>02/07 11:13</small>
-</li>
-
-<li data-source="CNN Brasil">
-  <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/bolsonaro-passa-por-exame-e-precisara-intensificar-tratamento-medicamentoso/" target=_blank>Bolsonaro passa por exame e precisará intensificar tratamento medicamentoso</a><br>
-  <small>02/07 11:11</small>
-</li>
-
-<li data-source="Metrópoles">
-  <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/colunas/paulo-cappelli/medicos-atualizam-estado-de-saude-de-bolsonaro-apos-novo-exame" target=_blank>Paulo Cappelli: Médicos atualizam estado de saúde de Bolsonaro após novo exame</a><br>
-  <small>02/07 11:08</small>
 </li>
 
 </ul>

@@ -1,7 +1,7 @@
 
 <!doctype html>
 <html lang=pt-br>
-<head><meta charset=utf-8><title>Clipping – Últimas</title>
+<head><meta charset=utf-8><meta name="viewport" content="width=device-width, initial-scale=1"><title>Clipping – Últimas</title>
 <style>
   body{font-family:Arial,sans-serif;margin:2rem;line-height:1.5}
   .tabs{margin-bottom:1rem}
@@ -12,16 +12,61 @@
   small{color:#666}
   a{color:#064;text-decoration:none}
   a:hover{text-decoration:underline}
+
+  /* Fonte maior em dispositivos móveis */
+  @media screen and (max-width: 768px) {
+    html { font-size: 18px; }
+  }
 </style>
 </head>
 <body>
 <h1>Últimas Notícias Brasil</h1>
-<p><small>03/07 11:05</small></p>
+<p><small>03/07 11:13</small></p>
 <div class="tabs">
   <button class="tab active" data-source="all">Todos</button>
   <button class="tab" data-source="Valor">Valor</button><button class="tab" data-source="Folha">Folha</button><button class="tab" data-source="Globo">Globo</button><button class="tab" data-source="Estadão">Estadão</button><button class="tab" data-source="CNN Brasil">CNN Brasil</button><button class="tab" data-source="G1 Blogs">G1 Blogs</button><button class="tab" data-source="Metrópoles">Metrópoles</button>
 </div>
 <ul>
+
+<li data-source="Valor">
+  <strong>[Valor]</strong> <a href="https://valor.globo.com/empresas/noticia/2025/07/03/correios-lancam-marketplace-com-venda-on-line-de-500-mil-itens.ghtml" target=_blank>Correios lançam marketplace com venda on-line de 500 mil itens</a><br>
+  <small>03/07 11:06</small>
+</li>
+
+<li data-source="Metrópoles">
+  <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/mundo/mercosul-lula-pede-cooperacao-para-coibir-multinacionais-do-crime" target=_blank>Mercosul: Lula pede cooperação para coibir “multinacionais do crime”</a><br>
+  <small>03/07 11:05</small>
+</li>
+
+<li data-source="Metrópoles">
+  <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/crianca-de-4-anos-em-situacao-de-risco-na-br-230-e-resgata-pela-prf" target=_blank>Criança de 4 anos em situação de risco na BR-230 é resgata pela PRF</a><br>
+  <small>03/07 11:05</small>
+</li>
+
+<li data-source="Globo">
+  <strong>[Globo]</strong> <a href="https://oglobo.globo.com/patrocinado/dino/noticia/2025/07/03/startup-grts-digital-recebe-r-34-milhoes-do-fundo-govtech-1.ghtml" target=_blank>Startup GRTS Digital recebe R$ 3,4 milhões do Fundo GovTech</a><br>
+  <small>03/07 11:05</small>
+</li>
+
+<li data-source="Valor">
+  <strong>[Valor]</strong> <a href="https://valor.globo.com/patrocinado/dino/noticia/2025/07/03/startup-grts-digital-recebe-r-34-milhoes-do-fundo-govtech-1.ghtml" target=_blank>Startup GRTS Digital recebe R$ 3,4 milhões do Fundo GovTech</a><br>
+  <small>03/07 11:05</small>
+</li>
+
+<li data-source="Metrópoles">
+  <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/vida-e-estilo/vitamina-popular-estimula-o-colageno-e-ajuda-a-disfarcar-rugas" target=_blank>Vitamina popular estimula o colágeno e ajuda a disfarçar rugas</a><br>
+  <small>03/07 11:03</small>
+</li>
+
+<li data-source="Metrópoles">
+  <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/blog-do-noblat/artigos/trump-ameaca-prender-zohran-mamdani-por-margarida-valenca" target=_blank>Trump ameaça prender Zohran Mamdani (por Margarida Valença)</a><br>
+  <small>03/07 11:03</small>
+</li>
+
+<li data-source="Valor">
+  <strong>[Valor]</strong> <a href="https://valor.globo.com/mundo/noticia/2025/07/03/dficit-comercial-dos-eua-aumenta-quase-19-pontos-percentuais-em-maio-aps-tarifao-de-trump.ghtml" target=_blank>Déficit comercial dos EUA aumenta quase 19% em maio após tarifaço de Trump</a><br>
+  <small>03/07 11:02</small>
+</li>
 
 <li data-source="Folha">
   <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2025/07/exploracao-de-minerais-criticos-vai-demorar-um-seculo-se-nao-houver-mudanca-diz-ex-ministra.shtml" target=_blank>Exploração de minerais críticos vai demorar um século se não houver mudança, diz ex-ministra</a><br>
@@ -41,6 +86,21 @@
 <li data-source="Folha">
   <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/opiniao/rss091/*https://www1.folha.uol.com.br/blogs/mise-en-scene/2025/07/a-medica-investiga-como-redes-sociais-amplificam-preconceito.shtml" target=_blank>Mise En Scene: 'A Médica' investiga como redes sociais amplificam preconceito</a><br>
   <small>03/07 11:00</small>
+</li>
+
+<li data-source="Globo">
+  <strong>[Globo]</strong> <a href="https://oglobo.globo.com/saude/stories/voce-sabia-congelar-esses-4-alimentos-aumenta-o-valor-nutricional-deles.ghtml" target=_blank>Você sabia? Congelar esses 4 alimentos aumenta o valor nutricional deles</a><br>
+  <small>03/07 10:59</small>
+</li>
+
+<li data-source="Globo">
+  <strong>[Globo]</strong> <a href="https://oglobo.globo.com/mundo/epoca/noticia/2025/07/03/pai-que-pulou-de-cruzeiro-da-disney-para-salvar-filha-e-inocentado-por-autoridades-ele-era-acusado-de-apoiar-menina-em-corrimao.ghtml" target=_blank>Pai que pulou de cruzeiro da Disney para salvar filha é inocentado por autoridades; ele era acusado de apoiar menina em corrimão</a><br>
+  <small>03/07 10:59</small>
+</li>
+
+<li data-source="CNN Brasil">
+  <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/macroeconomia/arabia-saudita-gigante-da-producao-de-petroleo-mira-em-veiculos-eletricos/" target=_blank>Arábia Saudita: gigante da produção de petróleo mira em veículos elétricos</a><br>
+  <small>03/07 10:58</small>
 </li>
 
 <li data-source="Globo">
@@ -88,6 +148,11 @@
   <small>03/07 10:49</small>
 </li>
 
+<li data-source="CNN Brasil">
+  <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/nacional/sul/rs/idosos-sao-encontrados-amarrados-a-camas-em-asilo-no-rs/" target=_blank>Idosos são encontrados amarrados a camas em asilo no RS</a><br>
+  <small>03/07 10:48</small>
+</li>
+
 <li data-source="Metrópoles">
   <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/negocios/oi-apresenta-pedido-de-recuperacao-judicial-de-duas-subsidiarias" target=_blank>Oi apresenta pedido de recuperação judicial de duas subsidiárias</a><br>
   <small>03/07 10:48</small>
@@ -101,6 +166,11 @@
 <li data-source="Estadão">
   <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/dino-compara-julgamento-sobre-emendas-parlamentares-a-apocalipse-ainda-marquei-a-data/" target=_blank>Dino compara julgamento sobre emendas parlamentares a apocalipse: ‘Ainda marquei a data’</a><br>
   <small>03/07 10:48</small>
+</li>
+
+<li data-source="CNN Brasil">
+  <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/moraes-nega-pedido-de-braga-netto-por-prazo-extra-para-alegacoes-finais/" target=_blank>Moraes nega pedido de Braga Netto por prazo extra para alegações finais</a><br>
+  <small>03/07 10:47</small>
 </li>
 
 <li data-source="Valor">
@@ -136,6 +206,16 @@
 <li data-source="Globo">
   <strong>[Globo]</strong> <a href="https://oglobo.globo.com/mundo/noticia/2025/07/03/invasor-do-capitolio-e-condenado-a-prisao-perpetua-por-planejar-matar-agentes-do-fbi.ghtml" target=_blank>Invasor do Capitólio é condenado à prisão perpétua por planejar matar agentes do FBI</a><br>
   <small>03/07 10:44</small>
+</li>
+
+<li data-source="CNN Brasil">
+  <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/macroeconomia/em-25-anos-custo-da-energia-sobe-e-encarece-o-pao-em-85-mostra-estudo/" target=_blank>Em 25 anos, custo da energia sobe e encarece o pão em 85%, mostra estudo</a><br>
+  <small>03/07 10:43</small>
+</li>
+
+<li data-source="CNN Brasil">
+  <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/macroeconomia/taxacao-de-lcas-vai-levar-a-menos-recursos-do-plano-safra-diz-senadora/" target=_blank>Taxação de LCAs vai levar a menos recursos do Plano Safra, diz senadora</a><br>
+  <small>03/07 10:42</small>
 </li>
 
 <li data-source="Metrópoles">
@@ -6861,76 +6941,6 @@
 <li data-source="Metrópoles">
   <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/apostas/casas-de-apostas/flabet-e-confiavel" target=_blank>FlaBet é confiável? Confira os pontos de segurança e regulamentação</a><br>
   <small>02/07 11:14</small>
-</li>
-
-<li data-source="Valor">
-  <strong>[Valor]</strong> <a href="https://valor.globo.com/politica/noticia/2025/07/02/alcolumbre-faz-gestos-ao-governo-e-espera-lula-em-meio-a-crise-do-iof.ghtml" target=_blank>Alcolumbre faz gestos ao governo e espera Lula em meio à crise do IOF</a><br>
-  <small>02/07 11:13</small>
-</li>
-
-<li data-source="Metrópoles">
-  <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/blog-do-noblat/artigos/infamia-e-covardia-por-mirian-guaraciaba" target=_blank>Infâmia e covardia (por Tânia Fusco)</a><br>
-  <small>02/07 11:13</small>
-</li>
-
-<li data-source="Folha">
-  <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/opiniao/rss091/*https://www1.folha.uol.com.br/colunas/latinoamerica21/2025/07/o-paradoxo-da-impopularidade-quando-combater-a-corrupcao-desgasta-mais-do-que-esconde-la.shtml" target=_blank>Latinoamerica21: O paradoxo da impopularidade: quando combater a corrupção desgasta mais do que escondê-la</a><br>
-  <small>02/07 11:13</small>
-</li>
-
-<li data-source="Globo">
-  <strong>[Globo]</strong> <a href="https://oglobo.globo.com/mundo/noticia/2025/07/02/tv-americana-aceita-pagar-us-16-milhoes-a-trump-em-processo-por-favorecer-kamala-harris-em-debate.ghtml" target=_blank>TV americana aceita pagar US$ 16 milhões a Trump em processo por favorecer Kamala Harris em debate</a><br>
-  <small>02/07 11:12</small>
-</li>
-
-<li data-source="Globo">
-  <strong>[Globo]</strong> <a href="https://oglobo.globo.com/cultura/noticia/2025/07/02/sean-diddy-combs-juri-chega-a-veredito-final-sobre-acusacoes-a-rapper.ghtml" target=_blank>Sean 'Diddy' Combs: júri chega a veredito final sobre acusações contra rapper</a><br>
-  <small>02/07 11:12</small>
-</li>
-
-<li data-source="Metrópoles">
-  <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/colunas/claudia-meireles/atitude-cruel-de-meghan-markle-teria-atingido-principe-william" target=_blank>Claudia Meireles: Atitude “cruel” de Meghan Markle teria atingido príncipe William</a><br>
-  <small>02/07 11:11</small>
-</li>
-
-<li data-source="CNN Brasil">
-  <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/bolsonaro-passa-por-exame-e-precisara-intensificar-tratamento-medicamentoso/" target=_blank>Bolsonaro passa por exame e precisará intensificar tratamento medicamentoso</a><br>
-  <small>02/07 11:11</small>
-</li>
-
-<li data-source="Valor">
-  <strong>[Valor]</strong> <a href="https://valor.globo.com/financas/criptomoedas/noticia/2025/07/02/bitcoin-sobe-e-tenta-se-recuperar-das-perdas-da-vspera-apesar-de-dados-fracos-dos-eua.ghtml" target=_blank>Bitcoin sobe e tenta se recuperar das perdas da véspera apesar de dados fracos dos EUA</a><br>
-  <small>02/07 11:10</small>
-</li>
-
-<li data-source="Valor">
-  <strong>[Valor]</strong> <a href="https://valor.globo.com/empresas/noticia/2025/07/02/tarifas-de-luz-da-energisa-sul-sudeste-terao-aumento-medio-de-1905percent.ghtml" target=_blank>Tarifas de luz da Energisa Sul-Sudeste terão aumento médio de 19,05%</a><br>
-  <small>02/07 11:10</small>
-</li>
-
-<li data-source="CNN Brasil">
-  <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/nacional/centro-oeste/go/goias-decreta-situacao-de-emergencia-por-aumento-de-srag/" target=_blank>Goiás decreta situação de emergência por aumento de SRAG</a><br>
-  <small>02/07 11:10</small>
-</li>
-
-<li data-source="Metrópoles">
-  <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/colunas/paulo-cappelli/medicos-atualizam-estado-de-saude-de-bolsonaro-apos-novo-exame" target=_blank>Paulo Cappelli: Médicos atualizam estado de saúde de Bolsonaro após novo exame</a><br>
-  <small>02/07 11:08</small>
-</li>
-
-<li data-source="CNN Brasil">
-  <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/negocios/dexco-encerra-atividades-de-fabrica-de-loucas-de-joao-pessoa/" target=_blank>Dexco encerra atividades de fábrica de louças de João Pessoa</a><br>
-  <small>02/07 11:08</small>
-</li>
-
-<li data-source="Valor">
-  <strong>[Valor]</strong> <a href="https://valor.globo.com/mundo/noticia/2025/07/02/ameaa-de-tarifa-de-35-pontos-percentuais-de-trump-alimenta-medo-do-pior-cenrio-no-japo.ghtml" target=_blank>Ameaça de tarifa de 35% de Trump alimenta medo do pior cenário no Japão</a><br>
-  <small>02/07 11:06</small>
-</li>
-
-<li data-source="Metrópoles">
-  <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/distrito-federal/na-mira/advogado-da-erva-e-preso-novamente-por-vender-drogas-pelo-instagram" target=_blank>“Advogado da erva” é preso novamente por vender drogas pelo Instagram</a><br>
-  <small>02/07 11:05</small>
 </li>
 
 </ul>
