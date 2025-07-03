@@ -1,36 +1,62 @@
 
 <!doctype html>
 <html lang=pt-br>
-<head><meta charset=utf-8><meta name="viewport" content="width=device-width, initial-scale=1"><title>Clipping – Últimas</title>
-<style>
-  body{font-family:Arial,sans-serif;margin:2rem;line-height:1.5}
-  .tabs{margin-bottom:1rem}
-  .tab{margin-right:.5rem;padding:.5rem 1rem;cursor:pointer;background:#eee;border:none;border-radius:4px}
-  .tab.active{background:#ddd;font-weight:bold}
-  li{margin:.5rem 0}
-  li.hidden{display:none}
-  small{color:#666}
-  a{color:#064;text-decoration:none}
-  a:hover{text-decoration:underline}
+<head>
+  <meta charset=utf-8>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clipping – Últimas</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 2rem; line-height: 1.5; }
+    .tabs { margin-bottom: 1rem; }
+    .tab { margin-right: .5rem; padding: .5rem 1rem; cursor: pointer; background: #eee; border: none; border-radius: 4px; }
+    .tab.active { background: #ddd; font-weight: bold; }
+    li { margin: .5rem 0; }
+    li.hidden { display: none; }
+    small { color: #666; }
+    a { color: #064; text-decoration: none; }
+    a:hover { text-decoration: underline; }
 
-  /* Fonte maior em dispositivos móveis */
-  @media screen and (max-width: 768px) {
-    html { font-size: 18px; }
-  }
-</style>
+    /* Estilos para dispositivos móveis */
+    @media screen and (max-width: 768px) {
+      html { font-size: 18px; }
+      body { margin: 1rem; }
+      h1 { font-size: 1.5rem; }
+      .tab { font-size: 1rem; color: #000; }
+    }
+  </style>
 </head>
 <body>
 <h1>Últimas Notícias Brasil</h1>
-<p><small>03/07 11:15</small></p>
+<p><small>03/07 11:20</small></p>
 <div class="tabs">
   <button class="tab active" data-source="all">Todos</button>
   <button class="tab" data-source="Valor">Valor</button><button class="tab" data-source="Folha">Folha</button><button class="tab" data-source="Globo">Globo</button><button class="tab" data-source="Estadão">Estadão</button><button class="tab" data-source="CNN Brasil">CNN Brasil</button><button class="tab" data-source="G1 Blogs">G1 Blogs</button><button class="tab" data-source="Metrópoles">Metrópoles</button>
 </div>
 <ul>
 
+<li data-source="Globo">
+  <strong>[Globo]</strong> <a href="https://oglobo.globo.com/rio/noticia/2025/07/03/juliana-marins-velorio-sera-nesta-sexta-em-niteroi-e-tera-momento-aberto-ao-publico.ghtml" target=_blank>Juliana Marins: velório será nesta sexta em Niterói e terá momento aberto ao público</a><br>
+  <small>03/07 11:17</small>
+</li>
+
+<li data-source="Globo">
+  <strong>[Globo]</strong> <a href="https://oglobo.globo.com/politica/noticia/2025/07/03/vereador-do-novo-questiona-contratacao-de-seguranca-por-erika-hilton-mas-justica-nega-liminar-sobre-suspensao-de-contrato.ghtml" target=_blank>Vereador do Novo questiona contratação de segurança por Erika Hilton, mas Justiça nega liminar sobre suspensão de contrato</a><br>
+  <small>03/07 11:17</small>
+</li>
+
 <li data-source="Metrópoles">
   <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/esportes/rivais-do-liverpool-homenageiam-diogo-jota-morto-em-acidente-de-carro" target=_blank>Rivais do Liverpool homenageiam Diogo Jota, morto em acidente de carro</a><br>
   <small>03/07 11:14</small>
+</li>
+
+<li data-source="Globo">
+  <strong>[Globo]</strong> <a href="https://oglobo.globo.com/economia/negocios/noticia/2025/07/03/petrobras-vai-investir-cerca-de-r-33-bilhoes-ate-2029-na-ampliacao-de-refino-e-em-petroquimica.ghtml" target=_blank>Petrobras vai investir cerca de R$ 33 bilhões até 2029 na ampliação de refino e em petroquímica</a><br>
+  <small>03/07 11:13</small>
+</li>
+
+<li data-source="Globo">
+  <strong>[Globo]</strong> <a href="https://oglobo.globo.com/economia/negocios/noticia/2025/07/03/oi-pede-recuperacao-judicial-para-suas-empresas-de-call-center-e-de-reparo-tecnico.ghtml" target=_blank>Oi pede recuperação judicial para suas empresas de call center e de reparo técnico</a><br>
+  <small>03/07 11:12</small>
 </li>
 
 <li data-source="Metrópoles">
@@ -46,6 +72,11 @@
 <li data-source="Metrópoles">
   <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/esportes/diogo-jota-conheceu-esposa-ainda-na-escola-conheca-historia-de-amor" target=_blank>Diogo Jota conheceu esposa ainda na escola; conheça história de amor</a><br>
   <small>03/07 11:10</small>
+</li>
+
+<li data-source="Valor">
+  <strong>[Valor]</strong> <a href="https://valor.globo.com/mundo/noticia/2025/07/03/pmi-de-servicos-dos-eua-cai-para-529-em-junho-diz-sandp-global.ghtml" target=_blank>PMI de serviços dos EUA cai para 52,9 em junho, diz S&P Global</a><br>
+  <small>03/07 11:06</small>
 </li>
 
 <li data-source="Valor">
@@ -6906,56 +6937,6 @@
 <li data-source="Valor">
   <strong>[Valor]</strong> <a href="https://valor.globo.com/empresas/noticia/2025/07/02/producao-da-tesla-cai-135percent-no-2o-tri-mas-acima-do-esperado-pela-maior-parte-dos-analistas.ghtml" target=_blank>Produção da Tesla cai 13,5% no 2º tri, mas acima do esperado pela maior parte dos analistas</a><br>
   <small>02/07 11:21</small>
-</li>
-
-<li data-source="Metrópoles">
-  <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/celebridades/fabio-assuncao-revela-primeira-vez-traumatica-nao-foi-legal" target=_blank>Fábio Assunção revela primeira vez traumática: “Não foi legal”</a><br>
-  <small>02/07 11:20</small>
-</li>
-
-<li data-source="Metrópoles">
-  <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/mundo/trump-pl-aprovado-pelo-senado-corrigira-erros-do-sonolento-biden" target=_blank>Trump: PL aprovado pelo Senado corrigirá erros do “sonolento” Biden</a><br>
-  <small>02/07 11:19</small>
-</li>
-
-<li data-source="Globo">
-  <strong>[Globo]</strong> <a href="https://oglobo.globo.com/saude/noticia/2025/07/02/o-que-os-cerebros-dos-psicopatas-tem-em-comum-exames-com-ressonancia-magnetica-revelam.ghtml" target=_blank>O que os cérebros dos psicopatas têm em comum? Exames com ressonância magnética revelam</a><br>
-  <small>02/07 11:19</small>
-</li>
-
-<li data-source="Globo">
-  <strong>[Globo]</strong> <a href="https://oglobo.globo.com/play/noticia/2025/07/02/paula-burlamaqui-celebra-dois-anos-de-namoro-com-empresario-ex-de-atriz-de-historia-de-amor.ghtml" target=_blank>Paula Burlamaqui celebra dois anos de namoro com empresário, ex de atriz de 'História de amor'</a><br>
-  <small>02/07 11:19</small>
-</li>
-
-<li data-source="Metrópoles">
-  <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/celebridades/sheila-mello-revela-que-viveu-affair-com-membro-do-e-o-tchan" target=_blank>Sheila Mello revela que viveu affair com membro do É o Tchan</a><br>
-  <small>02/07 11:18</small>
-</li>
-
-<li data-source="Metrópoles">
-  <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/sao-paulo/deputado-quer-dia-dos-legendarios-sp" target=_blank>Deputado quer criar Dia dos Legendários em São Paulo</a><br>
-  <small>02/07 11:18</small>
-</li>
-
-<li data-source="Globo">
-  <strong>[Globo]</strong> <a href="https://oglobo.globo.com/blogs/lauro-jardim/post/2025/07/o-novo-capitulo-da-disputa-entre-arthur-lira-e-renan-calheiros-no-stf.ghtml" target=_blank>Lauro Jardim: O novo capítulo da disputa entre Arthur Lira e Renan Calheiros no STF</a><br>
-  <small>02/07 11:17</small>
-</li>
-
-<li data-source="Metrópoles">
-  <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/colunas/fabia-oliveira/biancardi-revela-que-nao-quer-fazer-festa-para-mavie-e-explica-motivo" target=_blank>Fabia Oliveira: Biancardi revela que não quer fazer festa para Mavie e explica motivo</a><br>
-  <small>02/07 11:16</small>
-</li>
-
-<li data-source="Globo">
-  <strong>[Globo]</strong> <a href="https://oglobo.globo.com/economia/noticia/2025/07/02/microsoft-demitira-9000-funcionarios-em-segunda-onda-de-cortes-de-2025.ghtml" target=_blank>Microsoft demitirá 9.000 funcionários em segunda onda de cortes de 2025</a><br>
-  <small>02/07 11:16</small>
-</li>
-
-<li data-source="CNN Brasil">
-  <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/nacional/centro-oeste/go/cachorro-fica-preso-em-cano-e-e-resgatado-em-goias-veja-imagens/" target=_blank>Cachorro fica preso em cano e é resgatado em Goiás; veja imagens</a><br>
-  <small>02/07 11:15</small>
 </li>
 
 </ul>
