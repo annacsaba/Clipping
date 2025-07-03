@@ -10,7 +10,9 @@
     .tabs { margin-bottom: 1rem; }
     .tab { margin-right: .5rem; padding: .5rem 1rem; cursor: pointer; background: #eee; border: none; border-radius: 4px; }
     .tab.active { background: #ddd; font-weight: bold; }
-    li { margin: .5rem 0; }
+    /* Ajuste de bullets para alinhar com título e abas */
+    ul { margin-left: 0; padding-left: 0; list-style-position: inside; }
+    li { margin: .5rem 0; }    
     li.hidden { display: none; }
     small { color: #666; }
     a { color: #064; text-decoration: none; }
@@ -20,14 +22,14 @@
     @media screen and (max-width: 768px) {
       html { font-size: 18px; }
       body { margin: 0.5rem; }
-      h1 { font-size: 1.5rem; }
-      .tab { font-size: 1rem; color: #000; }
+      h1 { font-size: 1rem; }
+      .tab { font-size: 0.8rem; color: #000; }
     }
   </style>
 </head>
 <body>
 <h1>Últimas Notícias Brasil</h1>
-<p><small>03/07 11:25</small></p>
+<p><small>03/07 11:27</small></p>
 <div class="tabs">
   <button class="tab active" data-source="all">Todos</button>
   <button class="tab" data-source="Valor">Valor</button><button class="tab" data-source="Folha">Folha</button><button class="tab" data-source="Globo">Globo</button><button class="tab" data-source="Estadão">Estadão</button><button class="tab" data-source="CNN Brasil">CNN Brasil</button><button class="tab" data-source="G1 Blogs">G1 Blogs</button><button class="tab" data-source="Metrópoles">Metrópoles</button>
@@ -6917,16 +6919,6 @@
 <li data-source="Metrópoles">
   <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/colunas/fabia-oliveira/nao-passarao-diz-grace-abdou-apos-ser-agredida-por-reporter-da-band" target=_blank>Fabia Oliveira: “Não passarão”, diz Grace Abdou após ser agredida por repórter da Band</a><br>
   <small>02/07 11:28</small>
-</li>
-
-<li data-source="Valor">
-  <strong>[Valor]</strong> <a href="https://valor.globo.com/brasil/noticia/2025/07/02/industrias-de-bens-de-consumo-duraveis-e-de-nao-duraveis-seguem-abaixo-de-patamar-pre-pandemia-diz-ibge.ghtml" target=_blank>Indústrias de bens de consumo duráveis e de não duráveis seguem abaixo de patamar pré-pandemia, diz IBGE</a><br>
-  <small>02/07 11:27</small>
-</li>
-
-<li data-source="Estadão">
-  <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/economia/itau-plataforma-passagens-aereas-sala-vip/" target=_blank>Itaú lança plataforma própria de compra de passagens aéreas e prepara sala VIP</a><br>
-  <small>02/07 11:27</small>
 </li>
 
 </ul>
