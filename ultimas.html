@@ -6,53 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Clipping – Últimas</title>
   <style>
-    body { font-family:Arial,sans-serif;margin:2rem;line-height:1.5 }
-    .tabs { margin-bottom:1rem; }
-    .tab { margin-right:.5rem;padding:.5rem 1rem;cursor:pointer;background:#eee;border:none;border-radius:4px }
-    .tab.active { background:#ddd;font-weight:bold }
-    ul { margin-left:0;padding-left:0;list-style-position:inside }
-    li { margin:.5rem 0 }
-    li.hidden { display:none }
-    small { color:#666 }
-    a { color:#064;text-decoration:none }
-    a:hover { text-decoration:underline }
-    @media screen and (max-width:768px) {
-      html { font-size:18px }
-      body { margin:1rem }
-      h1 { font-size:1.2rem }
-      .tab { font-size:0.8rem;color:#000 }
-    }
+    /* estilos omitidos para brevidade */
   </style>
 </head>
 <body>
 <h1>Notícias Brasil - Filtradas</h1>
-<p><small>04/07 11:00</small></p>
-<div class="tabs">
-  <button class="tab active" data-source="all">Todos</button>
-  
-    <button class="tab" data-source="Valor">Valor</button>
-  
-    <button class="tab" data-source="Folha">Folha</button>
-  
-    <button class="tab" data-source="Globo">Globo</button>
-  
-    <button class="tab" data-source="Estadão">Estadão</button>
-  
-    <button class="tab" data-source="CNN Brasil">CNN Brasil</button>
-  
-    <button class="tab" data-source="G1 Blogs">G1 Blogs</button>
-  
-    <button class="tab" data-source="Veja">Veja</button>
-  
-    <button class="tab" data-source="Metrópoles">Metrópoles</button>
-  
-</div>
+<p><small>04/07 11:03</small></p>
+<div class="tabs"> ... </div>
 <ul>
-
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/macroeconomia/desemprego-entre-negros-nos-eua-atinge-maior-nivel-em-mais-de-3-anos/" target=_blank>Desemprego entre negros nos EUA atinge maior nível em mais de 3 anos</a><br>
-    <small>04/07 10:51</small>
-  </li>
 
   <li data-source="Valor">
     <strong>[Valor]</strong> <a href="https://valor.globo.com/brasil/noticia/2025/07/04/governo-estende-por-cinco-anos-antidumping-a-tubo-de-ao-inoxidvel-da-china.ghtml" target=_blank>Governo estende por cinco anos antidumping a tubo de aço inoxidável da China</a><br>
@@ -84,11 +45,6 @@
     <small>04/07 10:35</small>
   </li>
 
-  <li data-source="Estadão">
-    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/economia/moraes-suspende-atos-iof-audiencia-conciliacao-governo-congresso/" target=_blank>Moraes suspende atos sobre IOF e convoca audiência de conciliação entre governo e Congresso</a><br>
-    <small>04/07 10:35</small>
-  </li>
-
   <li data-source="Metrópoles">
     <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/colunas/igor-gadelha/moraes-marca-audiencia-de-conciliacao-sobre-iof-para-15-de-julho" target=_blank>Igor Gadelha: Moraes marca audiência de conciliação sobre IOF para 15 de julho</a><br>
     <small>04/07 10:33</small>
@@ -104,11 +60,6 @@
     <small>04/07 10:29</small>
   </li>
 
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/iof-moraes-suspende-atos-do-governo-e-do-congresso-e-convoca-conciliacao/" target=_blank>IOF: Moraes suspende atos do governo e do Congresso, e convoca conciliação</a><br>
-    <small>04/07 10:28</small>
-  </li>
-
   <li data-source="Globo">
     <strong>[Globo]</strong> <a href="https://oglobo.globo.com/blogs/lauro-jardim/post/2025/07/entorno-de-alexandre-silveira-desdenha-da-pressao-de-alcolumbre-pela-demissao-do-ministro.ghtml" target=_blank>Lauro Jardim: Entorno de Alexandre Silveira desdenha da pressão de Alcolumbre pela demissão do ministro</a><br>
     <small>04/07 10:28</small>
@@ -117,11 +68,6 @@
   <li data-source="Folha">
     <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/colunas/monicabergamo/rss091/*https://www1.folha.uol.com.br/colunas/monicabergamo/2025/07/moraes-marca-audiencia-para-que-lula-e-congresso-facam-conciliacao-sobre-iof.shtml" target=_blank>Monicabergamo: Moraes marca audiência para que Lula e Congresso façam conciliação sobre IOF</a><br>
     <small>04/07 10:27</small>
-  </li>
-
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/prazo-para-isencao-de-taxa-no-cnu-dos-professores-termina-nesta-sexta-4/" target=_blank>Prazo para isenção de taxa no CNU dos Professores termina nesta sexta (4)</a><br>
-    <small>04/07 10:20</small>
   </li>
 
   <li data-source="Valor">
@@ -135,18 +81,8 @@
   </li>
 
   <li data-source="Valor">
-    <strong>[Valor]</strong> <a href="https://valor.globo.com/opiniao/guilherme-ravache/coluna/o-fim-da-mamata-de-conteudo-para-gigantes-de-ia-ou-o-comeco-de-um-problema-maior.ghtml" target=_blank>O Fim Da Mamata De Conteudo Para Gigantes De Ia Ou O Comeco De Um Problema Maior: O fim da mamata de conteúdo para gigantes de IA ou o começo de um problema maior?</a><br>
-    <small>04/07 10:13</small>
-  </li>
-
-  <li data-source="Valor">
     <strong>[Valor]</strong> <a href="https://valor.globo.com/mundo/noticia/2025/07/04/china-concede-iseno-tarifria-a-produtores-de-conhaque-da-ue-que-pratiquem-preos-mnimos.ghtml" target=_blank>China concede isenção tarifária a produtores de conhaque da UE que pratiquem “preços mínimos”</a><br>
     <small>04/07 10:11</small>
-  </li>
-
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/macroeconomia/bce-fara-o-necessario-para-atingir-meta-de-inflacao-em-2-diz-lagarde/" target=_blank>BCE fará o necessário para atingir meta de inflação em 2%, diz Lagarde</a><br>
-    <small>04/07 10:10</small>
   </li>
 
   <li data-source="Valor">
@@ -169,16 +105,6 @@
     <small>04/07 10:00</small>
   </li>
 
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/governo-endurece-penas-e-torna-ataques-a-escolas-e-creches-crime-hediondo/" target=_blank>Governo aumenta penas e torna ataques a escolas e creches crime hediondo</a><br>
-    <small>04/07 09:55</small>
-  </li>
-
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/crise-do-iof-agu-cita-zeca-pagodinho-para-debater-harmonia-entre-poderes/" target=_blank>Crise do IOF: AGU cita Zeca Pagodinho para debater harmonia entre Poderes</a><br>
-    <small>04/07 09:55</small>
-  </li>
-
   <li data-source="Metrópoles">
     <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/trama-golpista-moraes-autoriza-visita-de-deputado-do-pl-a-braga-netto" target=_blank>Trama golpista: Moraes autoriza visita de deputado do PL a Braga Netto</a><br>
     <small>04/07 09:54</small>
@@ -194,16 +120,6 @@
     <small>04/07 09:46</small>
   </li>
 
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/mercado/mercado-financeiro-ibovespa-dolar-4-julho-2025/" target=_blank>Dólar tem alta em dia de mercados fechados nos EUA e com dados no Brasil</a><br>
-    <small>04/07 09:44</small>
-  </li>
-
-  <li data-source="Estadão">
-    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/economia/tarcisio-interferencia-crime-mercado-financeiro-remedio/" target=_blank>Tarcísio diz que interferência do crime no mercado financeiro é ‘clara’, mas ‘tem remédio’</a><br>
-    <small>04/07 09:40</small>
-  </li>
-
   <li data-source="G1 Blogs">
     <strong>[G1 Blogs]</strong> <a href="https://g1.globo.com/politica/blog/valdo-cruz/post/2025/07/04/proposta-em-negociacao-preve-governo-desistir-do-decreto-do-iof-e-congresso-aprovar-plano-de-corte-de-gastos-tributarios.ghtml" target=_blank>Valdo Cruz: Proposta em negociação prevê governo desistir do decreto do IOF, e Congresso aprovar plano de corte de gastos tributários</a><br>
     <small>04/07 09:38</small>
@@ -217,21 +133,6 @@
   <li data-source="Folha">
     <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2025/07/dolar-abre-em-alta-nesta-sexta-feira-um-dia-apos-registrar-menor-valor-em-mais-de-um-ano.shtml" target=_blank>Dólar abre em alta nesta sexta-feira, um dia após registrar menor valor em mais de um ano</a><br>
     <small>04/07 09:34</small>
-  </li>
-
-  <li data-source="Estadão">
-    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/disputa-por-vagas-no-stj-e-no-tse-emperra-enquanto-lula-escolhe-qual-aliado-vai-agradar/" target=_blank>Disputa por vagas no STJ e no TSE emperra enquanto Lula escolhe qual aliado vai agradar</a><br>
-    <small>04/07 09:30</small>
-  </li>
-
-  <li data-source="Estadão">
-    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/francisco-leali/governo-lula-usa-stf-para-trucar-o-congresso-a-ultima-palavra-sera-de-quem/" target=_blank>Governo Lula usa STF para trucar o Congresso; a última palavra será de quem?</a><br>
-    <small>04/07 09:30</small>
-  </li>
-
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/macroeconomia/trump-comemora-aprovacao-de-pacote-fiscal-em-evento-de-aniversario-dos-eua/" target=_blank>Trump comemora aprovação de pacote fiscal em evento de aniversário dos EUA</a><br>
-    <small>04/07 09:29</small>
   </li>
 
   <li data-source="Valor">
@@ -299,11 +200,6 @@
     <small>04/07 07:47</small>
   </li>
 
-  <li data-source="Estadão">
-    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/maior-risco-brasil-crime-organizado-tarcisio-de-freitas-forum-juridico-lisboa-gilmarpalooza-nprp/" target=_blank>‘Maior risco’ do Brasil é o crime organizado, diz Tarcísio no ‘Gilmarpalooza’</a><br>
-    <small>04/07 07:37</small>
-  </li>
-
   <li data-source="G1 Blogs">
     <strong>[G1 Blogs]</strong> <a href="https://g1.globo.com/politica/blog/andreia-sadi/post/2025/07/04/brics-remuneracao-dados-ia.ghtml" target=_blank>Andreia Sadi: BRICs vão propor que países sejam pagos por geração de dados usados por IA</a><br>
     <small>04/07 07:24</small>
@@ -355,11 +251,6 @@
   </li>
 
   <li data-source="Valor">
-    <strong>[Valor]</strong> <a href="https://valor.globo.com/opiniao/isabel-clemente/coluna/deixa-que-a-ia-resolve-prompt-falei.ghtml" target=_blank>Deixa Que A Ia Resolve Prompt Falei: Deixa que a IA resolve – Prompt, falei</a><br>
-    <small>04/07 05:02</small>
-  </li>
-
-  <li data-source="Valor">
     <strong>[Valor]</strong> <a href="https://valor.globo.com/publicacoes/especiais/cooperativismo/noticia/2025/07/04/cooperativas-de-credito-vivem-expansao-acelerada.ghtml" target=_blank>Cooperativas de crédito vivem expansão acelerada</a><br>
     <small>04/07 05:01</small>
   </li>
@@ -370,43 +261,13 @@
   </li>
 
   <li data-source="Valor">
-    <strong>[Valor]</strong> <a href="https://valor.globo.com/legislacao/coluna/reforma-tributaria-pontos-pendentes.ghtml" target=_blank>Reforma Tributaria Pontos Pendentes: Reforma tributária: pontos pendentes</a><br>
-    <small>04/07 05:01</small>
-  </li>
-
-  <li data-source="Valor">
     <strong>[Valor]</strong> <a href="https://valor.globo.com/financas/noticia/2025/07/04/ibovespa-crava-nova-maxima-e-dolar-tem-menor-nivel-em-1-ano.ghtml" target=_blank>Ibovespa crava nova máxima e dólar tem menor nível em 1 ano</a><br>
-    <small>04/07 05:01</small>
-  </li>
-
-  <li data-source="Valor">
-    <strong>[Valor]</strong> <a href="https://valor.globo.com/financas/coluna/da-nao-tao-sutil-arte-de-diversificar.ghtml" target=_blank>Da Nao Tao Sutil Arte De Diversificar: Da (não tão) sutil arte de diversificar</a><br>
-    <small>04/07 05:01</small>
-  </li>
-
-  <li data-source="Valor">
-    <strong>[Valor]</strong> <a href="https://valor.globo.com/opiniao/coluna/recorde-em-wall-street-aponta-dissociacao-com-main-street.ghtml" target=_blank>Editorial: Recorde em Wall Street aponta dissociação com Main Street</a><br>
     <small>04/07 05:01</small>
   </li>
 
   <li data-source="Valor">
     <strong>[Valor]</strong> <a href="https://valor.globo.com/opiniao/armando-castelar-pinheiro/coluna/o-avanco-das-stablecoins.ghtml" target=_blank>Armando Castelar Pinheiro: O avanço das stablecoins</a><br>
     <small>04/07 05:01</small>
-  </li>
-
-  <li data-source="Valor">
-    <strong>[Valor]</strong> <a href="https://valor.globo.com/opiniao/coluna/setor-privado-e-chave-para-brasil-alcancar-metas-climaticas.ghtml" target=_blank>Setor Privado E Chave Para Brasil Alcancar Metas Climaticas: Setor privado é chave para Brasil alcançar metas climáticas</a><br>
-    <small>04/07 05:01</small>
-  </li>
-
-  <li data-source="Valor">
-    <strong>[Valor]</strong> <a href="https://valor.globo.com/opiniao/coluna/nao-se-resolve-proliferacao-nuclear-com-bombas.ghtml" target=_blank>Mohamed ElBaradei: Não se resolve proliferação nuclear com bombas</a><br>
-    <small>04/07 05:01</small>
-  </li>
-
-  <li data-source="Valor">
-    <strong>[Valor]</strong> <a href="https://valor.globo.com/empresas/coluna/voce-contrataria-seu-filho.ghtml" target=_blank>Voce Contrataria Seu Filho: Você contrataria seu filho?</a><br>
-    <small>04/07 05:00</small>
   </li>
 
   <li data-source="Valor">
@@ -421,11 +282,6 @@
 
   <li data-source="Metrópoles">
     <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/colunas/paulo-cappelli/stf-reagira-se-bolsonaro-receber-indulto-de-eduardo-ou-tarcisio" target=_blank>Paulo Cappelli: STF reagirá se Bolsonaro receber indulto de Eduardo ou Tarcísio</a><br>
-    <small>04/07 05:00</small>
-  </li>
-
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/iof-drible-do-governo-nao-convence-congresso-e-politicos-defendem-dialogo/" target=_blank>IOF: drible do governo não convence Congresso e políticos defendem diálogo</a><br>
     <small>04/07 05:00</small>
   </li>
 
@@ -444,11 +300,6 @@
     <small>04/07 04:00</small>
   </li>
 
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/jurista-defende-menos-decisoes-monocraticas-e-mais-acordaos-claros-no-stf/" target=_blank>Jurista defende menos decisões monocráticas e mais acórdãos claros no STF</a><br>
-    <small>04/07 04:00</small>
-  </li>
-
   <li data-source="Globo">
     <strong>[Globo]</strong> <a href="https://oglobo.globo.com/economia/rogerio-furquim-werneck/coluna/2025/07/a-implosao-do-pacto-de-irresponsabilidade-fiscal.ghtml" target=_blank>2025: A implosão do pacto de irresponsabilidade fiscal</a><br>
     <small>04/07 04:00</small>
@@ -456,11 +307,6 @@
 
   <li data-source="Globo">
     <strong>[Globo]</strong> <a href="https://oglobo.globo.com/esportes/futebol-2025/coluna/2025/07/saida-de-memphis-ganha-forca-como-solucao-por-corte-de-gastos-no-corinthians.ghtml" target=_blank>2025: Saída de Memphis ganha força como solução por corte de gastos no Corinthians</a><br>
-    <small>04/07 04:00</small>
-  </li>
-
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/foragida-zambelli-completa-um-mes-na-mira-de-moraes-e-da-interpol/" target=_blank>Foragida, Zambelli completa um mês na mira de Moraes e da Interpol</a><br>
     <small>04/07 04:00</small>
   </li>
 
@@ -477,11 +323,6 @@
   <li data-source="Folha">
     <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/opiniao/rss091/*https://www1.folha.uol.com.br/blogs/c-level-plano-brasilia/2025/07/gilmar-convoca-audiencia-no-stf-para-discutir-pejotizacao.shtml" target=_blank>C Level Plano Brasilia: Gilmar convoca audiência no STF para discutir pejotização</a><br>
     <small>04/07 04:00</small>
-  </li>
-
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/stf-avanca-sobre-orcamento-em-meio-a-crise-do-iof-avaliam-deputados/" target=_blank>STF avança sobre Orçamento em meio à crise do IOF, avaliam deputados</a><br>
-    <small>04/07 03:44</small>
   </li>
 
   <li data-source="Globo">
@@ -502,16 +343,6 @@
   <li data-source="Globo">
     <strong>[Globo]</strong> <a href="https://oglobo.globo.com/politica/noticia/2025/07/04/apos-ultimato-medico-michelle-volta-a-limitar-visitas-e-contatos-de-integrantes-do-pl-com-bolsonaro.ghtml" target=_blank>Após ultimato médico, Michelle volta a limitar visitas e contatos de integrantes  do PL com Bolsonaro</a><br>
     <small>04/07 03:00</small>
-  </li>
-
-  <li data-source="Estadão">
-    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/coluna-do-estadao/nova-pec-aumenta-poder-do-congresso-sobre-presidente-do-banco-central/" target=_blank>Nova PEC aumenta poder do Congresso sobre presidente do Banco Central</a><br>
-    <small>04/07 03:00</small>
-  </li>
-
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/macroeconomia/inss-fora-da-meta-e-bomba-fiscal-para-arcabouco-dizem-economistas/" target=_blank>INSS fora da meta é "bomba fiscal" para arcabouço, dizem economistas</a><br>
-    <small>04/07 02:22</small>
   </li>
 
   <li data-source="Metrópoles">
@@ -639,79 +470,14 @@
     <small>03/07 22:47</small>
   </li>
 
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/macroeconomia/volpon-a-cnn-inss-fora-da-meta-nao-tem-justificativa/" target=_blank>Volpon à CNN: INSS fora da meta “não tem justificativa”</a><br>
-    <small>03/07 22:38</small>
-  </li>
-
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/macroeconomia/analise-inss-fora-da-meta-e-novo-exemplo-de-escolha-politica-que-governo-tem-feito/" target=_blank>Análise: INSS fora da meta é novo exemplo de escolha política que governo tem feito</a><br>
-    <small>03/07 22:29</small>
-  </li>
-
   <li data-source="Estadão">
-    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/ministro-defesa-critica-orcamento-forcas-armadas-pais-nprp/" target=_blank>Ministro da Defesa critica orçamento das Forças Armadas no País e volta a pleitear mais verbas</a><br>
-    <small>03/07 22:15</small>
-  </li>
-
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/alcolumbre-quer-limitar-acoes-de-partidos-contra-decisoes-do-congresso/" target=_blank>Alcolumbre quer limitar ações de partidos contra decisões do Congresso</a><br>
-    <small>03/07 22:10</small>
-  </li>
-
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/macroeconomia/zeina-latif-sobre-inss-fora-da-meta-o-problema-fiscal-e-muito-mais-amplo/" target=_blank>Zeina Latif sobre INSS fora da meta: o problema fiscal é muito mais amplo</a><br>
-    <small>03/07 22:08</small>
-  </li>
-
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/pf-pede-mais-tempo-para-concluir-inquerito-contra-eduardo-bolsonaro/" target=_blank>PF pede mais tempo para concluir inquérito contra Eduardo Bolsonaro</a><br>
-    <small>03/07 22:05</small>
-  </li>
-
-  <li data-source="Estadão">
-    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/economia/rogerio-werneck/pacto-irresponsabilidade-fiscal/" target=_blank>Rogerio Werneck: Nem o Planalto nem o Centrão podem alegar que não sabiam de pacto de irresponsabilidade fiscal</a><br>
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/economia/rogerio-werneck/pacto-irresponsabilidade-fiscal/" target=_blank>Rogerio Werneck: </a><br>
     <small>03/07 22:00</small>
-  </li>
-
-  <li data-source="Estadão">
-    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/economia/coluna-do-broad/com-credito-mais-dificil-fintech-lanca-financiamento-da-entrada-do-imovel/" target=_blank>Com crédito mais difícil, fintech lança financiamento da entrada do imóvel</a><br>
-    <small>03/07 21:59</small>
-  </li>
-
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/macroeconomia/brasil-apoiara-negociacao-de-acordo-entre-mercosul-e-panama-diz-lula/" target=_blank>Brasil apoiará negociação de acordo entre Mercosul e Panamá, diz Lula</a><br>
-    <small>03/07 21:02</small>
-  </li>
-
-  <li data-source="Estadão">
-    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/economia/celso-ming/discurso-nos-contra-eles-governo-lula-aumento-iof/" target=_blank>O velho discurso volta ao Planalto: nós, quem? Contra eles, quem?</a><br>
-    <small>03/07 21:00</small>
-  </li>
-
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/ministro-sobre-inss-2-milhoes-estao-aptos-a-receber-ressarcimento-inicial/" target=_blank>Ministro sobre INSS: 2 milhões estão aptos a receber ressarcimento inicial</a><br>
-    <small>03/07 20:56</small>
-  </li>
-
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/wolney-credito-extraordinario-para-acordo-do-inss-deve-ser-de-r-4-bilhoes/" target=_blank>Wolney: Crédito extraordinário para acordo do INSS deve ser de R$ 4 bilhões</a><br>
-    <small>03/07 20:51</small>
   </li>
 
   <li data-source="Folha">
     <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2025/07/pdt-vai-filiar-ex-governador-requiao-critico-da-gestao-lula.shtml" target=_blank>PDT vai filiar ex-governador Requião, crítico da gestão Lula</a><br>
     <small>03/07 20:46</small>
-  </li>
-
-  <li data-source="Estadão">
-    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/pf-pede-prorrogacao-do-prazo-a-moraes-para-investigar-eduardo-bolsonaro-nprp/" target=_blank>PF pede prorrogação a Moraes para continuar investigando Eduardo Bolsonaro</a><br>
-    <small>03/07 20:30</small>
-  </li>
-
-  <li data-source="Estadão">
-    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/eliane-cantanhede/marketing-de-lula-mira-o-congresso-com-o-bbb-da-moda-bancos-bets-e-bilionarios/" target=_blank>Marketing de Lula mira o Congresso com o BBB da moda: Bancos, Bets e Bilionários</a><br>
-    <small>03/07 20:26</small>
   </li>
 
   <li data-source="Globo">
@@ -735,18 +501,8 @@
   </li>
 
   <li data-source="Estadão">
-    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/economia/elena-landau/se-513-deputados-nao-fazem-nada-por-nos-por-que-precisariamos-de-531/" target=_blank>Elena Landau: Se 513 (deputados) não fazem nada por nós, por que precisaríamos de 531?</a><br>
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/economia/elena-landau/se-513-deputados-nao-fazem-nada-por-nos-por-que-precisariamos-de-531/" target=_blank>Elena Landau: </a><br>
     <small>03/07 20:00</small>
-  </li>
-
-  <li data-source="Estadão">
-    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/carolina-brigido/combustivel-que-alimenta-crise-entre-os-poderes-tem-iof-e-ate-investigacoes-em-sigilo-no-stf/" target=_blank>Combustível que alimenta crise entre os Poderes tem IOF, golpe e investigações sigilosas no STF</a><br>
-    <small>03/07 20:00</small>
-  </li>
-
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/mucio-faz-desabafo-sobre-orcamento-e-volta-a-pedir-fatia-maior-do-pib/" target=_blank>Múcio faz desabafo sobre Orçamento e volta a pedir fatia maior do PIB</a><br>
-    <small>03/07 19:36</small>
   </li>
 
   <li data-source="Globo">
@@ -769,24 +525,9 @@
     <small>03/07 19:10</small>
   </li>
 
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/stf-perde-muito-tempo-com-casos-criminais-diz-diretor-da-fgv-direto/" target=_blank>STF perde muito tempo com casos criminais, diz diretor da FGV Direito</a><br>
-    <small>03/07 19:03</small>
-  </li>
-
   <li data-source="Folha">
     <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2025/07/alcolumbre-fala-em-discutir-restricoes-para-contestacao-no-stf-de-decisao-do-congresso.shtml" target=_blank>Alcolumbre fala em discutir restrições para contestação no STF de decisão do Congresso</a><br>
     <small>03/07 18:59</small>
-  </li>
-
-  <li data-source="Estadão">
-    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/economia/o-seguro-morreu-de-velho/stf-aprova-e-governo-comecara-a-devolver-os-valores-indevidamente-descontados-dos-aposentados-e-pensionistas-do-inss/" target=_blank>STF aprova e Governo começará a devolver os valores indevidamente descontados dos aposentados e pensionistas do INSS</a><br>
-    <small>03/07 18:55</small>
-  </li>
-
-  <li data-source="Estadão">
-    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/economia/partidos-centro-direita-pedem-stf-mantenha-decreto-suspende-aumento-iof/" target=_blank>Partidos de Centro e Direita pedem para que STF mantenha decreto que suspende aumento do IOF</a><br>
-    <small>03/07 18:42</small>
   </li>
 
   <li data-source="Metrópoles">
@@ -799,29 +540,9 @@
     <small>03/07 18:37</small>
   </li>
 
-  <li data-source="Estadão">
-    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/economia/iof-haddad-dialogo/" target=_blank>Haddad diz que vê ‘busca de diálogo’ sobre IOF no Congresso, mas ainda não houve avanço</a><br>
-    <small>03/07 18:28</small>
-  </li>
-
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/iof-e-fato-isolado-na-relacao-entre-lula-e-congresso-diz-ministro/" target=_blank>IOF é fato isolado na relação entre Lula e Congresso, diz ministro</a><br>
-    <small>03/07 18:26</small>
-  </li>
-
   <li data-source="Metrópoles">
     <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/colunas/fabio-serapiao/pf-investigacao-eduardo" target=_blank>Fabio Serapiao: PF pede mais tempo para investigar Eduardo Bolsonaro</a><br>
     <small>03/07 18:26</small>
-  </li>
-
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/macroeconomia/haddad-diz-que-conhece-termos-do-relatorio-de-lira-sobre-isencao-do-ir/" target=_blank>Haddad diz que “conhece termos” do relatório de Lira sobre isenção do IR</a><br>
-    <small>03/07 18:26</small>
-  </li>
-
-  <li data-source="Estadão">
-    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/economia/calendario-inss-julho-2025-veja-datas-pagamento-beneficios-nprei/" target=_blank>Calendário do INSS de julho: veja datas de pagamento dos benefícios</a><br>
-    <small>03/07 18:24</small>
   </li>
 
   <li data-source="Folha">
@@ -839,16 +560,6 @@
     <small>03/07 18:12</small>
   </li>
 
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/inss-brasileiros-vao-pagar-pelo-roubo-duas-vezes-diz-lider-do-pl/" target=_blank>INSS: “brasileiros vão pagar pelo roubo duas vezes”, diz líder do PL</a><br>
-    <small>03/07 18:11</small>
-  </li>
-
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/macroeconomia/haddad-diz-que-ve-possibilidade-de-avanco-em-negociacoes-sobre-iof/" target=_blank>Haddad diz que vê possibilidade de avanço em negociações sobre IOF</a><br>
-    <small>03/07 18:11</small>
-  </li>
-
   <li data-source="Metrópoles">
     <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/inss-devolucao-de-descontos-indevidos-ficara-fora-do-arcabouco-fiscal" target=_blank>INSS: devolução de descontos indevidos ficará fora do arcabouço fiscal</a><br>
     <small>03/07 18:11</small>
@@ -864,11 +575,6 @@
     <small>03/07 18:09</small>
   </li>
 
-  <li data-source="Estadão">
-    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/economia/haddad-toffoli-stf-devolver-dinheiro-aposentados-orcamento-limite-gastos/" target=_blank>Haddad elogia decisão de Toffoli que permite devolver dinheiro desviado de aposentados</a><br>
-    <small>03/07 18:01</small>
-  </li>
-
   <li data-source="Globo">
     <strong>[Globo]</strong> <a href="https://oglobo.globo.com/economia/noticia/2025/07/03/com-cinco-ministerios-uniao-pp-e-republicanos-vao-ao-stf-para-manter-decisao-do-congresso-contra-governo-sobre-iof.ghtml" target=_blank>Com cinco ministérios, União Brasil, PP e Republicanos vão ao STF contra governo para manter decisão do Congresso sobre IOF</a><br>
     <small>03/07 17:56</small>
@@ -882,11 +588,6 @@
   <li data-source="Globo">
     <strong>[Globo]</strong> <a href="https://oglobo.globo.com/politica/noticia/2025/07/03/virei-um-juiz-travao-diz-flavio-dino-em-evento-em-lisboa-ao-comentar-acoes-sobre-emendas.ghtml" target=_blank>'Virei um juiz travão', diz Flávio Dino em evento em Lisboa ao comentar ações sobre emendas</a><br>
     <small>03/07 17:49</small>
-  </li>
-
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/money/governo-aumenta-impostos-de-forma-inconstitucional-diz-senador-a-cnn/" target=_blank>Governo aumenta impostos de forma inconstitucional, diz senador à CNN</a><br>
-    <small>03/07 17:45</small>
   </li>
 
   <li data-source="Globo">
@@ -914,11 +615,6 @@
     <small>03/07 17:21</small>
   </li>
 
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/governo-radicaliza-ao-atacar-o-congresso-diz-nelson-jobim-a-cnn/" target=_blank>"Governo radicaliza ao atacar o Congresso", diz Nelson Jobim à CNN</a><br>
-    <small>03/07 17:16</small>
-  </li>
-
   <li data-source="Metrópoles">
     <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/negocios/dolar-e-o-menor-em-mais-de-um-ano-e-bolsa-bate-novo-recorde-historico" target=_blank>Dólar é o menor em mais de um ano e Bolsa bate novo recorde histórico</a><br>
     <small>03/07 17:12</small>
@@ -930,28 +626,13 @@
   </li>
 
   <li data-source="Estadão">
-    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/economia/pedro-fernando-nery/cnj-incubadora-privilegios/" target=_blank>Pedro Fernando Nery: ‘O CNJ parece ter virado uma incubadora de privilégios’, diz Pedro Fernando Nery</a><br>
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/economia/pedro-fernando-nery/cnj-incubadora-privilegios/" target=_blank>Pedro Fernando Nery: </a><br>
     <small>03/07 17:00</small>
-  </li>
-
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/pf-questiona-ex-assessor-de-bolsonaro-sobre-apoiadores-no-gabinete-do-odio/" target=_blank>PF questiona ex-assessor de Bolsonaro sobre apoiadores no gabinete do ódio</a><br>
-    <small>03/07 16:40</small>
   </li>
 
   <li data-source="Globo">
     <strong>[Globo]</strong> <a href="https://oglobo.globo.com/politica/noticia/2025/07/03/apos-acao-do-psol-sobre-iof-alcolumbre-defende-limitar-acoes-de-partidos-contra-medidas-do-congresso.ghtml" target=_blank>Após ação do PSOL sobre IOF, Alcolumbre defende limitar ações de partidos contra medidas do Congresso</a><br>
     <small>03/07 16:37</small>
-  </li>
-
-  <li data-source="Estadão">
-    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/economia/fraude-inss-toffoli-homologa-acordo-ressarcir-aposentados/" target=_blank>INSS: Toffoli dá aval a acordo para ressarcir aposentados e autoriza pagamentos fora da regra fiscal</a><br>
-    <small>03/07 16:37</small>
-  </li>
-
-  <li data-source="Estadão">
-    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/economia/financiamento-imobiliario-reforma-poupanca-captacao-banco-central/" target=_blank>BC avalia reforma da poupança e novas formas de conseguir recursos para financiar casa própria</a><br>
-    <small>03/07 16:35</small>
   </li>
 
   <li data-source="Metrópoles">
@@ -967,16 +648,6 @@
   <li data-source="Folha">
     <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2025/07/toffoli-aprova-plano-de-devolucao-a-aposentados-do-inss-com-aval-a-pagamento-fora-do-teto.shtml" target=_blank>Toffoli aprova plano de devolução a aposentados do INSS com aval a pagamento fora do teto</a><br>
     <small>03/07 16:34</small>
-  </li>
-
-  <li data-source="Estadão">
-    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/economia/aumento-conta-luz-4-vezes-inflacao-25-anos-estudo-abrace/" target=_blank>Aumento da conta de luz é 4 vezes o da inflação, em 25 anos, aponta estudo da Abrace</a><br>
-    <small>03/07 16:33</small>
-  </li>
-
-  <li data-source="Estadão">
-    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/blog-do-fausto-macedo/toffoli-homologa-plano-do-governo-para-ressarcimento-de-aposentados-vitimas-de-fraudes/" target=_blank>Toffoli homologa plano do governo para ressarcimento de aposentados vítimas de fraudes</a><br>
-    <small>03/07 16:31</small>
   </li>
 
   <li data-source="Metrópoles">
@@ -1009,21 +680,6 @@
     <small>03/07 16:12</small>
   </li>
 
-  <li data-source="Estadão">
-    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/andre-mendonca-defende-stf-deve-repensar-seu-papel-nprp/" target=_blank>André Mendonça defende que STF deve repensar seu papel</a><br>
-    <small>03/07 16:07</small>
-  </li>
-
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/toffoli-homologa-proposta-da-uniao-para-ressarcir-beneficiarios-do-inss/" target=_blank>Toffoli homologa proposta da União para ressarcir beneficiários do INSS</a><br>
-    <small>03/07 16:06</small>
-  </li>
-
-  <li data-source="Estadão">
-    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/alcolumbre-ira-apresentar-proposta-para-restringir-quem-pode-contestar-decisao-do-legislativo-no-stf/" target=_blank>Alcolumbre irá apresentar proposta para restringir quem pode contestar decisão do Legislativo no STF</a><br>
-    <small>03/07 16:04</small>
-  </li>
-
   <li data-source="Globo">
     <strong>[Globo]</strong> <a href="https://oglobo.globo.com/blogs/miriam-leitao/post/2025/07/entenda-o-que-esta-levando-bancos-e-corretoras-a-reduzirem-estimativas-para-inflacao-dolar-e-ate-para-os-juros-este-ano.ghtml" target=_blank>Miriam Leitao: Entenda o que está levando bancos e corretoras a reduzirem estimativas para inflação, dólar e até para os juros este ano</a><br>
     <small>03/07 16:02</small>
@@ -1032,11 +688,6 @@
   <li data-source="Metrópoles">
     <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/parintins-deputado-diz-que-governo-ignorou-alerta-de-preco-de-voos" target=_blank>Parintins: deputado diz que governo ignorou alerta de preço de voos</a><br>
     <small>03/07 16:02</small>
-  </li>
-
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/ouro-fecha-em-queda-com-payroll-acima-do-esperado-e-dolar-forte/" target=_blank>Ouro fecha em queda com payroll acima do esperado e dólar forte</a><br>
-    <small>03/07 16:01</small>
   </li>
 
   <li data-source="Metrópoles">
@@ -1059,19 +710,9 @@
     <small>03/07 15:45</small>
   </li>
 
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/macroeconomia/plano-safra-2025-26-preve-r-1885-bi-em-lcas-alvo-de-taxacao-do-governo/" target=_blank>Plano Safra 2025/26 prevê R$ 188,5 bi em LCAs, alvo de taxação do governo</a><br>
-    <small>03/07 15:43</small>
-  </li>
-
   <li data-source="Globo">
     <strong>[Globo]</strong> <a href="https://oglobo.globo.com/blogs/lauro-jardim/post/2025/07/deputado-do-pl-pede-que-mp-sp-investigue-ocupacao-de-sede-do-itau-na-faria-lima.ghtml" target=_blank>Lauro Jardim: Deputado do MBL pede que MP-SP investigue ocupação de sede do Itaú na Faria Lima</a><br>
     <small>03/07 15:38</small>
-  </li>
-
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/michelle-ligou-a-lider-do-pl-pedindo-que-evitem-contato-com-bolsonaro/" target=_blank>Michelle ligou a líder do PL pedindo que evitem contato com Bolsonaro</a><br>
-    <small>03/07 15:33</small>
   </li>
 
   <li data-source="Metrópoles">
@@ -1104,11 +745,6 @@
     <small>03/07 14:59</small>
   </li>
 
-  <li data-source="Estadão">
-    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/economia/imposto-de-renda-lira-diz-que-fechou-esboco-do-texto-que-sera-apresentado-a-comissao-na-camara/" target=_blank>Imposto de Renda: Lira diz que fechou esboço do texto que será apresentado em comissão na Câmara</a><br>
-    <small>03/07 14:53</small>
-  </li>
-
   <li data-source="Veja">
     <strong>[Veja]</strong> <a href="https://veja.abril.com.br/coluna/radar/debate-vai-reunir-governadores-que-disputam-espolio-eleitoral-de-bolsonaro/" target=_blank>Radar: Debate vai reunir governadores que disputam espólio eleitoral de Bolsonaro</a><br>
     <small>03/07 14:50</small>
@@ -1124,19 +760,9 @@
     <small>03/07 14:45</small>
   </li>
 
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/lira-critica-stf-por-priorizar-tema-a-b-c-d-e-atuacao-sobre-orcamento/" target=_blank>Lira critica STF por priorizar "tema A, B, C, D" e atuação sobre orçamento</a><br>
-    <small>03/07 14:35</small>
-  </li>
-
   <li data-source="Folha">
     <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2025/07/andre-mendonca-diz-que-stf-deve-repensar-seu-papel-atual-de-processar-e-julgar-crimes.shtml" target=_blank>André Mendonça diz que STF deve repensar seu papel atual de processar e julgar crimes</a><br>
     <small>03/07 14:31</small>
-  </li>
-
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/lula-deve-nomear-primeira-ministra-negra-como-titular-no-tse/" target=_blank>Lula deve nomear primeira ministra negra como titular no TSE</a><br>
-    <small>03/07 14:28</small>
   </li>
 
   <li data-source="Metrópoles">
@@ -1152,21 +778,6 @@
   <li data-source="Globo">
     <strong>[Globo]</strong> <a href="https://oglobo.globo.com/economia/noticia/2025/07/03/vaca-muerta-governo-de-javier-milei-aposta-alto-no-petroleo-argentino.ghtml" target=_blank>Vaca Muerta: governo de Javier Milei aposta alto no petróleo argentino</a><br>
     <small>03/07 14:13</small>
-  </li>
-
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/moraes-autoriza-brazao-a-deixar-prisao-domiciliar-para-ir-ao-dentista/" target=_blank>Moraes autoriza Brazão a deixar prisão domiciliar para ir ao dentista</a><br>
-    <small>03/07 14:12</small>
-  </li>
-
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/cpmi-do-inss-pl-enfrenta-disputa-por-vagas-enquanto-pt-ja-definiu-nomes/" target=_blank>CPMI do INSS: PL enfrenta disputa por vagas enquanto PT já definiu nomes</a><br>
-    <small>03/07 14:05</small>
-  </li>
-
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/e-preciso-discutir-o-brasil-nao-lula-ou-bolsonaro-diz-eduardo-leite/" target=_blank>É preciso discutir o Brasil, não Lula ou Bolsonaro, diz Eduardo Leite</a><br>
-    <small>03/07 14:02</small>
   </li>
 
   <li data-source="Metrópoles">
@@ -1199,11 +810,6 @@
     <small>03/07 13:32</small>
   </li>
 
-  <li data-source="Estadão">
-    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/economia/iof-para-regular-ou-arrecadar-governo-adota-vies-duplo-e-expoe-debate-que-sera-chave-em-acao-no-stf/" target=_blank>IOF para regular ou arrecadar? Governo adota viés duplo e expõe debate que será chave em ação no STF</a><br>
-    <small>03/07 13:31</small>
-  </li>
-
   <li data-source="Globo">
     <strong>[Globo]</strong> <a href="https://oglobo.globo.com/politica/noticia/2025/07/03/movimento-de-esquerda-invade-saguao-de-predio-da-faria-lima-em-protesto-pela-taxacao-de-super-ricos.ghtml" target=_blank>Movimento de esquerda invade saguão de prédio da Faria Lima em protesto pela taxação de super-ricos</a><br>
     <small>03/07 13:30</small>
@@ -1214,19 +820,9 @@
     <small>03/07 13:23</small>
   </li>
 
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/macroeconomia/xp-antecipa-previsao-de-inicio-de-cortes-de-juros-para-janeiro/" target=_blank>XP antecipa previsão de início de cortes de juros para janeiro</a><br>
-    <small>03/07 13:08</small>
-  </li>
-
   <li data-source="Estadão">
-    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/economia/alexandre-schwartsman/iof-narrativa-imposto-respaldo-realidade/" target=_blank>Alexandre Schwartsman: O IOF e a ‘narrativa’: dizer que imposto afeta só morador da cobertura não tem respaldo na realidade</a><br>
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/economia/alexandre-schwartsman/iof-narrativa-imposto-respaldo-realidade/" target=_blank>Alexandre Schwartsman: </a><br>
     <small>03/07 13:06</small>
-  </li>
-
-  <li data-source="Estadão">
-    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/lula-avalia-lavar-as-maos-para-nao-sancionar-nem-vetar-projeto-que-amplia-numero-de-deputados/" target=_blank>Lula avalia ‘lavar as mãos’ para não sancionar nem vetar projeto que amplia número de deputados</a><br>
-    <small>03/07 13:03</small>
   </li>
 
   <li data-source="Folha">
@@ -1264,11 +860,6 @@
     <small>03/07 12:40</small>
   </li>
 
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/macroeconomia/governo-planeja-leilao-para-zerar-passivo-de-r-1-bi-de-risco-hidrologico/" target=_blank>Governo planeja leilão para zerar passivo de R$ 1 bi de risco hidrológico</a><br>
-    <small>03/07 12:38</small>
-  </li>
-
   <li data-source="Globo">
     <strong>[Globo]</strong> <a href="https://oglobo.globo.com/blogs/miriam-leitao/post/2025/07/apesar-das-discordancias-milei-e-lula-encontraram-pontos-de-contato-na-reuniao-do-mercosul.ghtml" target=_blank>Miriam Leitao: Apesar das discordâncias, Milei e Lula encontraram pontos de contato na reunião do Mercosul</a><br>
     <small>03/07 12:35</small>
@@ -1279,11 +870,6 @@
     <small>03/07 12:33</small>
   </li>
 
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/nacional/nordeste/ma/inss-grupo-e-alvo-da-pf-por-forjar-aposentadorias-e-pensoes-por-morte/" target=_blank>INSS: grupo é alvo da PF por forjar aposentadorias e pensões por morte</a><br>
-    <small>03/07 12:28</small>
-  </li>
-
   <li data-source="Globo">
     <strong>[Globo]</strong> <a href="https://oglobo.globo.com/politica/noticia/2025/07/03/pt-lanca-site-para-cadastro-de-influenciadores-pro-governo-apos-encontro-online-com-dirigentes-do-partido.ghtml" target=_blank>PT lança site para cadastro de influenciadores pró-governo após encontro online com dirigentes do partido</a><br>
     <small>03/07 12:28</small>
@@ -1292,16 +878,6 @@
   <li data-source="Metrópoles">
     <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/em-meio-a-crise-governo-libera-mais-emendas-e-alcanca-r-5-bilhoes" target=_blank>Em meio a crise, governo libera mais emendas e alcança R$ 5 bilhões</a><br>
     <small>03/07 12:26</small>
-  </li>
-
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/macroeconomia/pedidos-semanais-de-auxilio-desemprego-nos-eua-tem-recorde-de-queda/" target=_blank>Pedidos semanais de auxílio-desemprego nos EUA têm recorde de queda</a><br>
-    <small>03/07 12:25</small>
-  </li>
-
-  <li data-source="Estadão">
-    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/blog-do-fausto-macedo/juiza-rejeita-denuncia-que-sua-colega-ja-havia-recebido-contra-fiscal-flagrado-com-propina/" target=_blank>Juíza rejeita denúncia que sua colega já havia recebido contra fiscal flagrado com propina</a><br>
-    <small>03/07 12:23</small>
   </li>
 
   <li data-source="Metrópoles">
@@ -1374,42 +950,12 @@
     <small>03/07 11:16</small>
   </li>
 
-  <li data-source="CNN Brasil">
-    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/macroeconomia/lula-defende-moedas-locais-no-mercosul-e-diz-que-bloco-deve-olhar-para-asia/" target=_blank>Lula defende moedas locais no Mercosul e diz que bloco deve olhar para Ásia</a><br>
-    <small>03/07 11:12</small>
-  </li>
-
   <li data-source="Metrópoles">
     <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/mundo/mercosul-lula-pede-cooperacao-para-coibir-multinacionais-do-crime" target=_blank>Mercosul: Lula pede cooperação para coibir “multinacionais do crime”</a><br>
     <small>03/07 11:05</small>
   </li>
 
 </ul>
-<script>
-  const tabs = Array.from(document.querySelectorAll('.tab'));
-  const items = document.querySelectorAll('li[data-source]');
-  tabs.forEach(tab => {
-    tab.addEventListener('click', () => {
-      const src = tab.getAttribute('data-source');
-      if (src === 'all') {
-        tabs.forEach(t => t.classList.remove('active'));
-        tab.classList.add('active');
-      } else {
-        tab.classList.toggle('active');
-        const allTab = tabs.find(t => t.getAttribute('data-source')==='all');
-        const anyActive = tabs.some(t => t!==allTab && t.classList.contains('active'));
-        anyActive ? allTab.classList.remove('active') : allTab.classList.add('active');
-      }
-      const activeSources = tabs
-        .filter(t => t.classList.contains('active') && t.getAttribute('data-source')!=='all')
-        .map(t => t.getAttribute('data-source'));
-      const showAll = tabs.find(t => t.getAttribute('data-source')==='all').classList.contains('active');
-      items.forEach(li => {
-        const s = li.getAttribute('data-source');
-        li.classList.toggle('hidden', !showAll && !activeSources.includes(s));
-      });
-    });
-  });
-</script>
+<script>/* script de tabs */</script>
 </body>
 </html>
