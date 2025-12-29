@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang=pt-br>
+<head>
+  <meta charset=utf-8>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clipping – Últimas</title>
+  <style>
+    body { font-family:Arial,sans-serif;margin:2rem;line-height:1.5 }
+    .tabs { margin-bottom:1rem; }
+    .tab { margin-right:.5rem;padding:.5rem 1rem;cursor:pointer;background:#eee;border:none;border-radius:4px }
+    .tab.active { background:#ddd;font-weight:bold }
+    ul { margin-left:0;padding-left:0;list-style-position:inside }
+    li { margin:.5rem 0 }
+    li.hidden { display:none }
+    small { color:#666 }
+    a { color:#064;text-decoration:none }
+    a:hover { text-decoration:underline }
+    @media screen and (max-width:768px) {
+      html { font-size:18px }
+      body { margin:1rem }
+      h1 { font-size:1.2rem }
+      .tab { font-size:0.8rem;color:#000 }
+    }
+  </style>
+</head>
+<body>
+<h1>Notícias Brasil - Filtradas</h1>
+<p><small>29/12 04:25</small></p>
+<div class="tabs">
+  <button class="tab active" data-source="all">Todos</button>
+  
+    <button class="tab" data-source="Valor">Valor</button>
+  
+    <button class="tab" data-source="Folha">Folha</button>
+  
+    <button class="tab" data-source="Globo">Globo</button>
+  
+    <button class="tab" data-source="Estadão">Estadão</button>
+  
+    <button class="tab" data-source="CNN Brasil">CNN Brasil</button>
+  
+    <button class="tab" data-source="Veja">Veja</button>
+  
+    <button class="tab" data-source="Metrópoles">Metrópoles</button>
+  
+    <button class="tab" data-source="UOL">UOL</button>
+  
+</div>
+<ul>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/economia/noticia/2025/12/29/governo-quer-retomar-discussao-de-titulos-isentos-e-debater-tributacao-para-empresas-em-2026.ghtml" target=_blank>Governo quer retomar discussão de títulos isentos e debater tributação para empresas em 2026</a><br>
+    <small>29/12 04:01</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/economia/noticia/2025/12/29/a-regra-do-jogo-bets-entram-em-mercado-regulado-e-viram-alvo-do-governo-na-questao-fiscal.ghtml" target=_blank>A regra do jogo: bets entram em mercado regulado e viram alvo do governo na questão fiscal</a><br>
+    <small>29/12 04:00</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/blogs/malu-gaspar/post/2025/12/acareacao-de-toffoli-ajuda-plano-da-defesa-do-master-para-desmontar-investigacao-de-fraude.ghtml" target=_blank>Malu Gaspar: Acareação de Toffoli ajuda plano da defesa do Master para desmontar investigação de fraude</a><br>
+    <small>29/12 04:00</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/politica/noticia/2025/12/29/lula-avalia-compra-de-novo-aviao-presidencial-apos-tres-incidentes-mas-aliados-temem-desgastes-em-ano-de-eleicao.ghtml" target=_blank>Lula avalia compra de novo avião presidencial após três incidentes, mas aliados temem desgastes em ano de eleição</a><br>
+    <small>29/12 03:30</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/sao-paulo/cpmi-do-inss-politicos-bancos" target=_blank>CPMI do INSS esbarra em HCs, não atinge políticos e agora mira bancos</a><br>
+    <small>29/12 03:00</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/distrito-federal/inss-empresa-que-movimentou-milhoes-funcionava-em-endereco-fantasma" target=_blank>INSS: empresa que movimentou milhões funcionava em endereço fantasma</a><br>
+    <small>29/12 02:58</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/sao-paulo/tarcisio-2026-plano-b-bolsonarismo" target=_blank>Tarcísio inicia 2026 imerso em SP, mas como plano B do bolsonarismo</a><br>
+    <small>29/12 02:15</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/bolsonaro-faz-novo-procedimento-e-deve-passar-ano-novo-hospitalizado" target=_blank>Bolsonaro faz novo procedimento e deve passar Ano-Novo hospitalizado</a><br>
+    <small>29/12 02:01</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/colunas/tacio-lorran/careca-do-inss-mensagem-revela-orientacao-a-atual-assessor-de-lula" target=_blank>Tacio Lorran: Careca do INSS: mensagem revela “orientação” a atual assessor de Lula</a><br>
+    <small>29/12 02:00</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/colunas/igor-gadelha/senador-do-pl-pretende-contrariar-bolsonaro-e-concorrer-a-governador" target=_blank>Igor Gadelha: Senador do PL pretende contrariar Bolsonaro e concorrer a governador</a><br>
+    <small>29/12 02:00</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/mundo/brasil-tarifas-trump" target=_blank>Brasil esfria crise política e resiste ao tarifaço de Trump</a><br>
+    <small>29/12 02:00</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/oposicao-tenta-driblar-recesso-e-ampliar-pressao-sobre-moraes" target=_blank>Oposição tenta driblar recesso e ampliar pressão sobre Moraes</a><br>
+    <small>29/12 02:00</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/datafolha-24-dos-eleitores-tem-o-pt-como-partido-preferido-12-o-pl/" target=_blank>Datafolha: 24% dos eleitores têm o PT como partido preferido; 12% o PL</a><br>
+    <small>29/12 00:32</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/politica/noticia/2025/12/29/bolsonaro-faz-nova-intervencao-apos-dias-internado-para-tentar-conter-crises-de-soluco-entenda.ghtml" target=_blank>Bolsonaro faz nova intervenção após dias internado para tentar conter crises de soluço; entenda</a><br>
+    <small>29/12 00:00</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/bolsonaro-deve-passar-hoje-por-novo-procedimento-para-conter-solucos/" target=_blank>Bolsonaro deve passar hoje por novo procedimento para conter soluços</a><br>
+    <small>29/12 00:00</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/mundo/noticia/2025/12/29/discreto-representante-dos-eua-em-brasilia-tem-papel-secundario-em-tarifaco.ghtml" target=_blank>Discreto, representante dos EUA em Brasília tem papel secundário em tarifaço</a><br>
+    <small>29/12 00:00</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/economia/noticia/2025/12/29/governo-libera-saque-aniversario-do-fgts-a-partir-desta-segunda-veja-como-receber.ghtml" target=_blank>Governo libera saque-aniversário do FGTS a partir desta segunda. Veja como receber</a><br>
+    <small>29/12 00:00</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2025/12/como-a-reforma-tributaria-afeta-o-preco-dos-imoveis.shtml" target=_blank>Como a reforma tributária afeta o preço dos imóveis?</a><br>
+    <small>28/12 23:00</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2025/12/datafolha-pt-e-partido-preferido-de-24-dos-eleitores-e-pl-fica-em-segundo-com-12.shtml" target=_blank>Datafolha: PT é partido preferido de 24% dos eleitores, e PL fica em segundo, com 12%</a><br>
+    <small>28/12 23:00</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2025/12/lider-em-desmate-ro-recebe-1-a-cada-3-maquinas-pesadas-pagas-com-emendas-na-amazonia.shtml" target=_blank>Líder em desmate, RO recebe 1 a cada 3 máquinas pesadas pagas com emendas na Amazônia</a><br>
+    <small>28/12 23:00</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2025/12/deputada-bolsonarista-reclama-de-resposta-do-governo-a-pedidos-de-informacao.shtml" target=_blank>Painel: Deputada bolsonarista reclama de resposta do governo a pedidos de informação</a><br>
+    <small>28/12 21:00</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/economista-critica-forma-como-caso-master-chegou-ao-stf-e-ve-coacao-do-bc/" target=_blank>Economista critica forma como caso Master chegou ao STF e vê coação do BC</a><br>
+    <small>28/12 19:32</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/brasil/lula-sanciona-lei-que-libera-poda-de-arvore-quando-orgao-publico-se-omitir/" target=_blank>Lula sanciona lei que libera poda de árvore quando órgão público se omitir</a><br>
+    <small>28/12 19:21</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2025/12/bc-avalia-entrar-com-mandado-de-seguranca-no-stf-para-evitar-acareacao.shtml" target=_blank>BC avalia entrar com mandado de segurança no STF para evitar acareação</a><br>
+    <small>28/12 18:31</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/michelle-bolsonaro-pede-oracoes-por-jair-nao-teve-noite-boa" target=_blank>Michelle Bolsonaro pede orações por Jair: “Não teve noite boa”</a><br>
+    <small>28/12 18:01</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2025/12/governo-aposta-em-programas-para-baixa-renda-para-alavancar-popularidade-de-lula.shtml" target=_blank>Painel: Governo aposta em programas para baixa renda para alavancar popularidade de Lula</a><br>
+    <small>28/12 18:00</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/politica/noticia/2025/12/28/oposicao-anuncia-pedido-de-impeachment-do-ministro-do-stf-alexandre-de-moraes.ghtml" target=_blank>Oposição quer protocolar pedido de impeachment de Moraes, afirma deputado Cabo Gilberto</a><br>
+    <small>28/12 17:50</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/equilibrioesaude/2025/12/entenda-o-procedimento-que-deve-ser-feito-nesta-segunda-para-tratar-crise-de-solucos-de-bolsonaro.shtml" target=_blank>Entenda o procedimento que deve ser feito nesta segunda para tratar crise de soluços de Bolsonaro</a><br>
+    <small>28/12 17:47</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/politica/noticia/2025/12/28/bolsonaro-volta-a-ter-crise-de-soluos-aps-procedimento-aponta-boletim-mdico.ghtml" target=_blank>Bolsonaro volta a ter crise de soluços após procedimento, aponta boletim médico</a><br>
+    <small>28/12 17:40</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/blogs/brasilia-hoje/2025/12/bolsonaro-esta-estavel-e-sem-solucos-apos-crise-a-noite-diz-boletim.shtml" target=_blank>Brasilia Hoje: Bolsonaro está estável e sem soluços após crise à noite, diz boletim</a><br>
+    <small>28/12 17:23</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/rio/noticia/2025/12/28/calor-extremo-no-rio-leva-o-governo-do-estado-a-montar-pontos-publicos-de-hidratacao.ghtml" target=_blank>Calor extremo no Rio leva o governo do  Estado a montar pontos públicos de hidratação</a><br>
+    <small>28/12 17:16</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/politica/noticia/2025/12/28/michelle-diz-que-bolsonaro-nao-teve-noite-boa-com-crise-de-solucos-sem-parar-grande-exaustao.ghtml" target=_blank>Michelle diz que Bolsonaro 'não teve noite boa' com crise de soluços sem parar: 'Grande exaustão'</a><br>
+    <small>28/12 17:11</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/bolsonaro-tem-nova-crise-de-solucos-mas-quadro-e-estavel-diz-boletim-medico/" target=_blank>Bolsonaro tem nova crise de soluços, mas quadro é estável, diz boletim médico</a><br>
+    <small>28/12 17:02</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/brasil/serial-killer-da-rotatoria-foge-de-prisao-de-seguranca-maxima-governo-ve-elo-de-detento-com-o-pcc-npr/" target=_blank>‘Serial killer da rotatória’ foge de prisão de segurança máxima; governo vê elo de detento com o PCC</a><br>
+    <small>28/12 17:01</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/economia/luis-eduardo-assis/e-mais-dificil-do-que-parece/" target=_blank>É mais difícil do que parece: País precisa encarar o desafio de debater um novo pacto fiscal</a><br>
+    <small>28/12 17:00</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/boletim-medico-atualiza-estado-de-saude-de-bolsonaro-neste-domingo" target=_blank>Boletim médico atualiza estado de saúde de Bolsonaro neste domingo</a><br>
+    <small>28/12 16:57</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/politica/noticia/2025/12/28/boletim-bolsonaro.ghtml" target=_blank>Hospital divulga boletim médico sobre Bolsonaro</a><br>
+    <small>28/12 16:45</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/opiniao/rss091/*https://www1.folha.uol.com.br/colunas/luizfelipeponde/2025/12/stf-lanca-sua-sombra-sobre-a-acropole-dizendo-se-filho-unico-de-atenas.shtml" target=_blank>Luizfelipeponde: STF lança sua sombra sobre a Acrópole, dizendo-se filho único de Atenas</a><br>
+    <small>28/12 16:00</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/caso-master-era-tao-grave-que-bc-partiu-direto-para-a-liquidacao-diz-ex-bc/" target=_blank>Caso Master era tão grave que BC partiu direto para a liquidação, diz ex-BC</a><br>
+    <small>28/12 14:45</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/politica/noticia/2025/12/28/pp-avalia-romper-com-tarcsio-e-lanar-candidatura-prpria-ao-governo-de-so-paulo.ghtml" target=_blank>PP avalia romper com Tarcísio e lançar candidatura própria ao governo de São Paulo</a><br>
+    <small>28/12 14:29</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2025/12/associacao-de-auditores-do-bc-diz-ser-dificil-entender-acareacao-no-caso-master.shtml" target=_blank>Painel: Associação de auditores do BC diz ser difícil entender acareação no caso Master</a><br>
+    <small>28/12 14:00</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/politica/noticia/2025/12/28/flavio-bolsonaro-busca-ex-ministros-marcal-e-politicos-com-transito-no-mercado.ghtml" target=_blank>Flávio Bolsonaro busca ex-ministros, Marçal e políticos com trânsito no mercado</a><br>
+    <small>28/12 13:59</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/bolsonaro-esta-estavel-e-sem-solucos-novo-procedimento-esta-marcado/" target=_blank>Bolsonaro está estável e sem soluços; novo procedimento deve acontecer</a><br>
+    <small>28/12 13:57</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2025/12/flavio-bolsonaro-busca-ex-ministros-marcal-e-politicos-com-transito-no-mercado.shtml" target=_blank>Flávio Bolsonaro busca ex-ministros, Marçal e políticos com trânsito no mercado</a><br>
+    <small>28/12 13:00</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/pp-avalia-romper-com-tarcisio-por-descontentamento-e-lancar-candidatura-propria-em-sp/" target=_blank>PP avalia romper com Tarcísio por ‘descontentamento’ e lançar candidatura própria em SP</a><br>
+    <small>28/12 12:49</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/macroeconomia/febraban-e-entidades-criticam-toffoli-e-defendem-acao-do-bc-no-master/" target=_blank>Febraban e entidades criticam Toffoli e defendem ação do BC no Master</a><br>
+    <small>28/12 12:41</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/gastronomia/lasanha-e-prato-ideal-para-almoco-em-familia-e-esta-receita-e-perfeita" target=_blank>Lasanha é prato ideal para almoço em família e esta receita é perfeita</a><br>
+    <small>28/12 11:47</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/mundo/noticia/2025/12/28/mesmo-devastada-pela-guerra-civil-mianmar-encerra-primeiro-turno-das-eleicoes-chefiadas-pela-junta-militar.ghtml" target=_blank>Mesmo devastada pela guerra civil, Mianmar encerra primeiro turno das eleições chefiadas pela junta militar</a><br>
+    <small>28/12 11:47</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/lula-sanciona-lei-que-torna-obrigatoria-coleta-de-dna-de-condenados" target=_blank>Lula sanciona lei que torna obrigatória coleta de DNA de condenados</a><br>
+    <small>28/12 11:29</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/politica/noticia/2025/12/28/conheca-a-mansao-de-r-36-milhoes-em-que-vorcaro-recebeu-alexandre-de-moraes-e-outros-politicos-em-brasilia.ghtml" target=_blank>Conheça a mansão de R$ 36 milhões em que Vorcaro recebeu Alexandre de Moraes e outros políticos em Brasília</a><br>
+    <small>28/12 11:00</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/financas/economizar-e-principal-meta-de-brasileiros-para-2026-mostra-datafolha/" target=_blank>Economizar é principal meta de brasileiros para 2026, mostra Datafolha</a><br>
+    <small>28/12 10:38</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/negocios/master-anbima-engrossa-coro-e-defende-autonomia-e-independencia-do-bc" target=_blank>Master: Anbima engrossa coro e defende autonomia e independência do BC</a><br>
+    <small>28/12 10:32</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/mundo/noticia/2025/12/28/chefe-da-junta-militar-de-mianmar-diz-que-eleies-so-livres-e-justas.ghtml" target=_blank>Chefe da junta militar de Mianmar diz que eleições são 'livres e justas'</a><br>
+    <small>28/12 10:21</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/conteudo-de-marca/petrobras/energia-em-transicao/noticia/2025/12/28/fundo-de-investimento-formado-por-petrobras-bndes-e-finep-abre-novos-caminhos-para-a-transicao-energetica.ghtml" target=_blank>Fundo de investimento formado por Petrobras, BNDES e Finep abre novos caminhos para a transição energética</a><br>
+    <small>28/12 10:21</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/otimismo-69-projetam-melhoras-pessoais-em-2026-aponta-datafolha" target=_blank>Otimismo: 69% projetam melhoras pessoais em 2026; aponta Datafolha</a><br>
+    <small>28/12 10:18</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/politica/noticia/2025/12/28/pp-cobra-tarcisio-por-falta-de-atencao-e-ameaca-lancar-candidatura-propria-ao-governo-de-sp.ghtml" target=_blank>PP cobra Tarcísio por 'falta de atenção' e ameaça lançar candidatura própria ao governo de SP</a><br>
+    <small>28/12 09:50</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/lula-ou-flavio-centrao-decidira-apoio-eleitoral-de-2026-ate-marco" target=_blank>Lula ou Flávio: Centrão decidirá apoio eleitoral de 2026 até março</a><br>
+    <small>28/12 08:28</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/nacional/brasil/datafolha-69-dos-brasileiros-esperam-melhora-na-vida-pessoal-em-2026/" target=_blank>Datafolha: 69% dos brasileiros esperam melhora na vida pessoal em 2026</a><br>
+    <small>28/12 08:22</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/macroeconomia/governo-federal-destina-r-536-milhoes-para-a-telebras/" target=_blank>Governo federal destina R$ 53,6 milhões para a Telebras</a><br>
+    <small>28/12 08:14</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/macroeconomia/milei-comemora-aprovacao-do-orcamento-para-2026-feito-historico/" target=_blank>Milei comemora aprovação do orçamento para 2026: "feito histórico"</a><br>
+    <small>28/12 08:13</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/lula-sanciona-lei-que-libera-poda-de-arvore-quando-orgao-publico-se-omitir/" target=_blank>Lula sanciona lei que libera poda de árvore quando órgão público se omitir</a><br>
+    <small>28/12 08:11</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/blogs/lauro-jardim/post/2025/12/gilmar-mendes-e-o-unico-ministro-a-defender-moraes-ate-agora.ghtml" target=_blank>Lauro Jardim: Gilmar Mendes é o único ministro a defender Moraes até agora</a><br>
+    <small>28/12 08:00</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/apos-tratar-soluco-bolsonaro-fara-nova-intervencao-na-segunda-entenda/" target=_blank>Após tratar soluço, Bolsonaro fará nova intervenção na segunda; entenda</a><br>
+    <small>28/12 07:59</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/lula-sanciona-lei-que-amplia-coleta-de-dna-de-condenados/" target=_blank>Lula sanciona lei que amplia coleta de DNA de condenados</a><br>
+    <small>28/12 07:38</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2025/12/governo-lula-repete-mote-de-tarcisio-em-pecas-publicitarias.shtml" target=_blank>Painel: Governo Lula repete mote de Tarcísio em peças publicitárias</a><br>
+    <small>28/12 06:00</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/blog-do-noblat/ricardo-noblat/lula-entra-2016-nao-com-o-pe-direito-mas-com-os-dois-na-porta" target=_blank>Lula entra 2016 não com o pé direito, mas com os dois na porta</a><br>
+    <small>28/12 05:30</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/coluna-do-estadao/minha-casa-minha-vida-desbanca-bolsa-familia-e-vira-trunfo-de-lula-para-campanha-de-2026/" target=_blank>Minha Casa, Minha Vida desbanca Bolsa Família e vira trunfo de Lula para campanha de 2026</a><br>
+    <small>28/12 05:30</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/macroeconomia/safra-favorece-mas-cambio-deve-impedir-nova-tregua-de-alimentos-a-inflacao-de-2026/" target=_blank>Safra favorece, mas câmbio deve impedir nova trégua de alimentos à inflação</a><br>
+    <small>28/12 05:27</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/blogs/lauro-jardim/post/2025/12/em-mansao-vorcaro-recebeu-alexandre-de-moraes-e-politicos-para-jantar.ghtml" target=_blank>Lauro Jardim: Em mansão, Vorcaro recebeu Alexandre de Moraes e políticos para jantar</a><br>
+    <small>28/12 05:26</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/colunas/igor-gadelha/kataguiri-questiona-motta-de-olho-em-lideranca-para-o-missao" target=_blank>Igor Gadelha: Kataguiri questiona Motta de olho em liderança para o Missão</a><br>
+    <small>28/12 05:00</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/pp-avalia-deixar-tarcisio-e-lancar-candidato-proprio-ao-governo-de-sp/" target=_blank>PP avalia deixar Tarcísio e lançar candidato próprio ao governo de SP</a><br>
+    <small>28/12 05:00</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/colunas/andreza-matais/traidores-que-salvaram-glauber-braga-tiveram-10-a-mais-em-emendas" target=_blank>Andreza Matais: “Traidores” que salvaram Glauber Braga tiveram 10% a mais em emendas</a><br>
+    <small>28/12 05:00</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/blogs/merval-pereira/coluna/2025/12/limites-para-erros.ghtml" target=_blank>Merval Pereira: Limites para erros</a><br>
+    <small>28/12 04:30</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/blogs/miriam-leitao/coluna/2025/12/no-ataque-ao-bc-o-pais-corre-risco.ghtml" target=_blank>Miriam Leitao: No ataque ao BC, o país corre risco</a><br>
+    <small>28/12 04:30</small>
+  </li>
+
+</ul>
+<script>
+  const tabs = Array.from(document.querySelectorAll('.tab'));
+  const items = document.querySelectorAll('li[data-source]');
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      const src = tab.getAttribute('data-source');
+      if (src === 'all') {
+        tabs.forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+      } else {
+        tab.classList.toggle('active');
+        const allTab = tabs.find(t => t.getAttribute('data-source')==='all');
+        const anyActive = tabs.some(t => t!==allTab && t.classList.contains('active'));
+        anyActive ? allTab.classList.remove('active') : allTab.classList.add('active');
+      }
+      const activeSources = tabs
+        .filter(t => t.classList.contains('active') && t.getAttribute('data-source')!=='all')
+        .map(t => t.getAttribute('data-source'));
+      const showAll = tabs.find(t => t.getAttribute('data-source')==='all').classList.contains('active');
+      items.forEach(li => {
+        const s = li.getAttribute('data-source');
+        li.classList.toggle('hidden', !showAll && !activeSources.includes(s));
+      });
+    });
+  });
+</script>
+</body>
+</html>
