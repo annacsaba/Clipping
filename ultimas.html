@@ -1,0 +1,1343 @@
+<!doctype html>
+<html lang=pt-br>
+<head>
+  <meta charset=utf-8>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clipping – Últimas</title>
+  <style>
+    body { font-family:Arial,sans-serif;margin:2rem;line-height:1.5 }
+    .tabs { margin-bottom:1rem; }
+    .tab { margin-right:.5rem;padding:.5rem 1rem;cursor:pointer;background:#eee;border:none;border-radius:4px }
+    .tab.active { background:#ddd;font-weight:bold }
+    ul { margin-left:0;padding-left:0;list-style-position:inside }
+    li { margin:.5rem 0 }
+    li.hidden { display:none }
+    small { color:#666 }
+    a { color:#064;text-decoration:none }
+    a:hover { text-decoration:underline }
+    @media screen and (max-width:768px) {
+      html { font-size:18px }
+      body { margin:1rem }
+      h1 { font-size:1.2rem }
+      .tab { font-size:0.8rem;color:#000 }
+    }
+  </style>
+</head>
+<body>
+<h1>Notícias Brasil - Filtradas</h1>
+<p><small>08/01 02:15</small></p>
+<div class="tabs">
+  <button class="tab active" data-source="all">Todos</button>
+  
+    <button class="tab" data-source="Valor">Valor</button>
+  
+    <button class="tab" data-source="Folha">Folha</button>
+  
+    <button class="tab" data-source="Globo">Globo</button>
+  
+    <button class="tab" data-source="Estadão">Estadão</button>
+  
+    <button class="tab" data-source="CNN Brasil">CNN Brasil</button>
+  
+    <button class="tab" data-source="G1 Blogs">G1 Blogs</button>
+  
+    <button class="tab" data-source="Veja">Veja</button>
+  
+    <button class="tab" data-source="Metrópoles">Metrópoles</button>
+  
+    <button class="tab" data-source="UOL">UOL</button>
+  
+    <button class="tab" data-source="BrazilJournal">BrazilJournal</button>
+  
+</div>
+<ul>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/stf-tera-programacao-sobre-8-de-janeiro-apos-ato-de-lula-no-planalto" target=_blank>STF terá programação sobre 8 de Janeiro após ato de Lula no Planalto</a><br>
+    <small>08/01 02:00</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/colunas/igor-gadelha/ministros-do-tcu-expressam-preocupacao-com-futuro-indicado-pela-camara" target=_blank>Igor Gadelha: Ministros do TCU expressam preocupação com futuro indicado pela Câmara</a><br>
+    <small>08/01 02:00</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/8-1-mais-de-560-acordos-foram-firmados-e-homologados-pelo-stf" target=_blank>8/1: mais de 560 acordos foram firmados e homologados pelo STF</a><br>
+    <small>08/01 02:00</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/lula-comanda-ato-sobre-8-1-sob-expectativa-de-veto-ao-pl-da-dosimetria" target=_blank>Lula comanda ato sobre 8/1 sob expectativa de veto ao PL da Dosimetria</a><br>
+    <small>08/01 02:00</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/colunas/milena-teixeira/com-brasilia-vazia-planalto-convoca-servidores-para-ato-do-8-1" target=_blank>Milena Teixeira: Com Brasília vazia, Planalto convoca servidores para ato do 8/1</a><br>
+    <small>08/01 02:00</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/colunas/tacio-lorran/o-que-diz-lulinha-sobre-encomenda-enviada-por-careca-do-inss" target=_blank>Tacio Lorran: O que diz Lulinha sobre encomenda enviada por Careca do INSS</a><br>
+    <small>08/01 02:00</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/opiniao/editorial/coluna/2026/01/campanha-tenta-sabotar-autonomia-do-banco-central.ghtml" target=_blank>2026: Campanha tenta sabotar autonomia do Banco Central</a><br>
+    <small>08/01 00:10</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/politica/noticia/2026/01/08/lula-decide-vetar-projeto-de-lei-da-dosimetria-nesta-quinta.ghtml" target=_blank>Lula decide vetar projeto de lei da dosimetria nesta quinta</a><br>
+    <small>08/01 00:00</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/politica/noticia/2026/01/08/motta-e-alcolumbre-avaliam-ter-apoio-suficiente-para-derrubar-veto-de-lula-ao-projeto-da-dosimetria-dizem-aliados.ghtml" target=_blank>Motta e Alcolumbre avaliam ter apoio suficiente para derrubar veto de Lula ao projeto da dosimetria, dizem aliados</a><br>
+    <small>08/01 00:00</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/01/planalto-deve-deixar-para-partido-da-base-ida-ao-stf-contra-derrubada-de-veto-de-lula-a-pl-da-dosimetria.shtml" target=_blank>Planalto deve deixar para partido da base ida ao STF contra derrubada de veto de Lula a PL da Dosimetria</a><br>
+    <small>07/01 23:00</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/economia/noticia/2026/01/07/pf-vai-investigar-se-influenciadores-foram-contratados-para-atacar-o-bc-no-caso-master.ghtml" target=_blank>PF vai investigar se influenciadores foram contratados para atacar o BC no caso Master</a><br>
+    <small>07/01 22:41</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/economia/raul-velloso/estatais-sao-o-deficit-da-vez-na-fase-muito-dificil-da-area-fiscal-em-que-o-pais-tem-estado-imerso/" target=_blank>Estatais são o déficit da vez na fase muito difícil da área fiscal em que o País tem estado imerso</a><br>
+    <small>07/01 22:00</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/flavio-chama-moraes-de-negacionista-apos-decisao-contra-sindicancia" target=_blank>Flávio chama Moraes de “negacionista” após decisão contra sindicância do CFM</a><br>
+    <small>07/01 21:29</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/politica/noticia/2026/01/07/flavio-bolsonaro-cita-equivoco-apos-senado-custear-viagem-para-evento-de-pre-campanha-a-presidencia-em-sao-paulo.ghtml" target=_blank>Flávio Bolsonaro cita 'equívoco' após Senado custear viagem para evento de pré-campanha à presidência em São Paulo</a><br>
+    <small>07/01 20:58</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/colunas/adriana-fernandes/2026/01/o-que-a-indicacao-de-lula-para-a-cvm-tem-a-ver-com-o-caso-master.shtml" target=_blank>Adriana Fernandes: O que a indicação de Lula para a CVM tem a ver com o caso Master</a><br>
+    <small>07/01 20:35</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/opiniao/rss091/*https://www1.folha.uol.com.br/colunas/adriana-fernandes/2026/01/o-que-a-indicacao-de-lula-para-a-cvm-tem-a-ver-com-o-caso-master.shtml" target=_blank>Adriana Fernandes: O que a indicação de Lula para a CVM tem a ver com o caso Master</a><br>
+    <small>07/01 20:35</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/economia/empresa-de-marketing-em-brasilia-foi-quem-tentou-contratar-vereador-de-erechim-rs-para-atacar-bc-npr/" target=_blank>Empresa de marketing em Brasília contratou vereador para atacar Banco Central, diz TV</a><br>
+    <small>07/01 20:30</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/01/mello-araujo-projeta-veto-ao-pl-da-dosimetria-e-ataca-lula-por-indulto-natalino.shtml" target=_blank>Painel: Mello Araújo projeta veto ao PL da Dosimetria e ataca Lula por indulto natalino</a><br>
+    <small>07/01 20:24</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/governo-lula-esta-mirando-o-futuro-mas-preso-no-passado-diz-especialista/" target=_blank>Governo Lula está mirando o futuro, mas preso no passado, diz especialista</a><br>
+    <small>07/01 20:22</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/politica/noticia/2026/01/07/pf-comunica-ao-stf-que-apura-se-lulinha-atuou-como-socio-oculto-do-careca-do-inss.ghtml" target=_blank>PF comunica ao STF que apura se Lulinha atuou como 'sócio oculto' do careca do INSS</a><br>
+    <small>07/01 20:13</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/economia/banco-master-nao-comprovou-mais-de-250-mil-contratos-de-credito-consignado-do-inss/" target=_blank>Banco Master não comprovou mais de 250 mil contratos de crédito consignado do INSS</a><br>
+    <small>07/01 20:00</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/economia/alvaro-gribel/captura-maduro-trump-pode-virar-ganha-ganha-lula/" target=_blank>Alvaro Gribel: Captura de Maduro por Trump pode virar jogo de ganha-ganha para Lula</a><br>
+    <small>07/01 20:00</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/financas/noticia/2026/01/07/pf-vai-investigar-se-influenciadores-foram-contratados-para-atacar-bc-no-caso-master-e-quem-pagou.ghtml" target=_blank>PF vai investigar se influenciadores foram contratados para atacar BC no caso Master e quem pagou</a><br>
+    <small>07/01 19:57</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/colunas/milena-teixeira/pt-procura-mansao-em-brasilia-para-sediar-campanha-de-lula-a-reeleicao" target=_blank>Milena Teixeira: PT procura mansão em Brasília para sediar campanha de Lula à reeleição</a><br>
+    <small>07/01 19:54</small>
+  </li>
+
+  <li data-source="BrazilJournal">
+    <strong>[BrazilJournal]</strong> <a href="https://braziljournal.com/lula-indica-lobo-para-a-cvm/" target=_blank>Lula indica Lobo para a CVM</a><br>
+    <small>07/01 19:42</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/aliados-de-bolsonaro-criticam-moraes-apos-anulacao-de-sindicancia-do-cfm/" target=_blank>Aliados de Bolsonaro criticam Moraes após anulação de sindicância do CFM</a><br>
+    <small>07/01 19:37</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/macroeconomia/governo-da-australia-quer-financiar-dois-projetos-de-terras-raras-no-brasil/" target=_blank>Governo da Austrália quer financiar dois projetos de terras raras no Brasil</a><br>
+    <small>07/01 19:17</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/distrito-federal/desembargador-diz-que-moraes-sera-responsavel-se-bolsonaro-morrer" target=_blank>Desembargador diz que Moraes será responsável "se Bolsonaro morrer"</a><br>
+    <small>07/01 19:07</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/pgr-defende-mudancas-na-lei-da-ficha-limpa-mas-pede-ao-stf-suspensao-de-trechos/" target=_blank>PGR defende mudanças na Lei da Ficha Limpa, mas pede ao STF suspensão de trechos</a><br>
+    <small>07/01 18:57</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/lindbergh-diz-que-governo-fara-mapa-de-votos-para-manter-veto-a-dosimetria" target=_blank>Lindbergh diz que governo fará mapa de votos para manter veto à dosimetria</a><br>
+    <small>07/01 18:55</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/economia/fernando-dantas/a-forca-da-heterodoxia-no-brasil/" target=_blank>Fernando Dantas: A força da heterodoxia no Brasil</a><br>
+    <small>07/01 18:34</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/01/moraes-anula-sindicancia-sobre-atendimento-a-bolsonaro-e-manda-pf-ouvir-presidente-do-cfm.shtml" target=_blank>Moraes anula sindicância sobre atendimento a Bolsonaro e manda PF ouvir presidente do CFM</a><br>
+    <small>07/01 18:32</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/politica/noticia/2026/01/07/pf-diz-ao-stf-que-nao-consegue-solucionar-ruido-de-ar-condicionado-em-cela-de-bolsonaro.ghtml" target=_blank>PF diz ao STF que não consegue solucionar ruído de ar-condicionado em cela de Bolsonaro</a><br>
+    <small>07/01 18:27</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/politica/noticia/2026/01/07/moraes-anula-sindicancia-sobre-assistencia-a-bolsonaro-e-manda-pf-ouvir-presidente-do-cfm.ghtml" target=_blank>Moraes anula sindicância sobre assistência médica a Bolsonaro e manda PF ouvir presidente do CFM</a><br>
+    <small>07/01 18:21</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/blog-do-fausto-macedo/moraes-anula-determinacao-do-cfm-para-apurar-condicoes-do-atendimento-prestado-a-bolsonaro/" target=_blank>Moraes anula determinação do CFM para apurar condições do atendimento prestado a Bolsonaro</a><br>
+    <small>07/01 18:21</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/economia/trump-reduzira-custo-para-financiamento-de-veiculos-produzidos-nos-eua-diz-o-secretario-do-tesouro/" target=_blank>Trump reduzirá custo para financiamento de veículos produzidos nos EUA, diz o secretário do Tesouro</a><br>
+    <small>07/01 18:18</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/blogs/brasilia-hoje/2026/01/governo-do-distrito-federal-reforca-seguranca-para-atos-do-8-de-janeiro.shtml" target=_blank>Brasilia Hoje: Governo do Distrito Federal reforça segurança para atos do 8 de janeiro</a><br>
+    <small>07/01 18:15</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/financas/noticia/2026/01/07/juros-curtos-caem-e-longos-sobem-de-olho-em-leilao-do-tesouro-e-exterior.ghtml" target=_blank>Juros curtos caem e longos sobem de olho em leilão do Tesouro e exterior</a><br>
+    <small>07/01 18:12</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/blogs/ancelmo-gois/post/2026/01/moraes-anula-sindicancia-aberta-pelo-cfm-sobre-atendimento-medico-a-bolsonaro.ghtml" target=_blank>Ancelmo Gois: Moraes anula sindicância aberta pelo CFM sobre atendimento médico a Bolsonaro</a><br>
+    <small>07/01 18:11</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/politica/noticia/2026/01/07/governo-lula-defende-investigacao-do-caso-master-afirma-lindbergh.ghtml" target=_blank>Governo Lula defende investigação do caso Master, afirma Lindbergh</a><br>
+    <small>07/01 18:10</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/colunas/paulo-cappelli/moraes-anula-sindicancia-do-cfm-sobre-atendimento-a-bolsonaro" target=_blank>Paulo Cappelli: Moraes anula sindicância do CFM sobre atendimento a Bolsonaro</a><br>
+    <small>07/01 18:10</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/moraes-anula-sindicancia-sobre-bolsonaro-e-manda-pf-interrogar-cfm" target=_blank>Moraes anula sindicância sobre Bolsonaro e manda PF interrogar presidente do CFM</a><br>
+    <small>07/01 18:08</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/politica/noticia/2026/01/07/moraes-anula-sindicancia-aberta-pelo-conselho-federal-de-medicina-sobre-atendimento-a-bolsonaro.ghtml" target=_blank>Moraes anula sindicância aberta pelo Conselho Federal de Medicina sobre atendimento a Bolsonaro</a><br>
+    <small>07/01 18:05</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/pf-informa-ao-stf-horarios-de-barulho-ao-lado-da-cela-de-bolsonaro" target=_blank>PF informa ao STF horários de barulho ao lado da cela de Bolsonaro</a><br>
+    <small>07/01 18:02</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/01/bolsonaro-caiu-ao-tentar-andar-e-teve-traumatismo-craniano-leve-diz-medico.shtml" target=_blank>Bolsonaro caiu ao tentar andar e teve traumatismo craniano leve, diz médico</a><br>
+    <small>07/01 18:01</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/01/como-sera-o-2026-das-mulheres-violencia-e-eleicoes-devem-dominar-debate-sobre-direitos.shtml" target=_blank>Como será o 2026 das mulheres? Violência e eleições devem dominar debate sobre direitos</a><br>
+    <small>07/01 18:00</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/colunas/mirelle-pinheiro/pf-monta-esquema-especial-para-vigiar-bolsonaro-na-prisao-entenda" target=_blank>Mirelle Pinheiro: PF monta esquema especial para vigiar Bolsonaro na prisão. Entenda</a><br>
+    <small>07/01 17:58</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/medico-diz-que-bolsonaro-caiu-ao-tentar-caminhar-na-cela-e-teve-traumatismo-craniano-leve-npr/" target=_blank>Médico diz que Bolsonaro caiu ao tentar caminhar na cela e teve traumatismo craniano leve</a><br>
+    <small>07/01 17:58</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/brasil/noticia/2026/01/07/de-olho-em-situao-na-venezuela-lula-se-rene-com-assessores-para-fazer-avaliao-da-crise.ghtml" target=_blank>De olho em situação na Venezuela, Lula se reúne com assessores para fazer avaliação da crise</a><br>
+    <small>07/01 17:57</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/malafaia-diz-a-moraes-que-so-respondera-sobre-denuncia-apos-recesso" target=_blank>Malafaia diz a Moraes que só responderá sobre denúncia após recesso</a><br>
+    <small>07/01 17:57</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/rio/noticia/2026/01/07/mulher-se-passa-por-fiscal-da-receita-para-dar-golpes-em-idosos-e-acaba-presa-na-tijuca.ghtml" target=_blank>Mulher se passa por fiscal da Receita para dar golpes em idosos e acaba presa na Tijuca</a><br>
+    <small>07/01 17:56</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/hospital-divulga-1o-boletim-medico-de-bolsonaro-apos-queda-na-cela" target=_blank>Hospital divulga 1º boletim médico de Bolsonaro após queda na cela</a><br>
+    <small>07/01 17:51</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/colunas/tiago-pavinatto/decisao-de-moraes-sobre-bolsonaro-questiona-autoridade-de-medico" target=_blank>Tiago Pavinatto: Decisão de Moraes sobre Bolsonaro questiona autoridade de médico</a><br>
+    <small>07/01 17:48</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/politica/noticia/2026/01/07/aps-exames-mdicos-descartam-convulso-e-dizem-que-bolsonaro-teve-leso-na-tmpora.ghtml" target=_blank>Após exames, médicos descartam convulsão e dizem que Bolsonaro teve lesão na têmpora</a><br>
+    <small>07/01 17:45</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/economia/noticia/2026/01/07/ministro-do-tcu-deve-paralisar-inspecao-no-banco-central-sobre-o-caso-master.ghtml" target=_blank>Ministro do TCU deve paralisar inspeção no Banco Central sobre o caso Master</a><br>
+    <small>07/01 17:42</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/coluna-do-estadao/planalto-ve-guerra-na-pf-e-advogado-pede-inquerito-para-apurar-vazamento-seletivo-contra-lulinha/" target=_blank>Planalto vê guerra na PF e advogado pede  inquérito para apurar ‘vazamento seletivo’ contra Lulinha</a><br>
+    <small>07/01 17:39</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/blogs/lauro-jardim/post/2026/01/nada-grave-bolsonaro-so-ficou-com-galos-na-cabeca-apos-tombo.ghtml" target=_blank>Lauro Jardim: Nada grave: Bolsonaro só ficou com 'galos' na cabeça após tombo</a><br>
+    <small>07/01 17:38</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/mundo/agentes-de-imigracao-do-governo-trump-matam-mulher-a-tiros-nos-eua" target=_blank>Agentes de imigração do governo Trump matam mulher a tiros nos EUA</a><br>
+    <small>07/01 17:37</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/gastronomia/conseguimos-a-receita-da-cerveja-amanteigada-do-harry-potter-veja" target=_blank>Conseguimos a receita da cerveja amanteigada do Harry Potter; veja</a><br>
+    <small>07/01 17:33</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/apos-queda-michelle-diz-que-bolsonaro-esta-no-modo-sobrevivencia" target=_blank>Após queda, Michelle diz que Bolsonaro está no "modo sobrevivência"</a><br>
+    <small>07/01 17:32</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/blog-do-fausto-macedo/pf-afirma-a-moraes-que-nao-ha-solucao-imediata-para-ruido-na-cela-de-bolsonaro-nprp/" target=_blank>PF afirma a Moraes que não há solução imediata para ruído na cela de Bolsonaro</a><br>
+    <small>07/01 17:32</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/relator-da-cpi-do-inss-tentara-nova-convocacao-do-filho-de-lula/" target=_blank>Relator da CPI do INSS tentará nova convocação do filho de Lula</a><br>
+    <small>07/01 17:30</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/presidente-do-tcu-diz-que-liquidacao-do-master-e-fato-consumado-mas-bc-sera-fiscalizado" target=_blank>Presidente do TCU diz que liquidação do Master é "fato consumado", mas BC será fiscalizado</a><br>
+    <small>07/01 17:29</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/gastronomia/esta-reconfortante-sopa-de-repolho-e-tendencia-em-2026-veja-receita" target=_blank>Esta reconfortante sopa de repolho é tendência em 2026; veja receita</a><br>
+    <small>07/01 17:25</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/financas/noticia/2026/01/07/dolar-a-vista-interrompe-rali-do-real-com-alta-timida-em-dia-de-correcao.ghtml" target=_blank>Dólar à vista interrompe rali do real com alta tímida em dia de correção</a><br>
+    <small>07/01 17:22</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/gastronomia/tortinha-de-frango-no-liquidificador-aprenda-receita-rica-em-proteina" target=_blank>Tortinha de frango no liquidificador: aprenda receita rica em proteína</a><br>
+    <small>07/01 17:21</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/negocios/apesar-de-tarifaco-exportacoes-de-carne-bovina-do-brasil-batem-recorde/" target=_blank>Apesar de tarifaço, exportações de carne bovina do Brasil batem recorde</a><br>
+    <small>07/01 17:21</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/01/pf-diz-que-nao-tem-como-reduzir-barulho-de-ar-condicionado-para-bolsonaro.shtml" target=_blank>PF diz que não tem como reduzir barulho de ar-condicionado para Bolsonaro</a><br>
+    <small>07/01 17:21</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/politica/noticia/2026/01/07/conselho-federal-de-medicina-manda-apurar-denuncias-sobre-falta-de-assistencia-a-bolsonaro-na-prisao.ghtml" target=_blank>Conselho Federal de Medicina manda apurar denúncias sobre falta de assistência a Bolsonaro na prisão</a><br>
+    <small>07/01 17:09</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/negocios/dolar-moeda-mercado-cambio-bolsa-ibovespa-cotacao-fechamento" target=_blank>Dólar anda de lado e Bolsa cai com petróleo e dados de emprego nos EUA</a><br>
+    <small>07/01 17:06</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/colunas/monicabergamo/rss091/*https://www1.folha.uol.com.br/colunas/monicabergamo/2026/01/lula-sanciona-lei-que-obriga-prefeituras-a-pagar-piso-nacional-a-professores-da-educacao-infantil.shtml" target=_blank>Monicabergamo: Lula sanciona lei que obriga prefeituras a pagar piso nacional a professores da educação infantil</a><br>
+    <small>07/01 17:04</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/colunas/paulo-cappelli/deputada-do-psol-aciona-tribunal-de-contas-de-sp-contra-tarcisio" target=_blank>Paulo Cappelli: Deputada do PSol aciona Tribunal de Contas de SP contra Tarcísio</a><br>
+    <small>07/01 17:03</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/financas/noticia/2026/01/07/apos-pressao-publica-ministro-do-tcu-deve-recuar-de-inspecao-urgente-no-bc-sobre-banco-master.ghtml" target=_blank>Após pressão pública, ministro do TCU deve recuar de inspeção urgente no BC sobre Banco Master</a><br>
+    <small>07/01 17:02</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/politica/noticia/2026/01/07/bolsonaro-teve-traumatismo-craniano-leve-diz-medico-apos-liberacao-para-retorno-a-prisao.ghtml" target=_blank>Bolsonaro teve 'traumatismo craniano leve', diz médico após liberação para retorno à prisão</a><br>
+    <small>07/01 17:01</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/01/governo-americano-diz-que-dinheiro-da-venda-do-petroleo-venezuelano-sera-mantido-em-contas-dos-eua.shtml" target=_blank>Governo americano diz que dinheiro da venda do petróleo venezuelano será mantido em contas dos EUA</a><br>
+    <small>07/01 17:00</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/distrito-federal/bia-kicis-diz-que-bolsonaro-e-tratado-pior-que-os-piores-criminosos" target=_blank>Bia Kicis diz que Bolsonaro é tratado "pior que os piores criminosos"</a><br>
+    <small>07/01 16:57</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/exames-de-bolsonaro-confirmam-traumatismo-craniano-leve-apos-queda" target=_blank>Exames de Bolsonaro confirmam traumatismo craniano leve após queda</a><br>
+    <small>07/01 16:55</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/moraes-autoriza-ex-ministro-a-cursar-administracao-hospitalar-por-ead/" target=_blank>Moraes autoriza ex-ministro a cursar administração hospitalar por EAD</a><br>
+    <small>07/01 16:53</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/economia/noticia/2026/01/07/caso-master-precedentes-do-stf-e-do-tcu-afastam-analise-de-merito-em-decisoes-de-orgaos-reguladores-como-o-bc.ghtml" target=_blank>Caso Master: precedentes do STF e do TCU afastam análise de mérito em decisões de órgãos reguladores, como o BC</a><br>
+    <small>07/01 16:46</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/colunas/paulo-cappelli/pf-explica-a-moraes-o-barulho-do-ar-condicionado-da-cela-de-bolsonaro" target=_blank>Paulo Cappelli: PF explica a Moraes o barulho do ar-condicionado da cela de Bolsonaro</a><br>
+    <small>07/01 16:45</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/01/lula-indica-otto-lobo-para-ser-presidente-da-cvm.shtml" target=_blank>Lula indica Otto Lobo para ser presidente da CVM</a><br>
+    <small>07/01 16:45</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/politica/noticia/2026/01/07/pf-apura-meno-a-lulinha-como-suposto-scio-oculto-do-careca-do-inss.ghtml" target=_blank>PF apura menção a Lulinha como suposto ‘sócio oculto’ do Careca do INSS</a><br>
+    <small>07/01 16:42</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/bolsonaro-deixa-hospital-exames" target=_blank>Bolsonaro deixa hospital após realizar exames e volta à cela da PF</a><br>
+    <small>07/01 16:39</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/pf-se-manifesta-sobre-reclamacao-de-bolsonaro-por-barulho-na-cela" target=_blank>PF se manifesta sobre reclamação de Bolsonaro por barulho na cela</a><br>
+    <small>07/01 16:38</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/financas/noticia/2026/01/07/escolha-de-otto-lobo-para-cvm-se-deu-em-meio-a-negociao-para-messias-no-stf-dizem-fontes.ghtml" target=_blank>Escolha de Otto Lobo para CVM se deu em meio a negociação para Messias no STF, dizem fontes</a><br>
+    <small>07/01 16:38</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/politica/noticia/2026/01/07/pf-diz-ao-stf-que-nao-consegue-reduzir-ruido-de-ar-condicionado-em-sala-de-bolsonaro.ghtml" target=_blank>PF diz ao STF que não consegue reduzir ruído de ar-condicionado em sala de Bolsonaro</a><br>
+    <small>07/01 16:36</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/politica/noticia/2026/01/07/bolsonaro-deixa-hospital-apos-exames-e-retorna-a-prisao-na-pf.ghtml" target=_blank>Bolsonaro deixa hospital após exames e retorna à prisão na PF</a><br>
+    <small>07/01 16:32</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/instituto-de-mendonca-do-stf-tem-aval-de-ministerio-da-educacao-de-lula-para-ofertar-pos-graduacao/" target=_blank>Instituto de Mendonça, do STF, tem aval de Ministério da Educação de Lula para ofertar pós-graduação</a><br>
+    <small>07/01 16:26</small>
+  </li>
+
+  <li data-source="G1 Blogs">
+    <strong>[G1 Blogs]</strong> <a href="https://g1.globo.com/economia/blog/ana-flor/post/2026/01/07/caso-master-relator-no-tcu-vai-paralisar-inspecao-no-banco-central.ghtml" target=_blank>Ana Flor: Caso Master: relator no TCU vai paralisar inspeção no Banco Central, e presidente diz que não haverá 'desliquidação'</a><br>
+    <small>07/01 16:25</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/governo-tem-total-condicoes-de-manter-veto-a-dosimetria-diz-lider-do-pt/" target=_blank>"Governo tem total condições de manter veto a Dosimetria", diz líder do PT</a><br>
+    <small>07/01 16:22</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/michelle-critica-moraes-demora-liberar-bolsonaro-hospital-fala-sangue-maos-nprp/" target=_blank>Michelle critica Moraes por demora em liberar Bolsonaro ao hospital e fala em ‘sangue nas mãos’</a><br>
+    <small>07/01 16:15</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/01/brasil-tem-fluxo-cambial-negativo-de-us-333-bi-em-2025-diz-bc.shtml" target=_blank>Brasil tem fluxo cambial negativo de US$ 33,3 bi em 2025, diz BC</a><br>
+    <small>07/01 16:15</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/colunas/grande-angular/ibaneis-fala-em-apertar-cinto-e-cortar-gastos-queda-na-arrecadacao" target=_blank>Grande Angular: Ibaneis fala em apertar cinto e cortar gastos: "Queda na arrecadação"</a><br>
+    <small>07/01 16:12</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/financas/noticia/2026/01/07/frente-com-193-deputados-e-15-senadores-defende-respeito-s-decises-tcnicas-do-bc.ghtml" target=_blank>Frente com 193 deputados e 15 senadores defende respeito às decisões técnicas do BC</a><br>
+    <small>07/01 16:09</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/financas/noticia/2026/01/07/previdncia-privada-tem-resgate-lquido-de-r-23-bi-em-novembro.ghtml" target=_blank>Previdência privada tem resgate líquido de R$ 2,3 bi em novembro</a><br>
+    <small>07/01 16:08</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/colunas/igor-gadelha/congresso-pode-atrapalhar-planos-de-lula-de-criar-novo-ministerio" target=_blank>Igor Gadelha: Congresso pode atrapalhar planos de Lula de criar novo ministério</a><br>
+    <small>07/01 15:49</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/01/eventual-reversao-de-liquidacao-do-master-cabe-somente-ao-stf-diz-presidente-do-tcu.shtml" target=_blank>Eventual reversão de liquidação do Master cabe somente ao STF, diz presidente do TCU</a><br>
+    <small>07/01 15:48</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/moraes-ve-desvio-de-finalidade-e-anula-sindicancia-do-cfm-sobre-bolsonaro/" target=_blank>Moraes vê desvio de finalidade e anula sindicância do CFM sobre Bolsonaro</a><br>
+    <small>07/01 15:47</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/brasil/noticia/2026/01/07/lula-veta-projeto-de-derrite-que-previa-unificar-limite-de-idade-em-concursos-para-policiais-e-bombeiros.ghtml" target=_blank>Lula veta projeto de Derrite que previa unificar limite de idade em concursos para policiais e bombeiros</a><br>
+    <small>07/01 15:32</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/coluna-do-estadao/relator-do-caso-master-no-tcu-deve-recuar-em-inspecao-agora/" target=_blank>Caso Master no TCU: Jhonatan de Jesus deve suspender inspeção no BC até o fim do recesso</a><br>
+    <small>07/01 15:26</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/deputado-do-pl-pede-visita-a-bolsonaro-com-presenca-de-valdemiro" target=_blank>Deputado do PL pede visita a Bolsonaro com presença do pastor Valdemiro</a><br>
+    <small>07/01 15:24</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/politica/noticia/2026/01/07/ausencias-de-motta-e-alcolumbre-abrem-caminho-para-lula-vetar-pl-da-dosimetria-no-ato-do-8-de-janeiro.ghtml" target=_blank>Ausências de Motta e Alcolumbre  abrem caminho para Lula vetar PL da dosimetria no ato do 8 de janeiro</a><br>
+    <small>07/01 15:21</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/01/convocacao-de-lulinha-e-uma-das-prioridades-na-volta-da-cpi-do-inss-diz-relator.shtml" target=_blank>Painel: Convocação de Lulinha é uma das prioridades na volta da CPI do INSS, diz relator</a><br>
+    <small>07/01 15:20</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/economia/lula-indica-nome-para-a-presidencia-da-cvm-saiba-quem-e/" target=_blank>Lula indica nome para a presidência da CVM; saiba quem é</a><br>
+    <small>07/01 15:17</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/zema-cria-seguranca-a-ex-governadores-antes-de-deixar-governo" target=_blank>Zema cria segurança a ex-governadores antes de deixar governo</a><br>
+    <small>07/01 15:15</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/financas/noticia/2026/01/07/bc-tem-perda-de-r-183-bilhoes-com-swaps-em-dezembro.ghtml" target=_blank>BC tem perda de R$ 18,3 bilhões com swaps em dezembro</a><br>
+    <small>07/01 15:11</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/moraes-manda-pf-ouvir-presidente-do-cfm-apos-nota-sobre-saude-de-bolsonaro/" target=_blank>Moraes manda PF ouvir presidente do CFM após nota sobre saúde de Bolsonaro</a><br>
+    <small>07/01 15:09</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/exames-de-bolsonaro-evidenciaram-densificacao-de-partes-moles-na-cabeca/" target=_blank>Exames de Bolsonaro evidenciaram "densificação de partes moles" na cabeça</a><br>
+    <small>07/01 15:08</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/cfm-determina-sindicancia-sobre-atendimento-medico-a-bolsonaro-sob-custodia-da-pf-nprp/" target=_blank>CFM determina sindicância sobre atendimento médico a Bolsonaro sob custódia da PF</a><br>
+    <small>07/01 15:08</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/financas/noticia/2026/01/07/presidente-do-tcu-diz-que-eventual-reverso-de-liquidao-do-master-caberia-somente-ao-stf.ghtml" target=_blank>Presidente do TCU diz que eventual reversão de liquidação do Master caberia somente ao STF</a><br>
+    <small>07/01 15:06</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/gastronomia/fazer-shawarma-em-casa-e-facil-veja-receita-simples-da-delicia-arabe" target=_blank>Fazer shawarma em casa é fácil! Veja receita simples da delícia árabe</a><br>
+    <small>07/01 15:01</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/ala-do-pt-resiste-a-andrei-rodrigues-em-ministerio/" target=_blank>Ala do PT resiste a Andrei Rodrigues em ministério</a><br>
+    <small>07/01 14:58</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/blogs/lauro-jardim/post/2026/01/em-derrota-para-haddad-lula-indica-presidente-da-cvm-de-olho-na-aprovacao-de-messias-para-o-stf.ghtml" target=_blank>Lauro Jardim: Em derrota para Haddad, Lula indica presidente da CVM de olho na aprovação de Messias para o STF</a><br>
+    <small>07/01 14:54</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/brasil/noticia/2026/01/07/indice-de-commodities-do-bc-cai-949percent-em-2025.ghtml" target=_blank>Índice de commodities do BC cai 9,49% em 2025</a><br>
+    <small>07/01 14:50</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/medico-diz-que-traumatismo-de-bolsonaro-nao-e-preocupante/" target=_blank>Médico diz que traumatismo de Bolsonaro não é preocupante</a><br>
+    <small>07/01 14:49</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/economia/master-ataque-influenciadores-bc-contas-fora-mundo-financeiro/" target=_blank>Master: ataque de influenciadores a BC partiu de  contas sem relação com  o mundo financeiro</a><br>
+    <small>07/01 14:46</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/macroeconomia/comercio-exterior-governo-elege-india-canada-e-emirados-como-prioridades/" target=_blank>Comércio exterior: governo elege Índia, Canadá e Emirados como prioridades</a><br>
+    <small>07/01 14:45</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/bastidores-pf-cita-preocupacao-com-polarizacao-politica-em-apuracao-que-menciona-filho-de-lula/" target=_blank>Bastidores: PF cita preocupação com ‘polarização política’ em apuração que menciona filho de Lula</a><br>
+    <small>07/01 14:40</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/sao-paulo/vice-tarcisio-liga-pt-narcotrafico" target=_blank>Vice de Tarcísio dobra aposta e expõe por que liga PT ao narcotráfico</a><br>
+    <small>07/01 14:39</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/economia/noticia/2026/01/07/arrecadacao-da-divida-ativa-do-estado-do-rio-cresce-42percent-em-2025-e-ultrapassa-r-19-bilhao.ghtml" target=_blank>Arrecadação da dívida ativa do Estado do Rio cresce 42% em 2025 e ultrapassa R$ 1,9 bilhão</a><br>
+    <small>07/01 14:36</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/economia/financas/noticia/2026/01/07/lula-indica-otto-lobo-para-presidencia-da-cvm.ghtml" target=_blank>Lula indica Otto Lobo para presidência da CVM</a><br>
+    <small>07/01 14:29</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/colunas/paulo-cappelli/erramos-mauro-vieira-nao-conversou-com-rubio-sobre-eleicoes-na-colombia" target=_blank>Paulo Cappelli: Erramos: Mauro Vieira não conversou com Rubio sobre eleições na Colômbia</a><br>
+    <small>07/01 14:28</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/financas/noticia/2026/01/07/lula-indica-otto-lobo-para-presidncia-da-comisso-de-valores-mobilirios.ghtml" target=_blank>Lula indica Otto Lobo para presidência da Comissão de Valores Mobiliários</a><br>
+    <small>07/01 14:18</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/esta-tudo-errado-diz-michelle-sobre-tratamento-dado-a-bolsonaro-na-pf/" target=_blank>"Está tudo errado", diz Michelle sobre tratamento dado a Bolsonaro na PF</a><br>
+    <small>07/01 14:17</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/governo-preve-primeiro-hospital-inteligente-do-sus-em-ate-quatro-anos/" target=_blank>Governo prevê primeiro hospital inteligente do SUS em até quatro anos</a><br>
+    <small>07/01 14:16</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/pf-nega-trocar-bolsonaro-de-local-apos-queixa-sobre-barulhos/" target=_blank>PF nega trocar Bolsonaro de local após queixa sobre barulhos</a><br>
+    <small>07/01 14:16</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/politica/noticia/2026/01/07/cfm-vai-investigar-denuncias-de-falta-de-assistencia-medica-a-bolsonaro.ghtml" target=_blank>CFM abre sindicância para apurar denúncias de falta de assistência médica a Bolsonaro</a><br>
+    <small>07/01 14:16</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/lula-relembra-batida-de-cabeca-e-defende-mais-tecnologia-na-saude" target=_blank>Lula relembra batida de cabeça e defende mais tecnologia na saúde</a><br>
+    <small>07/01 14:05</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/medicos-investigam-possivel-reacao-de-bolsonaro-a-combinacao-de-remedios/" target=_blank>Médicos investigam possível reação de Bolsonaro a combinação de remédios</a><br>
+    <small>07/01 14:04</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/politica/noticia/2026/01/07/moraes-da-15-dias-para-malafaia-apresentar-defesa-contra-denuncia-por-ofensas-a-generais.ghtml" target=_blank>Moraes dá 15 dias para Malafaia apresentar defesa contra denúncia por ofensas a generais</a><br>
+    <small>07/01 14:01</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/cfm-se-manifesta-sobre-denuncias-de-falta-de-assistencia-a-bolsonaro" target=_blank>CFM se manifesta sobre denúncias de falta de assistência a Bolsonaro</a><br>
+    <small>07/01 13:56</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/macroeconomia/avaliar-reversao-da-liquidacao-do-master-cabe-ao-stf-nao-ao-tcu-diz-vital/" target=_blank>Avaliar reversão da liquidação do Master cabe ao STF, não ao TCU, diz Vital</a><br>
+    <small>07/01 13:49</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/politica/noticia/2026/01/07/em-primeiro-ato-publico-do-ano-lula-silencia-sobre-maduro-e-defende-gastos-do-governo.ghtml" target=_blank>Em primeiro ato público do ano, Lula silencia sobre Maduro e defende gastos do governo</a><br>
+    <small>07/01 13:43</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/saude/noticia/2026/01/07/em-primeiro-evento-do-ano-lula-anuncia-ao-lado-de-dilma-rede-de-hospitais-inteligentes-do-sus.ghtml" target=_blank>Em primeiro evento do ano, Lula anuncia ao lado de Dilma rede de hospitais inteligentes do SUS</a><br>
+    <small>07/01 13:42</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/empresas/noticia/2026/01/07/fitch-reitera-nota-de-crdito-nacional-da-bradespar.ghtml" target=_blank>Fitch reitera nota de crédito nacional da Bradespar</a><br>
+    <small>07/01 13:36</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/apos-passar-por-exames-bolsonaro-deixa-hospital/" target=_blank>Após passar por exames, Bolsonaro deixa hospital</a><br>
+    <small>07/01 13:28</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/colunas/paulo-cappelli/pt-cobra-edinho-para-levar-a-lula-nome-petista-na-seguranca-publica" target=_blank>Paulo Cappelli: PT cobra Edinho para levar a Lula nome petista na Segurança Pública</a><br>
+    <small>07/01 13:17</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/macroeconomia/itaipu-vai-investir-r-15-bi-em-2026-para-manter-tarifa-no-mesmo-nivel-dos-ultimos-dois-anos/" target=_blank>Itaipu vai investir R$ 1,5 bi em 2026 para manter tarifa de 2024</a><br>
+    <small>07/01 13:15</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/economia/brasil-nao-esta-em-outro-patamar-porque-sempre-usou-o-termo-gasta-se-muito-diz-lula/" target=_blank>Brasil não está em outro patamar porque sempre usou o termo ‘gasta-se muito’, diz Lula</a><br>
+    <small>07/01 13:12</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/macroeconomia/caso-master-relator-no-tcu-avalia-suspender-inspecao-no-banco-central/" target=_blank>Caso Master: Relator no TCU avalia suspender inspeção no Banco Central</a><br>
+    <small>07/01 13:05</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/bolsonaro-passa-por-exames-em-hospital-em-brasilia-apos-sofrer-queda-na-superintendencia-da-pf-npr/" target=_blank>Bolsonaro passa por exames em hospital em Brasília após sofrer queda na Superintendência da PF</a><br>
+    <small>07/01 13:01</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/01/lula-vai-na-contramao-de-bolsonaro-e-aposta-em-pressao-da-rua-contra-congresso.shtml" target=_blank>Lula vai na contramão de Bolsonaro e aposta em pressão da rua contra Congresso</a><br>
+    <small>07/01 13:00</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/01/lula-sanciona-lei-que-proibe-desconto-automatico-em-aposentadoria-e-veta-uso-de-dinheiro-do-governo.shtml" target=_blank>Lula sanciona lei que proíbe desconto automático em aposentadoria e veta uso de dinheiro do governo</a><br>
+    <small>07/01 12:59</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/mundo/noticia/2026/01/07/defesa-de-maduro-nos-eua-ganha-reforco-de-ex-subprocurador-do-governo-reagan-que-defendeu-pai-de-snowden.ghtml" target=_blank>Defesa de Maduro nos EUA ganha reforço de ex-subprocurador do governo Reagan que defendeu pai de Snowden</a><br>
+    <small>07/01 12:53</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/01/pf-apura-se-lulinha-pode-ter-sido-socio-oculto-de-careca-do-inss.shtml" target=_blank>PF apura se Lulinha pode ter sido sócio oculto de Careca do INSS</a><br>
+    <small>07/01 12:44</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/colunas/paulo-cappelli/vetos-de-lula-limitam-atuacao-do-inss-em-fraudes" target=_blank>Paulo Cappelli: Vetos de Lula limitam atuação do INSS em fraudes</a><br>
+    <small>07/01 12:42</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/economia-br/isencao-do-ir-e-salario-minimo-turbinam-economia-em-r-110-bilhoes" target=_blank>Governo: isenção do IR e salário mínimo injetam R$ 110 bilhões na economia</a><br>
+    <small>07/01 12:40</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/financas/noticia/2026/01/07/ministro-do-tcu-tende-a-rejeitar-recurso-no-caso-master-e-bc-deve-ir-ao-plenario-da-corte-antes-de-acionar-stf.ghtml" target=_blank>Ministro do TCU tende a rejeitar recurso no caso Master, e BC deve ir ao plenário da Corte antes de acionar STF</a><br>
+    <small>07/01 12:39</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/01/nao-entendo-demora-do-pt-para-definir-candidato-em-mg-diz-principal-prefeita-do-partido-no-estado.shtml" target=_blank>Painel: Não entendo demora do PT para definir candidato em MG, diz principal prefeita do partido no estado</a><br>
+    <small>07/01 12:36</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/mundo/noticia/2026/01/07/trump-preve-impeachment-caso-republicanos-sejam-derrotados-nas-eleicoes-de-meio-de-mandato.ghtml" target=_blank>Trump prevê impeachment caso republicanos sejam derrotados nas eleições de meio de mandato</a><br>
+    <small>07/01 12:34</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/colunas/demetrio-vecchioli/unico-veto-de-nunes-a-orcamento-afeta-mulheres-vitimas-de-violencia" target=_blank>Demetrio Vecchioli: Único veto de Nunes a orçamento afeta mulheres vítimas de violência</a><br>
+    <small>07/01 12:30</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/moraes-da-prazo-para-malafaia-em-denuncia-por-calunia-contra-general" target=_blank>Moraes dá prazo para Malafaia em denúncia por calúnia contra general</a><br>
+    <small>07/01 12:28</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/blogs/lauro-jardim/post/2026/01/idolo-do-flamengo-recebe-proposta-da-ferj-apos-deixar-o-governo.ghtml" target=_blank>Lauro Jardim: Ídolo do Flamengo recebe proposta da Ferj após deixar o governo</a><br>
+    <small>07/01 12:28</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/macroeconomia/bc-da-argentina-fecha-acordo-de-recompra-de-us-3-bi-para-reforcar-reservas/" target=_blank>BC da Argentina fecha acordo de recompra de US$ 3 bi para reforçar reservas</a><br>
+    <small>07/01 12:19</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/macroeconomia/lula-indica-otto-lobo-como-presidente-da-cvm/" target=_blank>Lula indica Otto Lobo como presidente da CVM</a><br>
+    <small>07/01 12:17</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/cfm-determina-sindicancia-sobre-falta-de-assistencia-medica-a-bolsonaro/" target=_blank>CFM determina sindicância sobre falta de assistência médica a Bolsonaro</a><br>
+    <small>07/01 12:14</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/colunas/mirelle-pinheiro/mensageiro-do-comando-vermelho-e-preso-com-arrecadacao-de-r-50-mil" target=_blank>Mirelle Pinheiro: Mensageiro do Comando Vermelho é preso com "arrecadação" de R$ 50 mil</a><br>
+    <small>07/01 12:13</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/colunas/fabia-oliveira/tarcisio-filho-recorda-a-dor-de-contar-para-a-mae-sobre-a-morte-do-pai" target=_blank>Fabia Oliveira: Tarcísio Filho recorda a dor de contar para a mãe sobre a morte do pai. Assista ao vídeo</a><br>
+    <small>07/01 12:12</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/apoiadores-de-bolsonaro-fazem-manifestacoes-no-hospital-e-na-pf" target=_blank>Apoiadores de Bolsonaro fazem manifestações na PF e em hospital</a><br>
+    <small>07/01 12:10</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/governo-firma-parceria-com-banco-do-brics-para-hospital-inteligente" target=_blank>Governo firma parceria com Banco do Brics para hospital inteligente</a><br>
+    <small>07/01 12:09</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/veja-os-vetos-de-lula-a-lei-do-fim-do-desconto-automatico-no-inss" target=_blank>Veja os vetos de Lula à lei do fim do desconto automático no INSS</a><br>
+    <small>07/01 12:01</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/colunas/paulo-cappelli/governo-lula-amplia-controle-sobre-verbas-da-seguranca-publica" target=_blank>Paulo Cappelli: Governo Lula amplia controle sobre verbas da segurança pública</a><br>
+    <small>07/01 12:01</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/lula-estimula-antigos-aliados-a-se-candidatarem-para-ter-nomes-de-peso-no-congresso-e-no-governo/" target=_blank>Lula estimula antigos aliados a se candidatarem para ter nomes de peso no Congresso e no governo</a><br>
+    <small>07/01 12:00</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/politica/noticia/2026/01/07/lula-faz-aceno-a-hugo-motta-e-cria-instituto-federal-em-reduto-eleitoral-de-presidente-da-camara.ghtml" target=_blank>Lula faz aceno a Hugo Motta e cria instituto federal em reduto eleitoral do presidente da Câmara</a><br>
+    <small>07/01 11:55</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/macroeconomia/desemprego-na-alemanha-atinge-maior-nivel-em-12-anos-2026-segue-desafiador/" target=_blank>Desemprego na Alemanha atinge maior nível em 12 anos; 2026 segue desafiador</a><br>
+    <small>07/01 11:55</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/economia/noticia/2026/01/07/lula-sanciona-lei-que-acaba-com-descontos-automaticos-no-inss-e-veta-uso-de-dinheiro-publico-para-ressarcimentos.ghtml" target=_blank>Lula sanciona lei que acaba com descontos automáticos no INSS e veta uso de dinheiro público para ressarcimentos</a><br>
+    <small>07/01 11:50</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/moraes-notifica-malafaia-por-falas-contra-comandante-do-exercito-pastor-alega-perseguicao-nprp/" target=_blank>Moraes notifica Malafaia por falas contra comandante do Exército; pastor alega perseguição</a><br>
+    <small>07/01 11:44</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/mundo/noticia/2026/01/07/governo-trump-exige-que-venezuela-deixe-de-vender-petrleo-a-rssia-e-china-diz-tv.ghtml" target=_blank>Governo Trump exige que Venezuela deixe de vender petróleo a Rússia e China, diz TV</a><br>
+    <small>07/01 11:44</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/colunas/demetrio-vecchioli/fa-ou-hater-aliado-compara-bolsonaro-a-roger-abdelmassih" target=_blank>Demetrio Vecchioli: Fã ou hater? Aliado compara Bolsonaro a Roger Abdelmassih</a><br>
+    <small>07/01 11:31</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/financas/noticia/2026/01/07/perfis-de-fofoca-fazem-bombardeio-digital-ao-bc-no-caso-do-banco-master.ghtml" target=_blank>Perfis de fofoca fazem bombardeio digital ao BC no caso do Banco Master</a><br>
+    <small>07/01 11:28</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/politica/noticia/2026/01/07/bolsonaro-chega-a-hospital-em-brasilia-apos-moraes-autorizar-exames-depois-de-queda-na-prisao-da-pf.ghtml" target=_blank>Bolsonaro chega a hospital em Brasília após Moraes autorizar exames depois de queda na prisão da PF</a><br>
+    <small>07/01 11:23</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/blogs/malu-gaspar/post/2026/01/a-cautela-de-fachin-com-o-evento-de-lula-sobre-os-3-anos-dos-atos-golpistas.ghtml" target=_blank>Malu Gaspar: A cautela de Fachin com o evento de Lula sobre os 3 anos dos atos golpistas</a><br>
+    <small>07/01 11:20</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/bolsonaro-pf-hospital-exames" target=_blank>Após autorização de Moraes, Bolsonaro deixa PF para fazer exames</a><br>
+    <small>07/01 11:19</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/blogs/miriam-leitao/post/2026/01/com-diplomacia-e-diversificacao-brasil-atravessou-com-sucesso-crise-do-tarifaco-e-mantem-boas-perspectivas-para-o-comercio-exterior-em-2026.ghtml" target=_blank>Miriam Leitao: Com diplomacia e diversificação, Brasil atravessou com sucesso crise do tarifaço e mantém boas perspectivas para o comércio exterior em 2026</a><br>
+    <small>07/01 11:10</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/moraes-manda-submeter-desembargador-preso-pela-pf-a-junta-medica" target=_blank>Moraes manda submeter desembargador preso pela PF a junta médica</a><br>
+    <small>07/01 11:02</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/ala-do-pt-indica-a-lula-nomes-para-o-ministerio-da-seguranca-publica" target=_blank>Ala do PT indica a Lula nomes para o Ministério da Segurança Pública</a><br>
+    <small>07/01 10:56</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/brasil/noticia/2026/01/07/governo-nomeia-novo-secretrio-executivo-do-mgi.ghtml" target=_blank>Governo nomeia novo secretário-executivo do MGI</a><br>
+    <small>07/01 10:48</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/financas/noticia/2026/01/07/meliuz-recebe-auto-de-infracao-da-receita-de-r-307-milhoes.ghtml" target=_blank>Méliuz recebe auto de infração da Receita de R$ 30,7 milhões</a><br>
+    <small>07/01 10:45</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/pf-apura-citacoes-a-lulinha-como-socio-oculto-de-careca-do-inss/" target=_blank>PF apura citações a Lulinha como "sócio oculto" de careca do INSS</a><br>
+    <small>07/01 10:40</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/pf-e-pmdf-tem-acordo-para-escolta-de-bolsonaro-ao-hospital-saiba-qual" target=_blank>PF e PMDF têm acordo para escolta de Bolsonaro ao hospital; saiba qual</a><br>
+    <small>07/01 10:31</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/politica/noticia/2026/01/07/moraes-autoriza-bolsonaro-a-fazer-exames-em-hospital.ghtml" target=_blank>Moraes autoriza Bolsonaro a fazer exames em hospital</a><br>
+    <small>07/01 10:30</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/negocios/dolar-bolsa-cambio-ibovespa-moeda-mercados-cotacoes" target=_blank>Dólar opera estável e Bolsa recua com mercado atento a emprego nos EUA</a><br>
+    <small>07/01 10:27</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/colunas/igor-gadelha/lula-interrompe-ferias-de-tres-de-seus-ministros" target=_blank>Igor Gadelha: Lula interrompe férias de três de seus ministros</a><br>
+    <small>07/01 10:04</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/negocios/receita-federal-autua-meliuz/" target=_blank>Receita Federal autua Méliuz em mais de R$ 30 milhões por glosa de créditos</a><br>
+    <small>07/01 10:00</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/colunas/paulo-cappelli/mauro-vieira-conversa-com-marco-rubio-sobre-eleicoes-na-colombia" target=_blank>Paulo Cappelli: Mauro Vieira conversa com Marco Rubio sobre eleições na Colômbia</a><br>
+    <small>07/01 09:59</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/moraes-autoriza-ida-de-bolsonaro-a-hospital-para-fazer-exames-npr/" target=_blank>Moraes autoriza ida de Bolsonaro a hospital para fazer exames</a><br>
+    <small>07/01 09:57</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/01/moraes-autoriza-que-bolsonaro-realize-exames-em-hospital-apos-bater-a-cabeca-na-pf.shtml" target=_blank>Moraes autoriza que Bolsonaro realize exames em hospital após bater a cabeça na PF</a><br>
+    <small>07/01 09:40</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/moraes-autoriza-ida-de-bolsonaro-a-hospital-para-fazer-exames" target=_blank>Moraes autoriza ida de Bolsonaro a hospital para fazer exames</a><br>
+    <small>07/01 09:38</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/financas/noticia/2026/01/07/xp-eleva-projees-para-a-selic-e-para-o-dlar-no-fim-do-ano-em-cenrio-de-maior-cautela.ghtml" target=_blank>XP eleva projeções para a Selic e para o dólar no fim do ano em cenário de maior cautela</a><br>
+    <small>07/01 09:36</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/saiba-quais-exames-bolsonaro-fara-em-hospital-nesta-quarta-7/" target=_blank>Saiba quais exames Bolsonaro fará em hospital nesta quarta (7)</a><br>
+    <small>07/01 09:35</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/financas/noticia/2026/01/07/dolar-ronda-a-estabilidade-antes-de-dados-de-emprego-nos-eua.ghtml" target=_blank>Dólar ronda a estabilidade antes de dados de emprego nos EUA</a><br>
+    <small>07/01 09:35</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/politica/noticia/2026/01/07/moraes-autoriza-que-bolsonaro-realize-exames-em-hospital.ghtml" target=_blank>Moraes autoriza que Bolsonaro realize exames em hospital</a><br>
+    <small>07/01 09:33</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/financas/noticia/2026/01/07/juros-futuros-tem-leve-alta-antes-de-dados-do-mercado-de-trabalho-dos-eua.ghtml" target=_blank>Juros futuros têm leve alta antes de dados do mercado de trabalho dos EUA</a><br>
+    <small>07/01 09:30</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/01/marinho-diz-que-novo-salario-minimo-e-isencao-do-ir-injetarao-r-110-bi-na-economia-em-2026.shtml" target=_blank>Marinho diz que novo salário mínimo e isenção do IR injetarão R$ 110 bi na economia em 2026</a><br>
+    <small>07/01 09:28</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/01/acompanhe-a-cotacao-do-dolar-nesta-quarta-feira-7.shtml" target=_blank>Acompanhe a cotação do dólar nesta quarta-feira (7)</a><br>
+    <small>07/01 09:28</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/brasil/noticia/2026/01/07/governo-cria-grupo-tecnico-para-estudar-infraestrutura-nacional-para-reatores-nucleares.ghtml" target=_blank>Governo cria grupo técnico para estudar infraestrutura nacional para reatores nucleares</a><br>
+    <small>07/01 09:18</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/blog-do-fausto-macedo/intervencao-do-banco-central-e-supremacia-do-interesse-publico/" target=_blank>Intervenção do Banco Central e supremacia do interesse público</a><br>
+    <small>07/01 09:15</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/aliados-veem-bolsonaro-desconectado-da-politica/" target=_blank>Aliados veem Bolsonaro desconectado da política</a><br>
+    <small>07/01 09:14</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/economia/noticia/2026/01/07/ex-diretor-do-bc-e-um-dos-principais-alvos-de-ataques-nas-redes-sociais-no-caso-master.ghtml" target=_blank>Ex-diretor do BC é um dos principais alvos de ataques nas redes sociais no caso Master</a><br>
+    <small>07/01 09:12</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/brasil/noticia/2026/01/07/presidente-sanciona-com-veto-lei-que-veda-descontos-em-mensalidades-associativas-de-beneficirios-do-inss.ghtml" target=_blank>Presidente sanciona com veto lei que veda descontos em mensalidades associativas de beneficiários do INSS</a><br>
+    <small>07/01 09:12</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/colunas/mirelle-pinheiro/pf-investiga-referencias-a-lulinha-em-esquema-do-careca-do-inss" target=_blank>Mirelle Pinheiro: PF investiga referências a Lulinha em esquema do Careca do INSS</a><br>
+    <small>07/01 09:00</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/cupula-do-congresso-trata-o-8-de-janeiro-como-ato-de-governo/" target=_blank>Cúpula do Congresso trata o 8 de Janeiro como "ato de governo"</a><br>
+    <small>07/01 08:56</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/brasil/noticia/2026/01/07/ministro-luiz-marinho-admite-que-no-vai-sair-do-governo-lula.ghtml" target=_blank>Ministro Luiz Marinho admite que não vai sair do governo Lula</a><br>
+    <small>07/01 08:48</small>
+  </li>
+
+  <li data-source="G1 Blogs">
+    <strong>[G1 Blogs]</strong> <a href="https://g1.globo.com/politica/blog/valdo-cruz/post/2026/01/07/enquanto-tcu-questiona-liquidacao-do-master-pf-vai-dar-continuidade-as-investigacoes-e-avalia-ter-indicios-concretos-de-fraude-bancaria.ghtml" target=_blank>Valdo Cruz: Enquanto TCU questiona liquidação do Master, PF dará continuidade às investigações e avalia ter indícios de fraude</a><br>
+    <small>07/01 08:44</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/economia/marinho-e-possivel-aprovar-fim-da-escala-6x1-mas-e-preciso-mobilizacao-para-convencer-congresso/" target=_blank>Marinho: É possível aprovar fim da escala 6x1, mas é preciso mobilização para convencer Congresso</a><br>
+    <small>07/01 08:43</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/brasil/noticia/2026/01/07/lula-veta-projeto-que-estabelecia-idades-maximas-para-ingresso-na-carreira-de-pm-e-bombeiros.ghtml" target=_blank>Lula veta projeto que estabelecia idades máximas para ingresso na carreira de PM e bombeiros</a><br>
+    <small>07/01 08:38</small>
+  </li>
+
+  <li data-source="BrazilJournal">
+    <strong>[BrazilJournal]</strong> <a href="https://braziljournal.com/no-apagar-das-luzes-um-corte-de-beneficios-fiscais-que-ninguem-viu-chegar/" target=_blank>No apagar das luzes, um corte de ‘benefícios fiscais’ que ninguém viu chegar</a><br>
+    <small>07/01 08:37</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/01/nucleo-do-pt-indica-a-lula-nomes-do-partido-para-ministerio-da-seguranca-publica.shtml" target=_blank>Painel: Núcleo do PT indica a Lula nomes do partido para Ministério da Segurança Pública</a><br>
+    <small>07/01 08:32</small>
+  </li>
+
+  <li data-source="G1 Blogs">
+    <strong>[G1 Blogs]</strong> <a href="https://g1.globo.com/politica/blog/valdo-cruz/post/2026/01/07/lula-e-aconselhado-a-aproveitar-saida-de-lewandowski-para-criar-ministerio-da-seguranca-publica.ghtml" target=_blank>Valdo Cruz: Lula é aconselhado a aproveitar saída de Lewandowski para criar Ministério da Segurança Pública</a><br>
+    <small>07/01 08:31</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/bolsonaro-e-transferido-para-hospital-para-fazer-exames/" target=_blank>Bolsonaro é transferido para hospital para fazer exames</a><br>
+    <small>07/01 08:20</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/economia/lula-sanciona-lei-contra-descontos-indevidos-no-inss-mas-veta-devolucao-via-orcamento/" target=_blank>Lula sanciona lei contra descontos indevidos no INSS, mas veta devolução via orçamento</a><br>
+    <small>07/01 07:59</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/inss-lula-sanciona-lei-que-proibe-desconto-automatico-em-beneficios" target=_blank>INSS: Lula sanciona lei que proíbe desconto automático em benefícios</a><br>
+    <small>07/01 07:46</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/saude/noticia/2026/01/07/as-quedas-sao-as-minhas-grandes-preocupacoes-neste-momento-diz-o-cirurgiao-de-bolsonaro.ghtml" target=_blank>‘As quedas são as minhas grandes preocupações neste momento’, diz o cirurgião de Bolsonaro</a><br>
+    <small>07/01 07:38</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/blogs/lauro-jardim/post/2026/01/lula-o-caso-master-e-o-pt-baiano.ghtml" target=_blank>Lauro Jardim: Lula, o caso Master e o PT baiano</a><br>
+    <small>07/01 07:23</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/mundo/noticia/2026/01/07/desemprego-na-alemanha-se-mantm-estvel-em-63-pontos-percentuais-em-dezembro.ghtml" target=_blank>Desemprego na Alemanha se mantém estável em 6,3% em dezembro</a><br>
+    <small>07/01 06:30</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/moraes-autoriza-ida-de-bolsonaro-a-hospital-para-fazer-exames/" target=_blank>Moraes autoriza ida de Bolsonaro a hospital para fazer exames</a><br>
+    <small>07/01 06:29</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/mercado/mercado-financeiro-ibovespa-dolar-7-janeiro-2026/" target=_blank>Dólar abre perto da estabilidade à espera de "combo" de dados dos EUA</a><br>
+    <small>07/01 06:26</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/moraes-da-15-dias-para-malafaia-explicar-ofensas-a-alto-comando-do-exercito/" target=_blank>Moraes dá 15 dias para Malafaia explicar ofensas a Alto Comando do Exército</a><br>
+    <small>07/01 06:16</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/blogs/malu-gaspar/post/2026/01/master-o-pedido-que-vorcaro-negou-em-depoimento-sigiloso-ao-stf.ghtml" target=_blank>Malu Gaspar: Master: o pedido que Vorcaro negou em depoimento sigiloso ao STF</a><br>
+    <small>07/01 06:00</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/01/congresso-libera-pagamento-retroativo-de-beneficios-a-servidores-em-ano-eleitoral.shtml" target=_blank>Congresso libera pagamento retroativo de benefícios a servidores em ano eleitoral</a><br>
+    <small>07/01 06:00</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/macroeconomia/bc-da-china-compra-ouro-pelo-14o-mes-consecutivo/" target=_blank>BC da China compra ouro pelo 14º mês consecutivo</a><br>
+    <small>07/01 05:50</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/lula-aprova-lei-que-proibe-descontos-automaticos-de-beneficios-do-inss/" target=_blank>Lula sanciona lei que proíbe descontos automáticos de benefícios do INSS</a><br>
+    <small>07/01 05:35</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/dialogos-de-whatsapp-anotacoes-e-passagem-aerea-veja-mencoes-a-lulinha-no-inquerito-do-inss/" target=_blank>Diálogos de WhatsApp, anotações e passagem aérea: veja menções a Lulinha no inquérito do INSS</a><br>
+    <small>07/01 05:31</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/pf-diz-que-vai-apurar-se-filho-de-lula-foi-socio-oculto-do-careca-do-inss-em-negocios-no-governo/" target=_blank>PF diz que vai apurar se filho de Lula foi ‘sócio oculto’ do Careca do INSS em negócios no governo</a><br>
+    <small>07/01 05:30</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/coluna-do-estadao/risco-de-mais-um-apagao-na-pauta-da-seguranca-dificulta-troca-de-lewandowski-no-governo-lula/" target=_blank>Risco de mais um apagão na pauta da segurança dificulta troca de Lewandowski no governo Lula</a><br>
+    <small>07/01 05:30</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/coluna-do-estadao/caso-master-procurador-defende-inspecao-do-tcu-no-bc-antes-de-decisao-colegiada/" target=_blank>Caso Master: procurador defende inspeção do TCU no BC antes de decisão colegiada</a><br>
+    <small>07/01 05:30</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/macroeconomia/inflacao-da-zona-do-euro-desacelera-a-2-em-dezembro-dentro-da-meta-do-bce/" target=_blank>Inflação da zona do euro desacelera a 2% em dezembro, dentro da meta do BCE</a><br>
+    <small>07/01 05:29</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/impresso/noticia/2026/01/07/bolsonaro-sofre-queda-em-cela-na-pf.ghtml" target=_blank>Bolsonaro sofre queda em cela na PF</a><br>
+    <small>07/01 05:28</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/financas/noticia/2026/01/07/bancos-dos-eua-ainda-veem-fraqueza-do-dolar-em-2026.ghtml" target=_blank>Bancos dos EUA ainda veem fraqueza do dólar em 2026</a><br>
+    <small>07/01 05:02</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/financas/noticia/2026/01/07/ibovespa-engata-alta-de-1percent-e-dolar-recua-pela-4a-sessao-seguida.ghtml" target=_blank>Ibovespa engata alta de 1% e dólar recua pela 4ª sessão seguida</a><br>
+    <small>07/01 05:02</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/financas/noticia/2026/01/07/iof-de-5-tira-apelo-do-vgbl-para-bolso-graudo.ghtml" target=_blank>IOF de 5% tira apelo do VGBL para bolso graúdo</a><br>
+    <small>07/01 05:02</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/financas/coluna/perspectivas-globais-ia-impulsiona-economia-oscila.ghtml" target=_blank>Tiago Cavalcanti: Perspectivas globais: IA impulsiona, economia oscila</a><br>
+    <small>07/01 05:02</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/empresas/noticia/2026/01/07/nvidia-projeta-dobrar-receita-na-america-latina.ghtml" target=_blank>Nvidia projeta dobrar receita na América Latina</a><br>
+    <small>07/01 05:01</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/opiniao/tiago-cavalcanti/coluna/promover-concorrencia-e-politica-publica.ghtml" target=_blank>Tiago Cavalcanti: Promover concorrência é política pública</a><br>
+    <small>07/01 05:01</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/impresso/noticia/2026/01/07/bc-recorre-de-decisao-do-tcu-sobre-inspecao.ghtml" target=_blank>BC recorre de decisão do TCU sobre inspeção</a><br>
+    <small>07/01 05:00</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/politica/noticia/2026/01/07/homem-condenado-por-quebrar-relogio-de-dom-joao-vi-no-8-de-janeiro-segue-preso-apos-soltura-revertida-por-moraes.ghtml" target=_blank>Homem condenado por quebrar relógio de Dom João VI no 8 de Janeiro segue preso após soltura revertida por Moraes</a><br>
+    <small>07/01 04:30</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/blogs/segredos-do-crime/coluna/2026/01/moraes-determina-que-desembargador-preso-passe-por-uma-junta-medica-para-confirmar-se-ele-tem-doenca-grave.ghtml" target=_blank>Segredos Do Crime: Moraes determina que desembargador preso passe por uma junta médica para confirmar se ele tem doença grave</a><br>
+    <small>07/01 04:30</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/politica/noticia/2026/01/07/apos-prisao-de-maduro-pt-ingressa-com-acoes-judiciais-contra-politicos-que-ligaram-partido-e-lula-ao-narcotrafico.ghtml" target=_blank>Após prisão de Maduro, PT ingressa com ações judiciais contra políticos que ligaram partido e Lula ao narcotráfico</a><br>
+    <small>07/01 04:19</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/economia/zeina-latif/coluna/2026/01/inicio-melancolico-de-2026.ghtml" target=_blank>Zeina Latif: Início melancólico de 2026</a><br>
+    <small>07/01 04:01</small>
+  </li>
+
+  <li data-source="G1 Blogs">
+    <strong>[G1 Blogs]</strong> <a href="https://g1.globo.com/politica/blog/gerson-camarotti/post/2026/01/07/em-ano-eleitoral-mais-de-20-ministros-devem-deixar-o-governo-nos-proximos-meses.ghtml" target=_blank>Gerson Camarotti: Em ano eleitoral, mais de 20 ministros devem deixar o governo nos próximos meses</a><br>
+    <small>07/01 04:01</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/economia/noticia/2026/01/07/maiores-carnivoros-do-mundo-argentinos-reduzem-consumo-de-carne-explicacao-vai-alem-da-inflacao.ghtml" target=_blank>Maiores ‘carnívoros’ do mundo, argentinos reduzem consumo de carne. Explicação vai além da inflação</a><br>
+    <small>07/01 04:00</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/economia/negocios/noticia/2026/01/07/caixa-insuficiente-compulsorio-fraude-e-patrimonio-veja-em-4-pontos-as-razoes-dadas-pelo-bc-ao-tcu-para-liquidar-o-master.ghtml" target=_blank>Caixa insuficiente, compulsório, fraude e patrimônio: veja em 4 pontos as razões dadas pelo BC ao TCU para liquidar o Master</a><br>
+    <small>07/01 04:00</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/blogs/malu-gaspar/post/2026/01/master-ministros-do-stf-reprovam-ofensiva-do-tcu-contra-o-banco-central.ghtml" target=_blank>Malu Gaspar: Master: ministros do STF reprovam ofensiva do TCU contra o Banco Central</a><br>
+    <small>07/01 04:00</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/economia/noticia/2026/01/07/lula-e-haddad-manifestam-atuacao-do-tcu-no-caso-master.ghtml" target=_blank>Lula e Haddad manifestam preocupação com atuação do TCU no caso Master</a><br>
+    <small>07/01 04:00</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/economia/fabio-graner/post/2026/01/em-meio-a-pressao-por-caso-master-missao-do-fmi-e-do-banco-mundial-aponta-fragilidades-regulatorias-que-afetam-atuacao-do-bc.ghtml" target=_blank>Em meio a pressão por caso Master, missão do FMI e do Banco Mundial aponta fragilidades regulatórias que afetam atuação do BC</a><br>
+    <small>07/01 04:00</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/01/moraes-manda-malafaia-se-explicar-por-chamar-alto-comando-do-exercito-de-frouxo.shtml" target=_blank>Moraes manda Malafaia se explicar por chamar Alto Comando do Exército de frouxo</a><br>
+    <small>07/01 04:00</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/01/veja-o-novo-desconto-do-imposto-de-renda-para-aposentados-do-inss.shtml" target=_blank>Veja o novo desconto do Imposto de Renda para aposentados do INSS</a><br>
+    <small>07/01 04:00</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/politica/noticia/2026/01/07/sondada-pelo-pt-marina-silva-descarta-disputar-camara-e-candidatura-ao-senado-por-sao-paulo-depende-de-rumo-de-haddad.ghtml" target=_blank>Sondada pelo PT, Marina Silva descarta disputar Câmara, e candidatura ao Senado por São Paulo depende de rumo de Haddad</a><br>
+    <small>07/01 03:30</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/brasil/noticia/2026/01/07/governo-lula-se-reune-com-setor-porno-para-discutir-protecao-de-menores-na-internet.ghtml" target=_blank>Governo Lula se reúne com setor pornô para discutir proteção de menores na internet</a><br>
+    <small>07/01 03:30</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/financas/intraday/post/2026/01/selic-elevada-mantem-estrangeiro-otimista-com-o-real.ghtml" target=_blank>Selic elevada mantém estrangeiro otimista com o real</a><br>
+    <small>07/01 03:15</small>
+  </li>
+
+  <li data-source="G1 Blogs">
+    <strong>[G1 Blogs]</strong> <a href="https://g1.globo.com/economia/blog/ana-flor/post/2026/01/07/governo-lula-aposta-que-eua-precisarao-do-brasil-nos-planos-de-estabilizacao-da-venezuela.ghtml" target=_blank>Ana Flor: Governo Lula aposta que EUA precisarão do Brasil nos planos de estabilização da Venezuela</a><br>
+    <small>07/01 03:00</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/distrito-federal/na-mira/o-salario-do-ex-assessor-de-ministro-do-stf-preso-por-perseguir-juiza" target=_blank>O salário do ex-assessor de ministro do STF preso por perseguir juíza</a><br>
+    <small>07/01 02:42</small>
+  </li>
+
+</ul>
+<script>
+  const tabs = Array.from(document.querySelectorAll('.tab'));
+  const items = document.querySelectorAll('li[data-source]');
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      const src = tab.getAttribute('data-source');
+      if (src === 'all') {
+        tabs.forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+      } else {
+        tab.classList.toggle('active');
+        const allTab = tabs.find(t => t.getAttribute('data-source')==='all');
+        const anyActive = tabs.some(t => t!==allTab && t.classList.contains('active'));
+        anyActive ? allTab.classList.remove('active') : allTab.classList.add('active');
+      }
+      const activeSources = tabs
+        .filter(t => t.classList.contains('active') && t.getAttribute('data-source')!=='all')
+        .map(t => t.getAttribute('data-source'));
+      const showAll = tabs.find(t => t.getAttribute('data-source')==='all').classList.contains('active');
+      items.forEach(li => {
+        const s = li.getAttribute('data-source');
+        li.classList.toggle('hidden', !showAll && !activeSources.includes(s));
+      });
+    });
+  });
+</script>
+</body>
+</html>
