@@ -1,0 +1,629 @@
+<!doctype html>
+<html lang=pt-br>
+<head>
+  <meta charset=utf-8>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clipping – Últimas</title>
+  <style>
+    body { font-family:Arial,sans-serif;margin:2rem;line-height:1.5 }
+    .tabs { margin-bottom:1rem; }
+    .tab { margin-right:.5rem;padding:.5rem 1rem;cursor:pointer;background:#eee;border:none;border-radius:4px }
+    .tab.active { background:#ddd;font-weight:bold }
+    ul { margin-left:0;padding-left:0;list-style-position:inside }
+    li { margin:.5rem 0 }
+    li.hidden { display:none }
+    small { color:#666 }
+    a { color:#064;text-decoration:none }
+    a:hover { text-decoration:underline }
+    @media screen and (max-width:768px) {
+      html { font-size:18px }
+      body { margin:1rem }
+      h1 { font-size:1.2rem }
+      .tab { font-size:0.8rem;color:#000 }
+    }
+  </style>
+</head>
+<body>
+<h1>Notícias Brasil - Filtradas</h1>
+<p><small>24/05 02:11</small></p>
+<div class="tabs">
+  <button class="tab active" data-source="all">Todos</button>
+  
+    <button class="tab" data-source="Valor">Valor</button>
+  
+    <button class="tab" data-source="Folha">Folha</button>
+  
+    <button class="tab" data-source="Globo">Globo</button>
+  
+    <button class="tab" data-source="Estadão">Estadão</button>
+  
+    <button class="tab" data-source="CNN Brasil">CNN Brasil</button>
+  
+    <button class="tab" data-source="G1 Blogs">G1 Blogs</button>
+  
+    <button class="tab" data-source="Metrópoles">Metrópoles</button>
+  
+    <button class="tab" data-source="UOL">UOL</button>
+  
+</div>
+<ul>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/colunas/tacio-lorran/farmaceutica-que-era-ligada-ao-master-atrasa-entrega-de-insulina-ao-sus-e-e-notificada-pelo-governo" target=_blank>Tacio Lorran: Farmacêutica que era ligada ao Master atrasa entrega de insulina ao SUS e é cobrada pelo governo</a><br>
+    <small>24/05 02:00</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/lula-alcolumbre-diretoria-bc-desfalcada" target=_blank>Crise de Lula e Alcolumbre deixa diretoria do BC desfalcada há 5 meses</a><br>
+    <small>24/05 02:00</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/em-meio-a-atritos-com-senado-lula-segura-indicacoes-para-agencias" target=_blank>Em meio a atritos com Senado, Lula segura indicações para agências</a><br>
+    <small>24/05 02:00</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/opiniao/editorial/coluna/2026/05/lula-nao-encontra-limite-em-sua-gastanca-eleitoreira.ghtml" target=_blank>2026: Lula não encontra limite em sua gastança eleitoreira</a><br>
+    <small>24/05 00:10</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/blogs/bernardo-mello-franco/coluna/2026/05/livro-mostra-transformacoes-do-brasil-em-20-anos-de-eleicoes-presidenciais.ghtml" target=_blank>Bernardo Mello Franco: Livro mostra transformações do Brasil em 20 anos de eleições presidenciais</a><br>
+    <small>24/05 00:00</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/economia/noticia/2026/05/24/fim-da-escala-6x1-setores-devem-ter-regras-proprias-no-texto-da-pec-que-sera-definido-amanha.ghtml" target=_blank>Fim da escala 6x1: setores devem ter regras próprias no texto da PEC, que será definido amanhã</a><br>
+    <small>24/05 00:00</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/lula-nao-tem-moral-para-dar-licao-sobre-combate-ao-crime-diz-ruas" target=_blank>"Lula não tem moral para dar lição sobre combate ao crime", diz Ruas</a><br>
+    <small>23/05 23:32</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/05/crise-do-master-nao-e-do-stf-esta-na-faria-lima-diz-gilmar-mendes.shtml" target=_blank>'Crise do Master não é do STF, está na Faria Lima', diz Gilmar Mendes</a><br>
+    <small>23/05 23:00</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/05/maioria-das-votacoes-no-congresso-e-feita-de-maneira-simbolica-e-sem-transparencia.shtml" target=_blank>Maioria das votações no Congresso é feita de maneira simbólica e sem transparência</a><br>
+    <small>23/05 23:00</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/ilustrissima/2026/05/partido-do-mbl-se-inspira-em-ultradireita-do-vale-do-silicio-para-desafiar-bolsonaro.shtml" target=_blank>Partido do MBL se inspira em ultradireita do Vale do Silício para desafiar Bolsonaro</a><br>
+    <small>23/05 23:00</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/05/lula-atrai-29-do-eleitorado-de-centro-contra-20-de-flavio-mostra-datafolha.shtml" target=_blank>Painel: Lula atrai 29% do eleitorado de centro, contra 20% de Flávio, mostra Datafolha</a><br>
+    <small>23/05 23:00</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/ana-paula-vescovi/2026/05/o-credito-privado-sera-testado.shtml" target=_blank>Ana Paula Vescovi: O crédito privado será testado</a><br>
+    <small>23/05 23:00</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/colunas/ana-paula-vescovi/2026/05/o-credito-privado-sera-testado.shtml" target=_blank>Ana Paula Vescovi: O crédito privado será testado</a><br>
+    <small>23/05 23:00</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/opiniao/rss091/*https://www1.folha.uol.com.br/colunas/ana-paula-vescovi/2026/05/o-credito-privado-sera-testado.shtml" target=_blank>Ana Paula Vescovi: O crédito privado será testado</a><br>
+    <small>23/05 23:00</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/colunas/reinaldo-azevedo/pesquisas-e-arquitetura-da-destruicao-sempre-foi-dificil-lula-perder" target=_blank>Reinaldo Azevedo: Pesquisas e arquitetura da destruição. Sempre foi difícil Lula perder</a><br>
+    <small>23/05 22:19</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/opiniao/rss091/*https://www1.folha.uol.com.br/opiniao/2026/05/congresso-precisa-dar-autonomia-financeira-ao-bc.shtml" target=_blank>Congresso precisa dar autonomia financeira ao BC</a><br>
+    <small>23/05 22:00</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/opiniao/rss091/*https://www1.folha.uol.com.br/opiniao/2026/05/stf-inverte-prioridades-no-escandalo-do-banco-master.shtml" target=_blank>STF inverte prioridades no escândalo do Banco Master</a><br>
+    <small>23/05 22:00</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/governo-lula-prepara-ofensiva-com-estados-contra-roubo-de-celulares" target=_blank>Governo Lula prepara ofensiva com estados contra roubo de celulares</a><br>
+    <small>23/05 21:55</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/politica/noticia/2026/05/23/alerj-rebate-lula-apos-presidente-associar-parlamento-fluminense-a-milicianos.ghtml" target=_blank>Alerj rebate Lula após presidente associar parlamento fluminense a milicianos</a><br>
+    <small>23/05 21:34</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/colunas/fabia-oliveira/irma-de-deolane-liga-prisao-da-influenciadora-a-apoio-a-lula" target=_blank>Fabia Oliveira: Irmã de Deolane liga prisão da influenciadora a apoio a Lula</a><br>
+    <small>23/05 21:18</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/sao-paulo/caso-deolane-investigada-bolsa-familia" target=_blank>Caso Deolane: investigada que movimentou milhões recebeu Bolsa Família</a><br>
+    <small>23/05 20:39</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/alerj-pede-respeito-apos-fala-de-lula-sobre-indicacao-de-miliciano" target=_blank>Alerj pede respeito após fala de Lula sobre indicação de miliciano</a><br>
+    <small>23/05 20:21</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/politica/noticia/2026/05/23/lula-diz-que-vai-vetar-trecho-de-pl-que-da-brecha-para-disparo-em-massa-de-mensagens-nas-eleicoes.ghtml" target=_blank>Lula diz que vai vetar trecho de PL que dá brecha para disparo em massa de mensagens nas eleições</a><br>
+    <small>23/05 20:19</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/eliane-cantanhede/jair-bolsonaro-foi-beneficiario-dos-escandalos-em-2018-quem-sera-o-dos-escandalos-de-flavio-em-2026/" target=_blank>Jair Bolsonaro foi beneficiário dos escândalos em 2018, quem será o dos escândalos de Flávio em 2026</a><br>
+    <small>23/05 20:00</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/economia/noticia/2026/05/23/durigan-diz-que-resposta-da-europa-ao-tarifaco-de-trump-foi-abrupta-pode-ter-agravado-a-situacao.ghtml" target=_blank>Durigan diz que resposta da Europa ao tarifaço de Trump foi ‘abrupta’: ‘Pode ter agravado a situação’</a><br>
+    <small>23/05 19:48</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/politica/noticia/2026/05/23/pt-vai-acionar-pgr-e-conselho-de-tica-contra-mario-frias.ghtml" target=_blank>PT vai acionar PGR e Conselho de Ética contra Mario Frias</a><br>
+    <small>23/05 19:44</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/05/eduardo-bolsonaro-diz-ter-acionado-policia-contra-reporter.shtml" target=_blank>Eduardo Bolsonaro diz ter acionado polícia contra repórter</a><br>
+    <small>23/05 19:27</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/minas-gerais/moraes-decide-reduzir-pena-de-preso-em-mg-que-destruiu-relogio-no-8-1" target=_blank>Moraes decide reduzir pena de preso em MG que destruiu relógio no 8/1</a><br>
+    <small>23/05 19:11</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/05/video-de-joaquim-barbosa-feito-com-ia-nao-teve-aval-de-ex-ministro-do-stf.shtml" target=_blank>Painel: Vídeo de Joaquim Barbosa feito com IA não teve aval de ex-ministro do STF</a><br>
+    <small>23/05 17:44</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/opiniao/rss091/*https://www1.folha.uol.com.br/blogs/claudio-hebdo/2026/05/a-popularidade-de-lula-nao-sobe-mais.shtml" target=_blank>Claudio Hebdo: A popularidade de Lula não sobe mais?</a><br>
+    <small>23/05 17:42</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/05/caneta-emagrecedora-deve-elevar-o-pib-da-dinamarca-sede-da-novo-nordisk.shtml" target=_blank>Caneta emagrecedora deve elevar o PIB da Dinamarca, sede da Novo Nordisk</a><br>
+    <small>23/05 17:01</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/economia/alexandre-schwartsman/hat-trick-politica-combustiveis-erra-todas-dimensoes/" target=_blank>Alexandre Schwartsman: Um verdadeiro hat trick: política para conter os combustíveis erra em todas as dimensões</a><br>
+    <small>23/05 17:00</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/colunas/mirelle-pinheiro/pt-aciona-pgr-contra-mario-frias-por-suspeita-de-rachadinha" target=_blank>Mirelle Pinheiro: PT aciona PGR contra Mario Frias por suspeita de rachadinha</a><br>
+    <small>23/05 16:54</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/datafolha-38-avaliam-gestao-lula-como-ruim-ou-pessima" target=_blank>Datafolha: 38% avaliam gestão Lula como ruim ou péssima</a><br>
+    <small>23/05 16:48</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/politica/noticia/2026/05/23/lula-deve-se-reunir-com-pacheco-na-prxima-semana-para-definir-palanque-em-minas-gerais.ghtml" target=_blank>Lula deve se reunir com Pacheco na próxima semana para definir palanque em Minas Gerais</a><br>
+    <small>23/05 16:14</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/cni-aciona-stf-contra-fim-da-taxa-das-blusinhas/" target=_blank>CNI aciona STF contra fim da “taxa das blusinhas”</a><br>
+    <small>23/05 15:59</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/politica/noticia/2026/05/23/sem-presenca-de-flavio-bolsonaro-marcha-para-jesus-ocorre-neste-sabado-no-rio.ghtml" target=_blank>Sem presença de Flávio Bolsonaro, Marcha para Jesus ocorre neste sábado no Rio</a><br>
+    <small>23/05 15:45</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/minas-gerais/cleitinho-fala-sobre-escala-6x1-e-e-criticado-entrou-na-pilha-do-pt" target=_blank>Cleitinho fala sobre escala 6x1 e é criticado: “Entrou na pilha do PT”</a><br>
+    <small>23/05 15:32</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/lula-em-evento-com-ricardo-couto-se-alerj-tivesse-de-indicar-alguem-viria-miliciano" target=_blank>"Se Alerj tivesse de indicar alguém, viria miliciano", afirma Lula, em discurso no Rio</a><br>
+    <small>23/05 15:32</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/lula-diz-a-governador-interino-para-prender-ladroes-e-milicianos-que-comandaram-o-estado-do-rj/" target=_blank>Lula diz a governador interino para prender ‘ladrões’ e ‘milicianos’ que comandaram o Estado do RJ</a><br>
+    <small>23/05 15:21</small>
+  </li>
+
+  <li data-source="G1 Blogs">
+    <strong>[G1 Blogs]</strong> <a href="https://g1.globo.com/politica/blog/andreia-sadi/post/2026/05/23/advogado-bialski-bastidores-defesa-vorcaro.ghtml" target=_blank>Andreia Sadi: Advogado Daniel Bialski surge nos bastidores como nome cotado para defesa de Vorcaro</a><br>
+    <small>23/05 15:15</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/economia/negocios/claro-que-houve-falha-dos-orgaos-de-controle-no-caso-master-diz-andre-esteves-do-btg-pactual/" target=_blank>‘Claro que houve falha dos órgãos de controle no caso Master’, diz André Esteves, do BTG Pactual</a><br>
+    <small>23/05 15:13</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/lula-volta-a-cobrar-pec-da-seguranca-e-diz-que-governadores-sao-refens-das-policias" target=_blank>Lula volta a cobrar PEC da Segurança e diz que governadores são "reféns" das polícias</a><br>
+    <small>23/05 15:11</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/lula-estreia-streaming-gratuito" target=_blank>Lula anuncia data de estreia do Tela Brasil, a "Netflix brasileira"</a><br>
+    <small>23/05 15:08</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/politica/noticia/2026/05/23/integrantes-da-campanha-de-lula-dizem-que-pacote-pesou-na-melhora-da-avaliacao-do-governo.ghtml" target=_blank>Integrantes da campanha de Lula dizem que pacote pesou na melhora da avaliação do governo</a><br>
+    <small>23/05 15:06</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/economia/fim-escala-6x1-elevar-inflacao-reduzir-empregos-dono-riachuelo/" target=_blank>Fim da escala 6x1 vai elevar inflação ou reduzir empregos, diz dono da Riachuelo</a><br>
+    <small>23/05 15:02</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/celso-rocha-de-barros/2026/05/flavio-bolsonaro-na-casa-de-vorcaro.shtml" target=_blank>Celso Rocha De Barros: Flávio Bolsonaro na casa de Vorcaro</a><br>
+    <small>23/05 15:00</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/dora-kramer/2026/05/pl-esta-enredado-nos-maus-lencois-da-familia-bolsonaro.shtml" target=_blank>Dora Kramer: PL está enredado nos maus lençóis da família Bolsonaro</a><br>
+    <small>23/05 14:45</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/opiniao/rss091/*https://www1.folha.uol.com.br/colunas/dora-kramer/2026/05/pl-esta-enredado-nos-maus-lencois-da-familia-bolsonaro.shtml" target=_blank>Dora Kramer: PL está enredado nos maus lençóis da família Bolsonaro</a><br>
+    <small>23/05 14:45</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/lula-disse-a-trump-que-brasil-nao-da-preferencia-nem-aos-eua-nem-a-china" target=_blank>Lula: "Disse a Trump que Brasil não dá preferência nem aos EUA nem à China"</a><br>
+    <small>23/05 14:37</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/sao-paulo/renan-marcal-lula-bolsonaro" target=_blank>Pré-candidato do Missão, Renan ataca Pablo Marçal, Lula e Bolsonaro</a><br>
+    <small>23/05 14:30</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/politica/noticia/2026/05/23/lula-pede-que-governador-interino-do-rio-prenda-ladres-e-milicianos-que-governaram-o-estado.ghtml" target=_blank>Lula pede que governador interino do Rio prenda ladrões e milicianos que governaram o Estado</a><br>
+    <small>23/05 14:20</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/05/trabalhe-para-prender-todos-os-ladroes-diz-lula-a-governador-interino-do-rj.shtml" target=_blank>Trabalhe para prender todos os ladrões, diz Lula a governador interino do RJ</a><br>
+    <small>23/05 14:19</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/sao-paulo/haddad-diz-ecossistema-vorcaro-bolsonaro-impactar-eleicoes" target=_blank>Haddad diz que "ecossistema Vorcaro-Bolsonaro" deve impactar eleições</a><br>
+    <small>23/05 14:11</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/o-que-disse-lula-sobre-governador-interino-do-rio-ricardo-couto" target=_blank>O que disse Lula sobre governador interino do Rio, Ricardo Couto</a><br>
+    <small>23/05 14:04</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/economia/the-economist-qual-e-o-custo-do-governo-trump-para-a-economia-americana/" target=_blank>The Economist: Qual é o custo do governo Trump para a economia americana?</a><br>
+    <small>23/05 14:00</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/colunas/viniciustorres/2026/05/o-rachadao-dos-bolsonaro-no-brasil-embalado-pelo-pancadao-do-debate-ruim.shtml" target=_blank>Viniciustorres: O rachadão dos Bolsonaro no Brasil embalado pelo pancadão do debate ruim</a><br>
+    <small>23/05 13:58</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/opiniao/rss091/*https://www1.folha.uol.com.br/colunas/viniciustorres/2026/05/o-rachadao-dos-bolsonaro-no-brasil-embalado-pelo-pancadao-do-debate-ruim.shtml" target=_blank>Viniciustorres: O rachadão dos Bolsonaro no Brasil embalado pelo pancadão do debate ruim</a><br>
+    <small>23/05 13:58</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/05/lula-e-motta-preparam-reuniao-nesta-2a-para-definir-fim-da-6x1.shtml" target=_blank>Lula e Motta preparam reunião nesta 2ª para definir fim da 6x1</a><br>
+    <small>23/05 13:51</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/dpu-diz-ao-stf-que-moraes-nao-pode-julgar-acao-contra-eduardo-bolsonaro/" target=_blank>DPU diz ao STF que Moraes não pode julgar ação contra Eduardo Bolsonaro</a><br>
+    <small>23/05 13:50</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/politica/noticia/2026/05/23/no-rio-lula-faz-aceno-a-governador-em-exercicio-e-oferece-ajuda-para-consertar-o-rio-e-enfrentar-a-milicia.ghtml" target=_blank>No Rio, Lula faz aceno a governador em exercício e oferece ajuda para ‘consertar o Rio’ e ‘enfrentar a milícia’</a><br>
+    <small>23/05 13:42</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/barroso-tem-alguma-decisao-do-stf-favorecendo-o-banco-master-nao-que-eu-saiba/" target=_blank>Barroso: ‘Tem alguma decisão do STF favorecendo o Banco Master? Não que eu saiba’</a><br>
+    <small>23/05 13:14</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/politica/noticia/2026/05/23/deputado-de-mg-pede-investigacao-sobre-possiveis-beneficios-fiscais-concedidos-a-empresas-de-vorcaro.ghtml" target=_blank>Deputado de MG pede investigação sobre possíveis benefícios fiscais concedidos a empresas de Vorcaro</a><br>
+    <small>23/05 12:44</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/politica/noticia/2026/05/23/governo-prepara-proposta-para-tentar-mudar-rumo-de-julgamento-sobre-taxas-da-cvm.ghtml" target=_blank>Governo prepara proposta para tentar mudar rumo de julgamento sobre taxas da CVM</a><br>
+    <small>23/05 12:12</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/politica/noticia/2026/05/23/apos-crise-flavio-bolsonaro-precisara-provar-que-nao-e-toxico-se-associar-a-ele-diz-cientista-politica.ghtml" target=_blank>Após crise, Flávio Bolsonaro precisará provar que não é tóxico se associar a ele, diz cientista política</a><br>
+    <small>23/05 12:03</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/05/dark-horse-abala-flavio-bolsonaro-na-direita-mas-antipetismo-e-amortecedor-no-2o-turno.shtml" target=_blank>'Dark Horse' abala Flávio Bolsonaro na direita, mas antipetismo é amortecedor no 2º turno</a><br>
+    <small>23/05 12:00</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/politica/noticia/2026/05/23/pressionada-campanha-de-flavio-bolsonaro-corre-para-anunciar-porta-vozes-para-tentar-desviar-da-crise-dark-horse.ghtml" target=_blank>Pressionada, campanha de Flávio Bolsonaro corre para anunciar porta-vozes para tentar desviar da crise Dark Horse</a><br>
+    <small>23/05 11:56</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/stf-tem-dois-votos-para-manter-prisoes-de-pai-e-primo-de-vorcaro" target=_blank>STF tem dois votos para manter prisões de pai e primo de Vorcaro</a><br>
+    <small>23/05 11:52</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/05/barroso-afirma-que-codigo-de-etica-para-stf-e-bom-e-importante.shtml" target=_blank>Barroso afirma que código de ética para STF é bom e importante</a><br>
+    <small>23/05 11:41</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/politica/noticia/2026/05/23/datafolha-avaliacao-do-governo-lula-melhora-depois-de-caso-dark-horse.ghtml" target=_blank>Datafolha: Avaliação do governo Lula melhora depois de caso Dark Horse</a><br>
+    <small>23/05 11:32</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/colunas/grande-angular/flavio-bolsonaro-pede-que-video-que-o-chama-de-corrupto-seja-excluido" target=_blank>Grande Angular: Flávio Bolsonaro pede que vídeo que o chama de corrupto seja excluído</a><br>
+    <small>23/05 11:18</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/fux-antecipa-voto-e-stf-tem-placar-de-2-a-0-para-manter-prisoes-de-pai-e-primo-de-vorcaro/" target=_blank>Fux antecipa voto, e STF tem placar de 2 a 0 para manter prisões de pai e primo de Vorcaro</a><br>
+    <small>23/05 11:17</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/financas/imposto-de-renda-os-5-erros-mais-comuns-de-quem-cai-na-malha-fina/" target=_blank>Imposto de Renda: Os 5 erros mais comuns de quem cai na malha fina</a><br>
+    <small>23/05 11:12</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/politica/noticia/2026/05/23/avaliacao-do-governo-lula-melhora-mas-ainda-e-negativa-diz-datafolha.ghtml" target=_blank>Avaliação do governo Lula melhora, mas ainda é negativa, diz Datafolha</a><br>
+    <small>23/05 11:03</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/negocios/bndes-vende-acoes-da-petrobras-e-da-axia-apos-valorizacao-de-carteira" target=_blank>BNDES vende ações da Petrobras e da Axia após valorização de carteira</a><br>
+    <small>23/05 11:00</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/trabalhe-para-prender-quem-roubou-o-rj-diz-lula-a-governador-interino/" target=_blank>Trabalhe para prender quem roubou o RJ, diz Lula a governador interino</a><br>
+    <small>23/05 10:43</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/mundo/ira-governo-trump-escalada-conflito" target=_blank>Irã manda recado ao governo Trump e alerta para escalada do conflito</a><br>
+    <small>23/05 10:36</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/brasil/noticia/2026/05/23/dona-de-produtora-de-filme-sobre-bolsonaro-buscou-lei-rouanet-para-projetos-de-r-86-milhoes.ghtml" target=_blank>Dona de produtora de filme sobre Bolsonaro buscou Lei Rouanet para projetos de R$ 8,6 milhões</a><br>
+    <small>23/05 10:33</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/moraes-suspende-julgamento-sobre-verba-eleitoral-para-candidatos-negros/" target=_blank>Moraes suspende julgamento sobre verba eleitoral para candidatos negros</a><br>
+    <small>23/05 10:25</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/ao-lado-de-lula-governador-interino-do-rj-parafraseia-milton-nascimento/" target=_blank>Ao lado de Lula, governador interino do RJ parafraseia Milton Nascimento</a><br>
+    <small>23/05 10:22</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/brasil/noticia/2026/05/23/deolane-movimentou-r-7-mi-em-quatro-anos-mas-declarou-75percent-disso-a-receita-diz-investigacao.ghtml" target=_blank>Deolane movimentou R$ 7 mi em quatro anos, mas declarou 7,5% disso à Receita, diz investigação</a><br>
+    <small>23/05 10:21</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/brasil/noticia/2026/05/23/investigacao-da-policia-civil-diz-que-deolane-movimentou-r-7-mi-em-quatro-anos-mas-declarou-75percent-disso-a-receita.ghtml" target=_blank>Investigação da Polícia Civil diz que Deolane movimentou R$ 7 mi em quatro anos, mas declarou 7,5% disso à Receita</a><br>
+    <small>23/05 10:21</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/05/datafolha-governo-lula-tem-38-de-avaliacao-negativa-e-32-de-positiva.shtml" target=_blank>Datafolha: Avaliação do governo Lula melhora, mas ainda é negativa</a><br>
+    <small>23/05 10:01</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/financas/intraday/post/2026/05/warsh-chega-a-um-fed-sem-espaco-para-cortes-de-juros.ghtml" target=_blank>Warsh chega a um Fed sem espaço para cortes de juros</a><br>
+    <small>23/05 09:56</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/mundo/eduardo-bolsonaro-aciona-policia-dos-eua-contra-reporter-do-intercept" target=_blank>Eduardo Bolsonaro aciona polícia dos EUA contra repórter do Intercept</a><br>
+    <small>23/05 09:50</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/brasil/eduardo-bolsonaro-aciona-policia-dos-eua-contra-reporter-do-intercept" target=_blank>Eduardo Bolsonaro aciona polícia dos EUA contra repórter do Intercept</a><br>
+    <small>23/05 09:50</small>
+  </li>
+
+  <li data-source="Valor">
+    <strong>[Valor]</strong> <a href="https://valor.globo.com/politica/noticia/2026/05/23/datafolha-48-pontos-percentuais-diz-que-flvio-deve-desistir-de-candidatura-aps-crise-com-dark-horse-e-vorcaro.ghtml" target=_blank>Datafolha: 48% diz que Flávio deve desistir de candidatura após crise com ‘Dark Horse’ e Vorcaro</a><br>
+    <small>23/05 09:47</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/fernando-schuler/a-tentacao-populista/" target=_blank>Fernando Schuler: A tentação populista</a><br>
+    <small>23/05 09:00</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/nacional/centro-oeste/df/stf-mantem-no-tribunal-do-juri-caso-de-feminicidio-em-quartel-do-exercito/" target=_blank>STF mantém no Tribunal do Júri caso de feminicídio em quartel do Exército</a><br>
+    <small>23/05 08:37</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/politica/noticia/2026/05/23/justica-dos-eua-autoriza-que-moraes-seja-notificado-por-email-em-acao-de-rumble-e-trump-media-contra-ministro.ghtml" target=_blank>Justiça dos EUA autoriza que Moraes seja notificado por email em ação de Rumble e Trump Media contra ministro</a><br>
+    <small>23/05 08:32</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/justica-dos-eua-autoriza-citacao-de-moraes-por-e-mail-em-acao/" target=_blank>Justiça dos EUA autoriza citação de Moraes por e-mail em ação</a><br>
+    <small>23/05 08:16</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/datafolha-avalicao-negativa-do-governo-lula-e-de-38-positiva-32/" target=_blank>Datafolha: avalição negativa do governo Lula é de 38%; positiva, 32%</a><br>
+    <small>23/05 08:13</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/politica/noticia/2026/05/23/datafolha-64percent-dos-eleitores-acham-que-flavio-bolsonaro-agiu-mal-ao-pedir-dinheiro-a-vorcaro.ghtml" target=_blank>Datafolha: 64% dos eleitores acham que Flávio Bolsonaro agiu mal ao pedir dinheiro a Vorcaro</a><br>
+    <small>23/05 08:07</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/05/bolsonarinho-virou-azarao-e-terminara-como-pangare-diz-deputado-do-pt.shtml" target=_blank>Painel: Bolsonarinho virou azarão e terminará como pangaré, diz deputado do PT</a><br>
+    <small>23/05 08:02</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/blog-do-noblat/lula-lidera-o-datafolha-mas-nao-quer-ver-o-sumico-de-flavio-agora" target=_blank>Lula lidera o Datafolha mas não quer ver o sumiço de Flávio agora</a><br>
+    <small>23/05 08:00</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/blogs/lauro-jardim/post/2026/05/pt-gastou-mais-de-r-500-mil-para-impulsionar-posts-apos-audio-de-flavio-a-vorcaro.ghtml" target=_blank>Lauro Jardim: PT gastou mais de R$ 500 mil para impulsionar posts após áudio de Flávio a Vorcaro</a><br>
+    <small>23/05 07:11</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/politica/stf-tem-dois-votos-para-manter-prisao-de-pai-e-primo-de-vorcaro/" target=_blank>STF tem dois votos para manter prisão de pai e primo de Vorcaro</a><br>
+    <small>23/05 07:10</small>
+  </li>
+
+  <li data-source="CNN Brasil">
+    <strong>[CNN Brasil]</strong> <a href="https://www.cnnbrasil.com.br/economia/negocios/programa-de-cx-melhora-posicao-do-inter-no-ranking-de-reclamacoes-do-bc/" target=_blank>Programa de CX melhora posição do Inter no Ranking de Reclamações do BC</a><br>
+    <small>23/05 07:00</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/colunas/igor-gadelha/por-que-boulos-insiste-que-a-pec-6x1-nao-pode-ter-transicao" target=_blank>Igor Gadelha: Por que Boulos insiste que a PEC 6x1 não pode ter transição</a><br>
+    <small>23/05 07:00</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/politica/noticia/2026/05/23/datafolha-88percent-dos-eleitores-de-flavio-bolsonaro-defendem-candidatura-apos-caso-dark-horse.ghtml" target=_blank>Datafolha: 88% dos eleitores de Flávio Bolsonaro defendem candidatura após caso ‘Dark Horse’</a><br>
+    <small>23/05 06:30</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/colunas/milena-teixeira/alcolumbre-vai-promulgar-liberacao-de-dinheiro-para-municipios-durante-eleicao" target=_blank>Milena Teixeira: Alcolumbre vai promulgar lei que libera repasses a municípios antes da eleição</a><br>
+    <small>23/05 06:00</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/blog-do-noblat/ricardo-noblat/dias-de-sono-tranquilo-para-lula-noites-de-pesadelo-para-flavio" target=_blank>Dias de sono tranquilo para Lula, noites de pesadelo para Flávio</a><br>
+    <small>23/05 05:30</small>
+  </li>
+
+  <li data-source="Estadão">
+    <strong>[Estadão]</strong> <a href="https://www.estadao.com.br/politica/governo-lula-dobra-gastos-e-paga-r-21-mi-em-anuncios-no-instagram-e-facebook-para-divulgar-entregas/" target=_blank>Governo Lula dobra gastos e paga R$ 21 mi em anúncios no Instagram e Facebook para divulgar entregas</a><br>
+    <small>23/05 05:30</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/blogs/malu-gaspar/post/2026/05/o-relator-ganhou-o-desabafo-do-advogado-de-daniel-vorcaro.ghtml" target=_blank>Malu Gaspar: ‘O relator ganhou’: O desabafo do advogado de Daniel Vorcaro</a><br>
+    <small>23/05 05:01</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/colunas/igor-gadelha/alcolumbre-sinaliza-a-bolsonaristas-que-topa-uma-mudanca-na-pec-6x1" target=_blank>Igor Gadelha: Alcolumbre sinaliza a bolsonaristas que topa uma mudança na PEC 6x1</a><br>
+    <small>23/05 05:00</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/05/dona-de-produtora-de-filme-sobre-bolsonaro-buscou-lei-rouanet-para-projetos-de-r-86-milhoes.shtml" target=_blank>Dona de produtora de filme sobre Bolsonaro buscou Lei Rouanet para projetos de R$ 8,6 milhões</a><br>
+    <small>23/05 04:03</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/economia/noticia/2026/05/23/congelamento-de-despesas-ajuda-a-pagar-reducao-da-fila-do-inss-mas-governo-mantem-deficit.ghtml" target=_blank>Congelamento de despesas ajuda a pagar redução da fila do INSS, mas governo mantém déficit</a><br>
+    <small>23/05 04:00</small>
+  </li>
+
+  <li data-source="Metrópoles">
+    <strong>[Metrópoles]</strong> <a href="https://www.metropoles.com/colunas/grande-angular/governistas-e-bolsonaristas-se-unem-em-proposta-no-congresso" target=_blank>Grande Angular: Governistas e bolsonaristas se unem em proposta no Congresso</a><br>
+    <small>23/05 04:00</small>
+  </li>
+
+  <li data-source="Folha">
+    <strong>[Folha]</strong> <a href="https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/05/quais-os-5-motivos-para-entregar-o-imposto-de-renda-ja-e-nao-deixar-para-as-ultimas-horas.shtml" target=_blank>Quais os 5 motivos para entregar o Imposto de Renda já e não deixar para as últimas horas?</a><br>
+    <small>23/05 04:00</small>
+  </li>
+
+  <li data-source="Globo">
+    <strong>[Globo]</strong> <a href="https://oglobo.globo.com/politica/noticia/2026/05/23/pt-e-pl-pregam-cautela-apos-lula-abrir-vantagem-sobre-flavio-bolsonaro-em-pesquisa-datafolha.ghtml" target=_blank>PT e PL pregam cautela após Lula abrir vantagem sobre Flávio Bolsonaro em pesquisa Datafolha</a><br>
+    <small>23/05 03:30</small>
+  </li>
+
+</ul>
+<script>
+  const tabs = Array.from(document.querySelectorAll('.tab'));
+  const items = document.querySelectorAll('li[data-source]');
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      const src = tab.getAttribute('data-source');
+      if (src === 'all') {
+        tabs.forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+      } else {
+        tab.classList.toggle('active');
+        const allTab = tabs.find(t => t.getAttribute('data-source')==='all');
+        const anyActive = tabs.some(t => t!==allTab && t.classList.contains('active'));
+        anyActive ? allTab.classList.remove('active') : allTab.classList.add('active');
+      }
+      const activeSources = tabs
+        .filter(t => t.classList.contains('active') && t.getAttribute('data-source')!=='all')
+        .map(t => t.getAttribute('data-source'));
+      const showAll = tabs.find(t => t.getAttribute('data-source')==='all').classList.contains('active');
+      items.forEach(li => {
+        const s = li.getAttribute('data-source');
+        li.classList.toggle('hidden', !showAll && !activeSources.includes(s));
+      });
+    });
+  });
+</script>
+</body>
+</html>
